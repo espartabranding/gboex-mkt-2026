@@ -660,6 +660,26 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .foto-equipe img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
 .is-flow .foto-equipe{height:auto}
 .is-flow .foto-equipe img{height:auto}
+
+/* Campanhas trimestrais */
+.tri-mapa{width:100%;height:56rem;overflow:visible}
+.is-flow .tri-mapa{height:auto}
+.tri-pin text{font:800 17px Sansation,sans-serif;fill:#003D5C}
+.tri-pin-in{transform:scale(0);transform-origin:0 0;transform-box:fill-box}
+.tri-pin-in{transform-origin:50% 100%}
+.tri-logo{opacity:0}
+.tri-desafio{opacity:0}
+.tri-d1{font:400 52px "Great Vibes",cursive;fill:#B8962A}
+.tri-d2{font:800 66px Sansation,sans-serif;fill:#005782;letter-spacing:-1px}
+.tri-d3{font:800 30px Sansation,sans-serif;fill:#fff}
+.tri-aviao-g{opacity:0}
+.slide.is-active .tri-pin-in,.is-flow .slide.in-view .tri-pin-in{animation:triPin .5s cubic-bezier(.3,1.6,.5,1) var(--d) forwards}
+.slide.is-active .tri-logo,.is-flow .slide.in-view .tri-logo{animation:triIn .6s ease var(--d) forwards}
+.slide.is-active .tri-desafio,.is-flow .slide.in-view .tri-desafio{animation:triIn .8s ease 3.9s forwards}
+.slide.is-active .tri-aviao-g,.is-flow .slide.in-view .tri-aviao-g{opacity:1}
+@keyframes triPin{to{transform:scale(1)}}
+@keyframes triIn{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.tri-pin-in{transform:none!important;animation:none!important}.tri-logo,.tri-desafio{opacity:1!important;animation:none!important}}
 </style>
 </head>
 <body>
@@ -1101,6 +1121,28 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <div class="corpo">
       <div class="pend r" style="--i:4;min-height:26rem"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Imagem da campanha</b><small>Imagem a enviar pela equipe.</small></div>
       <p class="nota b">Indicadores a definir por campanha: adesão • alcance • engajamento • leads/oportunidades • resultado comercial atribuído quando houver metodologia disponível.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="trimestrais" data-title="Campanhas trimestrais" data-sec="07 · Campanhas comerciais">
+  <div class="stage">
+    <p class="kicker r">07 · Campanhas comerciais · Campanhas trimestrais</p>
+    <h2 class="titulo" data-split>Campanhas trimestrais</h2>
+    <div class="corpo">
+      <svg class="tri-mapa" viewBox="0 0 1360 560" role="img" aria-label="Campanhas trimestrais: 1º Impulso, 2º Acelera, 3º Rumo ao Pódio, 4º Sprint Final, rumo ao Desafio GBOEX 2026">
+        <defs><mask id="tri-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1360" height="560"><path class="tri-mask-path" d="M300,432 C320,500 380,560 430,545 C485,528 410,360 480,334 C545,312 640,420 705,482 C745,520 800,515 772,462 C745,410 640,300 690,256 C735,218 800,300 880,292 C960,284 1010,236 1075,186" pathLength="1" fill="none" stroke="#fff" stroke-width="18" stroke-dasharray="1 1" stroke-dashoffset="1"><animate class="tri-anim" attributeName="stroke-dashoffset" from="1" to="0" dur="4s" begin="indefinite" fill="freeze"/></path></mask></defs>
+        <path d="M300,432 C320,500 380,560 430,545 C485,528 410,360 480,334 C545,312 640,420 705,482 C745,520 800,515 772,462 C745,410 640,300 690,256 C735,218 800,300 880,292 C960,284 1010,236 1075,186" fill="none" stroke="#005782" stroke-width="7" stroke-linecap="round" stroke-dasharray="20 15" mask="url(#tri-mask)"/>
+        <image class="tri-logo" style="--d:0.5s" href="assets/img/camp-impulso.webp" x="20" y="395" width="245" height="160" preserveAspectRatio="xMidYMid meet"><title>Impulso GBOEX</title></image><image class="tri-logo" style="--d:1.6s" href="assets/img/camp-acelera.webp" x="255" y="100" width="270" height="140" preserveAspectRatio="xMidYMid meet"><title>Acelera GBOEX</title></image><image class="tri-logo" style="--d:2.6s" href="assets/img/camp-rumo-podio.webp" x="815" y="360" width="175" height="195" preserveAspectRatio="xMidYMid meet"><title>Rumo ao Pódio GBOEX</title></image><image class="tri-logo" style="--d:3.4s" href="assets/img/camp-sprint-final.webp" x="745" y="55" width="150" height="200" preserveAspectRatio="xMidYMid meet"><title>Sprint Final GBOEX</title></image>
+        <g class="tri-pin" style="--d:0.2s" transform="translate(300,432)"><g class="tri-pin-in"><path d="M0,0 C-7,-16 -27,-32 -27,-50 A27,27 0 1 1 27,-50 C27,-32 7,-16 0,0Z" fill="#F2B532"/><circle cx="0" cy="-50" r="17" fill="#fff"/><text x="0" y="-43" text-anchor="middle">1º</text></g></g><g class="tri-pin" style="--d:1.3s" transform="translate(480,334)"><g class="tri-pin-in"><path d="M0,0 C-7,-16 -27,-32 -27,-50 A27,27 0 1 1 27,-50 C27,-32 7,-16 0,0Z" fill="#F2B532"/><circle cx="0" cy="-50" r="17" fill="#fff"/><text x="0" y="-43" text-anchor="middle">2º</text></g></g><g class="tri-pin" style="--d:2.3s" transform="translate(772,462)"><g class="tri-pin-in"><path d="M0,0 C-7,-16 -27,-32 -27,-50 A27,27 0 1 1 27,-50 C27,-32 7,-16 0,0Z" fill="#F2B532"/><circle cx="0" cy="-50" r="17" fill="#fff"/><text x="0" y="-43" text-anchor="middle">3º</text></g></g><g class="tri-pin" style="--d:3.1s" transform="translate(690,256)"><g class="tri-pin-in"><path d="M0,0 C-7,-16 -27,-32 -27,-50 A27,27 0 1 1 27,-50 C27,-32 7,-16 0,0Z" fill="#F2B532"/><circle cx="0" cy="-50" r="17" fill="#fff"/><text x="0" y="-43" text-anchor="middle">4º</text></g></g>
+        <g class="tri-desafio" transform="translate(1110,20)">
+          <text class="tri-d1" x="125" y="58" text-anchor="middle">Desafio</text>
+          <text class="tri-d2" x="125" y="128" text-anchor="middle">GBOEX</text>
+          <rect x="62" y="146" width="126" height="48" rx="24" fill="#A8891C"/>
+          <text class="tri-d3" x="125" y="181" text-anchor="middle">2026</text>
+        </g>
+        <g class="tri-aviao-g"><image href="assets/img/camp-aviao.webp" x="-55" y="-51" width="110" height="102"/><animateMotion class="tri-anim" dur="4s" begin="indefinite" fill="freeze" rotate="auto" path="M300,432 C320,500 380,560 430,545 C485,528 410,360 480,334 C545,312 640,420 705,482 C745,520 800,515 772,462 C745,410 640,300 690,256 C735,218 800,300 880,292 C960,284 1010,236 1075,186"/></g>
+      </svg>
     </div>
   </div>
 </section>
@@ -1747,6 +1789,24 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     clearTimeout(tOcioso);
     tOcioso = setTimeout(() => !fluxo && root.classList.add('ocioso'), 2500);
   });
+})();
+</script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+<script>
+(function(){
+  var s=document.getElementById('trimestrais'); if(!s) return;
+  var ativo=false;
+  function play(){
+    s.querySelectorAll('.tri-anim').forEach(function(a){ try{ a.beginElement(); }catch(e){} });
+  }
+  function check(){
+    var on=s.classList.contains('is-active')||s.classList.contains('in-view');
+    if(on&&!ativo){ ativo=true; play(); }
+    if(!on) ativo=false;
+  }
+  new MutationObserver(check).observe(s,{attributes:true,attributeFilter:['class']});
+  check();
 })();
 </script>
 </body>
