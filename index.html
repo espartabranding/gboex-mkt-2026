@@ -694,6 +694,39 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .foto-camp--alta{aspect-ratio:auto}
 .foto-camp--alta img{object-position:center 40%}
 .is-flow .fotos-camp{flex-direction:column}
+
+.galeria-ev--3{grid-template-columns:.75fr 1.5fr 1.78fr;grid-template-rows:1fr;height:36rem;margin:auto 0}
+.is-flow .galeria-ev--3{grid-template-columns:1fr}
+
+/* Mídias: praças */
+.mid-grade{display:grid;grid-template-columns:1fr 1fr .8fr;gap:3.2rem;height:54rem}
+.mid-card{justify-content:flex-start;gap:1.8rem}
+.mid-card .unid-num b{font-size:5.6rem}
+.mid-sub{display:block;margin-top:1rem;font-size:1.9rem;font-weight:600;opacity:.9}
+.mid-rot{margin:1rem 0 0;font-size:1.5rem;letter-spacing:.2em;text-transform:uppercase;color:var(--amarelo);font-weight:700}
+.mid-card .unid-lista{grid-template-columns:1fr}
+.mid-pends{display:grid;grid-template-rows:1fr 1fr;gap:3.2rem}
+.mid-pends .pend{height:100%}
+.is-flow .mid-grade{grid-template-columns:1fr;height:auto}
+
+/* Calendário 2027 */
+.cal-grade{display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:1fr 1fr;gap:1.6rem;height:52rem}
+.cal-mes{display:flex;flex-direction:column;gap:.6rem;padding:1.8rem 1.8rem;border-radius:var(--raio);border:.2rem dashed rgba(0,61,92,.18);color:rgba(0,61,92,.45);min-width:0}
+.cal-mes b{font-size:3.2rem;line-height:1;font-weight:800}
+.cal-mes small{font-size:1.35rem;line-height:1.25;font-weight:600}
+.cal-mes ul{list-style:none;margin:1rem 0 0;padding:0;display:flex;flex-direction:column;gap:.8rem}
+.cal-mes li{position:relative;padding-left:1.8rem;font-size:1.5rem;line-height:1.25;font-weight:600}
+.cal-mes li::before,.cal-leg span::before{content:"";position:absolute;left:0;top:.45em;width:1rem;height:1rem;border-radius:50%}
+.c-acao::before{background:var(--amarelo)}
+.c-social::before{background:#B89CFF}
+.cal-sem{margin:auto 0 0;font-size:1.5rem;font-weight:600}
+.cal-mes--on{border:0;color:#fff;background:linear-gradient(165deg,var(--azul-cl),var(--azul) 55%,var(--azul-esc));box-shadow:0 1.2rem 3rem rgba(0,30,80,.16)}
+.cal-mes--on b{color:var(--amarelo)}
+.cal-mes--on small{color:rgba(255,255,255,.75)}
+.cal-leg{display:flex;gap:3.2rem;margin:2rem 0 0;font-size:1.6rem;font-weight:600;color:var(--azul-esc)}
+.cal-leg span{position:relative;padding-left:1.8rem}
+.cal-leg .c-social::before{background:#7B5CE0}
+.is-flow .cal-grade{grid-template-columns:repeat(2,1fr);grid-template-rows:none;height:auto}
 </style>
 </head>
 <body>
@@ -1174,40 +1207,9 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 <section class="slide" id="treinamentos" data-title="Treinamentos" data-sec="08 · Treinamentos">
   <div class="stage">
     <p class="kicker r">08 · Treinamentos</p>
-    <h2 class="titulo" data-split>Treinamentos</h2>
+    <h2 class="titulo" data-split>Treinamentos - Focal RH e Comercial</h2>
     <div class="corpo">
       <div class="abertos c3"><div class="item r" style="--i:4"><span class="ic"><svg class="ico"><use href="#i-star"/></svg></span><span class="rot">01</span><p style="font-size:2.6rem;margin-top:0;font-weight:700;color:var(--azul-esc)">GBOEX Qualifica</p></div><div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-grad"/></svg></span><span class="rot">02</span><p style="font-size:2.6rem;margin-top:0;font-weight:700;color:var(--azul-esc)">Projeto Formação de corretores</p></div><div class="item r" style="--i:6"><span class="ic"><svg class="ico"><use href="#i-users"/></svg></span><span class="rot">03</span><p style="font-size:2.6rem;margin-top:0;font-weight:700;color:var(--azul-esc)">Vivencie GBOEX (Integrações)</p></div><div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-refresh"/></svg></span><span class="rot">04</span><p style="font-size:2.6rem;margin-top:0;font-weight:700;color:var(--azul-esc)">Treinamento Reciclagem Corretores/ Unidades</p></div><div class="item r" style="--i:8"><span class="ic"><svg class="ico"><use href="#i-rocket"/></svg></span><span class="rot">05</span><p style="font-size:2.6rem;margin-top:0;font-weight:700;color:var(--azul-esc)">Treinamento lançamento Produtos</p></div><div class="item r" style="--i:9"><span class="ic"><svg class="ico"><use href="#i-book"/></svg></span><span class="rot">06</span><p style="font-size:2.6rem;margin-top:0;font-weight:700;color:var(--azul-esc)">Plataforma Evolua</p></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide slide--dark" id="evolua" data-title="Evolua Corretor" data-sec="08 · Treinamentos">
-  <div class="stage">
-    <p class="kicker r">08 · Treinamentos · Evolua Corretor</p>
-    <h2 class="mega xb" data-split style="margin-top:1.6rem">Evolua Corretor: <em>desenvolver para aproximar.</em></h2>
-    <p class="lead r" style="--i:6">Plataforma de capacitação como frente de relacionamento e desenvolvimento do canal corretor.</p>
-    <div class="corpo">
-      <div class="abertos c3">
-        <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-target"/></svg></span><span class="rot">Objetivo</span><p style="font-size:2.3rem;margin-top:0">Ampliar o acesso dos corretores a conteúdos de desenvolvimento e apoiar sua jornada profissional.</p></div>
-        <div class="item r" style="--i:8"><span class="ic"><svg class="ico"><use href="#i-list"/></svg></span><span class="rot">Entregas a mapear</span><p style="font-size:2.3rem;margin-top:0">Lançamento/comunicação, trilhas de conteúdo, calendário editorial e ações de adesão.</p></div>
-        <div class="item r" style="--i:9"><span class="ic"><svg class="ico"><use href="#i-sparkles"/></svg></span><span class="rot">Valor esperado</span><p style="font-size:2.3rem;margin-top:0">Mais oportunidades de capacitação, relacionamento contínuo e conexão com o GBOEX.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="evolua-pecas" data-title="Evolua: peças de divulgação" data-sec="08 · Treinamentos">
-  <div class="stage">
-    <p class="kicker r">08 · Treinamentos · Evolua GBOEX</p>
-    <h2 class="titulo" data-split>Evolua: peças de divulgação</h2>
-    <div class="corpo">
-      <div class="pecas">
-        <img class="peca peca--post r r-z" style="--i:3" src="assets/img/evolua-post.webp" alt="Post Evolua GBOEX: plataforma exclusiva de aprendizado, mais de 700 cursos para você, corretor" loading="lazy">
-        <div class="pecas-col">
-          <img class="peca r r-z" style="--i:5" src="assets/img/evolua-banner.webp" alt="Banner Evolua GBOEX: nova plataforma de aprendizado, mais de 700 cursos para você, corretor" loading="lazy">
-          <p class="descricao r" style="--i:7;text-align:left;margin-top:0">Post e banner da nova plataforma de aprendizado Evolua GBOEX: mais de 700 cursos para o corretor.</p>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -1246,6 +1248,37 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
+<section class="slide slide--dark" id="evolua" data-title="Evolua Corretor" data-sec="08 · Treinamentos">
+  <div class="stage">
+    <p class="kicker r">08 · Treinamentos · Evolua Corretor</p>
+    <h2 class="mega xb" data-split style="margin-top:1.6rem">Evolua Corretor: <em>desenvolver para aproximar.</em></h2>
+    <p class="lead r" style="--i:6">Plataforma de capacitação como frente de relacionamento e desenvolvimento do canal corretor.</p>
+    <div class="corpo">
+      <div class="abertos c3">
+        <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-target"/></svg></span><span class="rot">Objetivo</span><p style="font-size:2.3rem;margin-top:0">Ampliar o acesso dos corretores a conteúdos de desenvolvimento e apoiar sua jornada profissional.</p></div>
+        <div class="item r" style="--i:8"><span class="ic"><svg class="ico"><use href="#i-list"/></svg></span><span class="rot">Entregas a mapear</span><p style="font-size:2.3rem;margin-top:0">Lançamento/comunicação, trilhas de conteúdo, calendário editorial e ações de adesão.</p></div>
+        <div class="item r" style="--i:9"><span class="ic"><svg class="ico"><use href="#i-sparkles"/></svg></span><span class="rot">Valor esperado</span><p style="font-size:2.3rem;margin-top:0">Mais oportunidades de capacitação, relacionamento contínuo e conexão com o GBOEX.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="evolua-pecas" data-title="Evolua: peças de divulgação" data-sec="08 · Treinamentos">
+  <div class="stage">
+    <p class="kicker r">08 · Treinamentos · Evolua GBOEX</p>
+    <h2 class="titulo" data-split>Evolua: peças de divulgação</h2>
+    <div class="corpo">
+      <div class="pecas">
+        <img class="peca peca--post r r-z" style="--i:3" src="assets/img/evolua-post.webp" alt="Post Evolua GBOEX: plataforma exclusiva de aprendizado, mais de 700 cursos para você, corretor" loading="lazy">
+        <div class="pecas-col">
+          <img class="peca r r-z" style="--i:5" src="assets/img/evolua-banner.webp" alt="Banner Evolua GBOEX: nova plataforma de aprendizado, mais de 700 cursos para você, corretor" loading="lazy">
+          <p class="descricao r" style="--i:7;text-align:left;margin-top:0">Post e banner da nova plataforma de aprendizado Evolua GBOEX: mais de 700 cursos para o corretor.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="slide slide--dark slide--divisor divisor" id="div-n2" data-title="Núcleo 2" data-sec="Núcleo 2">
   <div class="stage">
     <div class="div-base" aria-hidden="true"></div>
@@ -1277,7 +1310,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">09 · Mídia Online &amp; Offline</p>
     <h2 class="titulo" data-split>Mídias</h2>
     <div class="corpo">
-      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Mídias veiculadas</b><small>Offline e online, com período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Números</b><small>Investimento, alcance e resultados.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Peças</b><small>Prints ou fotos das peças veiculadas.</small></div></div>
+      <div class="mid-grade"><div class="unid-card mid-card r" style="--i:4"><p class="unid-num"><b>Verde Oliva</b><small class="mid-sub">Todas as rádios Verde Oliva</small></p><p class="mid-rot">Praças</p><ul class="unid-lista"><li><svg class="ico"><use href="#i-map"/></svg>Brasília</li><li><svg class="ico"><use href="#i-map"/></svg>Santa Maria</li><li><svg class="ico"><use href="#i-map"/></svg>Manaus</li><li><svg class="ico"><use href="#i-map"/></svg>Resende</li><li><svg class="ico"><use href="#i-map"/></svg>Três Corações</li></ul></div><div class="unid-card mid-card r" style="--i:5"><p class="unid-num"><b>BTN</b></p><p class="mid-rot">Praças</p><ul class="unid-lista"><li><svg class="ico"><use href="#i-map"/></svg>Porto Alegre</li><li><svg class="ico"><use href="#i-map"/></svg>Florianópolis</li><li><svg class="ico"><use href="#i-map"/></svg>Recife</li><li><svg class="ico"><use href="#i-map"/></svg>Salvador</li><li><svg class="ico"><use href="#i-map"/></svg>Belo Horizonte</li><li><svg class="ico"><use href="#i-map"/></svg>São Paulo</li></ul></div><div class="mid-pends"><div class="pend r" style="--i:6"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Números</b><small>Investimento, alcance e resultados.</small></div><div class="pend r" style="--i:6"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Peças</b><small>Prints ou fotos das peças veiculadas.</small></div></div></div>
     </div>
   </div>
 </section>
@@ -1322,7 +1355,18 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">10 · Endomarketing</p>
     <h2 class="titulo" data-split>Endomarketing: entregas e projetos</h2>
     <div class="corpo">
-      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Entregas realizadas</b><small>Campanhas internas, datas comemorativas e ações.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Projetos</b><small>Projetos em andamento e previstos para 2027.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Fotos ou peças</b><small>Registros das ações.</small></div></div>
+      <div class="galeria-ev galeria-ev--3"><figure class="foto-ev r r-z" style="--i:4"><img src="assets/img/endo-pascoa.webp" alt="Páscoa: entrega de kits" loading="lazy" style="object-position:center 70%"><figcaption>Páscoa: entrega de kits</figcaption></figure><figure class="foto-ev r r-z" style="--i:5"><img src="assets/img/endo-113-anos.webp" alt="GBOEX 113 anos: “Carrego comigo uma grande história”" loading="lazy" style="object-position:center 50%"><figcaption>GBOEX 113 anos: “Carrego comigo uma grande história”</figcaption></figure><figure class="foto-ev r r-z" style="--i:6"><img src="assets/img/endo-dia-das-maes.webp" alt="Mural de homenagem ao Dia das Mães: “Histórias de cuidado, presença e carinho”" loading="lazy" style="object-position:center 50%"><figcaption>Mural de homenagem ao Dia das Mães: “Histórias de cuidado, presença e carinho”</figcaption></figure></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="calendario-endo" data-title="Calendário 2027" data-sec="10 · Endomarketing">
+  <div class="stage">
+    <p class="kicker r">10 · Endomarketing · Comunicação interna</p>
+    <h2 class="titulo" data-split>Calendário 2027</h2>
+    <div class="corpo">
+      <div class="cal-grade"><div class="cal-mes cal-mes--on r" style="--i:3"><b>Jan</b><small>Janeiro Branco</small><ul><li class="c-acao">Dia da Gratidão</li><li class="c-social">Campanha de Material Escolar</li></ul></div><div class="cal-mes r" style="--i:4"><b>Fev</b><p class="cal-sem">Sem ação</p></div><div class="cal-mes cal-mes--on r" style="--i:5"><b>Mar</b><small>Março Lilás</small><ul><li class="c-acao">Dia da Mulher</li><li class="c-acao">Páscoa</li><li class="c-social">Campanha de Páscoa</li></ul></div><div class="cal-mes cal-mes--on r" style="--i:6"><b>Abr</b><small>Abril Verde · Abril Azul</small><ul><li class="c-acao">Dia Mundial do Café</li><li class="c-acao">Dia do Jovem Aprendiz</li><li class="c-social">Campanha de Rações de Animais</li></ul></div><div class="cal-mes cal-mes--on r" style="--i:7"><b>Mai</b><small>Maio Amarelo</small><ul><li class="c-acao">Dia das Mães</li><li class="c-acao">Aniversário GBOEX (114 anos)</li></ul></div><div class="cal-mes cal-mes--on r" style="--i:8"><b>Jun</b><small>Junho Vermelho</small><ul><li class="c-acao">São João</li><li class="c-acao">Início da Copa do Mundo Feminina</li><li class="c-social">Campanha de Rações de Animais</li></ul></div><div class="cal-mes cal-mes--on r" style="--i:9"><b>Jul</b><ul><li class="c-acao">Dia Mundial do Chocolate</li><li class="c-social">Campanha de Itens de Higiene</li></ul></div><div class="cal-mes cal-mes--on r" style="--i:10"><b>Ago</b><small>Campanha de Multivacinação</small><ul><li class="c-acao">Dia dos Pais</li><li class="c-acao">Dia do Estagiário</li><li class="c-social">Campanha de Doação de Livros</li></ul></div><div class="cal-mes r" style="--i:11"><b>Set</b><small>Setembro Amarelo</small><p class="cal-sem">Sem ação</p></div><div class="cal-mes cal-mes--on r" style="--i:12"><b>Out</b><small>Outubro Rosa</small><ul><li class="c-acao">Dia das Crianças</li><li class="c-acao">Dia do Corretor de Seguros</li><li class="c-social">Campanha de Doação de Brinquedos</li></ul></div><div class="cal-mes cal-mes--on r" style="--i:13"><b>Nov</b><small>Novembro Azul</small><ul><li class="c-social">Campanha de Doação de Roupas de Verão</li></ul></div><div class="cal-mes cal-mes--on r" style="--i:14"><b>Dez</b><small>Dezembro Vermelho · Dezembro Laranja</small><ul><li class="c-acao">Natal</li></ul></div></div>
+      <p class="cal-leg r" style="--i:14"><span class="c-acao">Ações endomarketing</span><span class="c-social">Campanhas sociais</span></p>
     </div>
   </div>
 </section>
