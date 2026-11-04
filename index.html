@@ -559,6 +559,21 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .organograma img{height:100%;max-height:52rem;width:auto;max-width:100%;object-fit:contain;border-radius:var(--raio-s);box-shadow:0 2.4rem 5rem -2.4rem rgba(0,61,92,.4)}
 .corpo--time .chips{justify-content:center}
 .corpo--time .chip{font-size:1.5rem;padding:.7rem 1.8rem}
+.org{display:flex;flex-direction:column;gap:3.2rem;width:100%}
+.org-topo,.org-base{display:grid;grid-template-columns:1fr 1fr;gap:4.8rem}
+.org-base{grid-template-columns:2fr 1fr}
+.org-nivel{display:block;font-size:1.4rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--ouro);padding-bottom:1rem;margin-bottom:1.4rem;border-bottom:.2rem solid var(--linha)}
+.org-linha{display:grid;gap:2rem}
+.org-linha.c4{grid-template-columns:repeat(4,1fr)}.org-linha.c2{grid-template-columns:repeat(2,1fr)}.org-linha.c1{grid-template-columns:1fr}
+.pessoa{display:flex;align-items:center;gap:1.6rem;padding:1.2rem 2rem 1.2rem 1.2rem;border-radius:999px;background:var(--gelo-2);min-width:0}
+.pessoa img{width:6.4rem;height:6.4rem;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 0 0 .3rem #fff}
+.pessoa b{display:block;font-size:2.1rem;line-height:1.15;color:var(--azul-esc)}
+.pessoa small{display:block;font-size:1.5rem;line-height:1.3;color:var(--texto);margin-top:.2rem}
+.pessoa--g{background:var(--azul)}
+.pessoa--g b{color:#fff}.pessoa--g small{color:rgba(255,255,255,.85)}
+.pessoa--g img{width:7.6rem;height:7.6rem;box-shadow:0 0 0 .3rem var(--amarelo)}
+.pessoa--ja{background:rgba(228,199,64,.28)}
+.is-flow .org-topo,.is-flow .org-base,.is-flow .org-linha.c4,.is-flow .org-linha.c2{grid-template-columns:1fr}
 </style>
 </head>
 <body>
@@ -664,9 +679,9 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   <div class="stage">
     <p class="kicker r">01 · Quem somos · Nosso time</p>
     <h2 class="titulo" data-split>Nosso time</h2>
-    <p class="lead r" style="--i:3">9 profissionais | gerência, coordenação, analistas, auxiliares/assistentes e jovem aprendiz</p>
+    <p class="lead r" style="--i:3">#Marketing · Marca, experiência e performance.</p>
     <div class="corpo corpo--time">
-      <figure class="organograma r r-z" style="--i:4"><img src="assets/img/organograma-marketing.webp" alt="Organograma do Marketing: Gerência Letícia; Coordenação Thiely; Analistas Luciano (Mídia Off e Pagamentos), Lucas (Designer), Eliane (Eventos e Assessoria de Imprensa) e Cinara (Mídia On, Off e Performance); Auxiliar/Assistente Barbara (Endomarketing) e Ana Paula (Comunicação Interna); Jovem Aprendiz Leticia (Apoio Geral)" loading="lazy"></figure>
+      <div class="org"><div class="org-topo"><div class="org-grupo r" style="--i:4"><span class="org-nivel">Gerência</span><div class="pessoa pessoa--g"><img src="assets/img/time/leticia-gerencia.webp" alt="Letícia" loading="lazy"><div><b>Letícia</b><small>Gerência</small></div></div></div><div class="org-grupo r" style="--i:5"><span class="org-nivel">Coordenação</span><div class="pessoa pessoa--g"><img src="assets/img/time/thiely.webp" alt="Thiely" loading="lazy"><div><b>Thiely</b><small>Coordenação</small></div></div></div></div><div class="org-grupo r" style="--i:6"><span class="org-nivel">Analistas</span><div class="org-linha c4"><div class="pessoa "><img src="assets/img/time/luciano.webp" alt="Luciano" loading="lazy"><div><b>Luciano</b><small>Mídia Off e Pagamentos</small></div></div><div class="pessoa "><img src="assets/img/time/lucas.webp" alt="Lucas" loading="lazy"><div><b>Lucas</b><small>Designer</small></div></div><div class="pessoa "><img src="assets/img/time/eliane.webp" alt="Eliane" loading="lazy"><div><b>Eliane</b><small>Eventos e Assessoria de Imprensa</small></div></div><div class="pessoa "><img src="assets/img/time/cinara.webp" alt="Cinara" loading="lazy"><div><b>Cinara</b><small>Mídia On, Off e Performance</small></div></div></div></div><div class="org-base"><div class="org-grupo r" style="--i:7"><span class="org-nivel">Auxiliar/Assistente</span><div class="org-linha c2"><div class="pessoa "><img src="assets/img/time/barbara.webp" alt="Barbara" loading="lazy"><div><b>Barbara</b><small>Endomarketing</small></div></div><div class="pessoa "><img src="assets/img/time/ana-paula.webp" alt="Ana Paula" loading="lazy"><div><b>Ana Paula</b><small>Comunicação Interna</small></div></div></div></div><div class="org-grupo r" style="--i:8"><span class="org-nivel">Jovem Aprendiz</span><div class="org-linha c1"><div class="pessoa pessoa--ja"><img src="assets/img/time/leticia-aprendiz.webp" alt="Leticia" loading="lazy"><div><b>Leticia</b><small>Apoio Geral</small></div></div></div></div></div></div>
     </div>
   </div>
 </section>
