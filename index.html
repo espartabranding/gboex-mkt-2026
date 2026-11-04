@@ -370,6 +370,39 @@ button{font:inherit;color:inherit}
 .selo .ico{font-size:1.8rem}
 .ferramenta .selo{margin-top:3.2rem}
 .ferramenta .selo+h3{margin-top:1.6rem}
+/* ============ Experiência ============ */
+.reforma{display:grid;grid-template-columns:1.75fr 1fr;gap:6.4rem;align-items:center}
+.ba{position:relative;aspect-ratio:16/10;border-radius:var(--raio);overflow:hidden;--pos:50%;touch-action:pan-y;user-select:none;box-shadow:0 3rem 7rem -2.4rem rgba(0,61,92,.5)}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ba .antes{clip-path:inset(0 calc(100% - var(--pos)) 0 0)}
+.ba .linha{position:absolute;top:0;bottom:0;left:var(--pos);width:.4rem;margin-left:-.2rem;background:#fff;pointer-events:none}
+.ba .puxador{position:absolute;top:50%;left:var(--pos);width:6.8rem;height:6.8rem;margin:-3.4rem 0 0 -3.4rem;border-radius:50%;background:var(--amarelo);color:var(--azul-esc);display:grid;place-items:center;font-size:2.6rem;pointer-events:none;box-shadow:0 .8rem 2rem rgba(0,0,0,.3)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.ba .tag{position:absolute;top:2rem;padding:.8rem 2rem;border-radius:999px;font-size:1.6rem;font-weight:700;pointer-events:none}
+.ba .tag.a{left:2rem;background:rgba(14,42,59,.78);color:#fff}
+.ba .tag.d{right:2rem;background:var(--amarelo);color:var(--azul-esc)}
+.slide.is-active .ba.dica{animation:dica 3s var(--ease) 1.2s 1}
+@keyframes dica{0%{--pos:50%}35%{--pos:80%}70%{--pos:22%}100%{--pos:50%}}
+.compraria{display:grid;grid-template-columns:1.15fr 1fr .62fr;gap:2.4rem;flex:1;min-height:0}
+.foto{position:relative;border-radius:var(--raio);overflow:hidden;min-height:0}
+.foto img{width:100%;height:100%;object-fit:cover}
+.foto .tag{position:absolute;left:2.4rem;bottom:2.4rem;padding:1rem 2.2rem;border-radius:999px;font-size:1.8rem;font-weight:700}
+.foto .letra{position:absolute;left:2.4rem;top:2.4rem;width:6.4rem;height:6.4rem;border-radius:50%;display:grid;place-items:center;font-size:3rem;font-weight:700}
+.foto--a .tag,.foto--a .letra{background:rgba(14,42,59,.82);color:#fff}
+.foto--b .tag,.foto--b .letra{background:var(--amarelo);color:var(--azul-esc)}
+
+.miv{display:grid;grid-template-columns:1.15fr 1fr;gap:7.2rem;align-items:center}
+.paleta{display:grid;grid-template-columns:repeat(4,1fr);gap:1.6rem}
+.cor{border-radius:var(--raio-s);height:13rem;padding:1.6rem;display:flex;flex-direction:column;justify-content:flex-end;font-size:1.4rem;font-weight:700;letter-spacing:.06em}
+.miv-bloco h3{font-size:1.5rem;letter-spacing:.2em;text-transform:uppercase;color:var(--azul-cl);margin-bottom:1.6rem}
+.fonte-amostra{font-size:7.2rem;line-height:1;color:var(--azul-esc);font-weight:700}
+.fonte-amostra span{font-weight:300;font-size:2.2rem;color:var(--mudo);letter-spacing:.06em;margin-left:1.8rem}
+.elementos{display:flex;align-items:center;gap:3.2rem}
+.el-arcotopo{width:9rem;height:7rem;background:var(--azul);border-radius:50% 50% 0 0 / 2.6rem 2.6rem 0 0}
+.el-ret{width:9rem;height:7rem;background:var(--azul);border-radius:1.2rem}
+.el-pill{width:12rem;height:3.4rem;background:var(--azul);border-radius:999px}
+.el-arco{width:22rem}
+.aplicacoes{display:grid;grid-template-columns:1.24fr 1fr;gap:2.4rem;align-items:start}
 .aplicacoes img{border-radius:var(--raio-s);box-shadow:0 2.4rem 5rem -2.4rem rgba(0,61,92,.55)}
 .aplicacoes img:nth-child(2){transform:translateY(4rem)}
 .mote{margin-top:6.4rem;font-size:4rem;color:var(--azul);font-weight:400;line-height:1.2}
@@ -617,7 +650,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   <div class="stage" style="justify-content:center">
     <p class="kicker r">01 · Quem somos · GERPIMM</p>
     <h2 class="mega xb" data-split style="margin-top:2.4rem">Conectamos pessoas, <em>histórias</em> e futuro.</h2>
-    <p class="texto-g r" style="--i:7;margin-top:4.8rem">Somos a <b>GERPIMM</b>: Gerência de Produtos, Inteligência de Mercado e Marketing do GBOEX.</p>
+    <p class="texto-g r" style="--i:7;margin-top:4.8rem"><b>GERPIMM</b>: Gerência de Produtos, Inteligência de Mercado e Marketing.</p>
     <p class="nota r" style="--i:8;margin-top:3.2rem">GERPIMM | Estratégia, relacionamento e comunicação</p>
   </div>
 </section>
@@ -851,7 +884,6 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   <div class="stage">
     <p class="kicker r">03 · Produtos</p>
     <h2 class="titulo" data-split>Histórico de produtos: linha do tempo</h2>
-    <p class="lead r" style="--i:3">De 2008 a 2022, três lançamentos em 14 anos. Desde nov/2022, cinco produtos novos.</p>
     <div class="corpo">
       <div class="timeline">
         <div class="tl-item baixo r" style="--i:3"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Vida Longa</b></div><p class="tl-data">ago/2008</p></div>
@@ -954,9 +986,9 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="lead r" style="--i:3">Uma frente transversal para qualificar posicionamento, campanhas, produtos e prioridades.</p>
     <div class="corpo">
       <div class="trilha t3 grande">
-        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-ear"/></svg></span><span class="rot">Passo 1</span><h3>Escutar</h3><p>Mapear tendências, necessidades dos públicos, concorrência e sinais do mercado.</p></div>
-        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-search"/></svg></span><span class="rot">Passo 2</span><h3>Interpretar</h3><p>Organizar evidências, identificar padrões e formular hipóteses úteis ao negócio.</p></div>
-        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-compass"/></svg></span><span class="rot">Passo 3</span><h3>Recomendar</h3><p>Traduzir análises em oportunidades, testes, decisões e recomendações acionáveis.</p></div>
+        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-ear"/></svg></span><h3>Escutar</h3><p>Mapear tendências, necessidades dos públicos, concorrência e sinais do mercado.</p></div>
+        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-search"/></svg></span><h3>Interpretar</h3><p>Organizar evidências, identificar padrões e formular hipóteses úteis ao negócio.</p></div>
+        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-compass"/></svg></span><h3>Recomendar</h3><p>Traduzir análises em oportunidades, testes, decisões e recomendações acionáveis.</p></div>
       </div>
     </div>
   </div>
@@ -1028,10 +1060,10 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="numeros" data-title="Outubro em seis números" data-sec="07 · Inteligência de mercado">
+<section class="slide" id="numeros" data-title="Visão executiva do dia e do mês" data-sec="07 · Inteligência de mercado">
   <div class="stage">
     <p class="kicker r">07 · Projeções · Posição de 23/10/2026</p>
-    <h2 class="titulo" data-split>Outubro em seis números</h2>
+    <h2 class="titulo" data-split>Visão executiva do dia e do mês</h2>
     <div class="corpo">
       <div class="stats">
         <div class="stat r" style="--i:3"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-coins"/></svg></span>Acumulado no mês</span><span class="v xb"><span data-to="173.8" data-dec="1" data-pre="R$ " data-suf=" mil">R$ 173,8 mil</span></span><br><span class="var">▲ 18,3%</span></div>
@@ -1155,7 +1187,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 <section class="slide" id="miv" data-title="MIV 2026" data-sec="11 · Reputação">
   <div class="stage">
     <p class="kicker r">11 · Consistência · MIV 2026</p>
-    <h2 class="titulo" data-split>Uma identidade para todos os pontos de contato</h2>
+    <h2 class="titulo" data-split>MIV 2026: Manual de Identidade Visual</h2>
     <div class="corpo">
       <div class="miv">
         <div style="display:flex;flex-direction:column;gap:4rem">
@@ -1205,7 +1237,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
           <div class="janela"><img src="assets/img/radar-gboex.webp" alt="Tela do Radar GBOEX com o monitor de menções da marca" loading="lazy"></div>
           <div class="janela"><img src="assets/img/radar-gboex-graficos.webp" alt="Tela do Radar GBOEX com gráficos de volume e sentimento" loading="lazy"></div>
         </div>
-        <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Monitor de notícias, redes e menções · em operação desde 30/03/2026</figcaption>
+        <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Monitor de notícias, redes e menções · histórico desde 30/03/2026 · atualizado em 02/11/2026</figcaption>
         <p class="descricao">A tela mostra o total de menções (positivas, neutras e negativas), as menções por fonte (Instagram, Reclame Aqui, LinkedIn, Google News, Facebook e YouTube), volume e sentimento ao longo do tempo e os principais veículos.</p>
       </figure>
     </div>
@@ -1240,7 +1272,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <h2 class="mega xb" data-split style="margin-top:1.4rem;font-size:6.4rem">Onde você compraria?</h2>
     <div class="corpo" style="margin-top:4rem">
       <div class="compraria">
-        <div class="foto foto--a kb r r-l" style="--i:4"><img src="assets/img/unidade-antiga-2.webp" alt="Unidade com piso azul, divisórias antigas e cadeiras desgastadas" loading="lazy"><span class="letra">A</span><span class="tag">Padrão atual</span></div>
+        <div class="foto foto--a kb r r-l" style="--i:4"><img src="assets/img/unidade-antiga-2.webp" alt="Unidade com piso azul, divisórias antigas e cadeiras desgastadas" loading="lazy"><span class="letra">A</span><span class="tag">Unidade atual</span></div>
         <div class="foto foto--b kb r" style="--i:6"><img src="assets/img/unidade-reformada.webp" alt="Unidade reformada com painel ripado, logo GBOEX iluminada e cadeiras azuis" loading="lazy"><span class="letra">B</span><span class="tag">Unidade reformada</span></div>
         <div class="foto foto--b kb r" style="--i:7"><img src="assets/img/sala-reuniao.webp" alt="Sala de reunião reformada com mesa branca e iluminação linear" loading="lazy"></div>
       </div>
@@ -1278,21 +1310,21 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="ferramentas" data-title="Ferramentas que sustentam a execução" data-sec="15 · Gestão e planejamento">
+<section class="slide" id="ferramentas" data-title="CRM e catálogo de materiais" data-sec="15 · Gestão e planejamento">
   <div class="stage">
-    <p class="kicker r">15 · Entregas · Capacidade de execução</p>
-    <h2 class="titulo" data-split>Ferramentas que já sustentam a execução</h2>
+    <p class="kicker r">15 · Entregas · Ferramentas</p>
+    <h2 class="titulo" data-split>CRM e catálogo de materiais</h2>
     <div class="corpo">
       <div class="ferramentas">
         <div class="ferramenta r r-l" style="--i:4">
           <div class="janela"><img src="assets/img/crm-tarefas.webp" alt="Sistema de tarefas do Marketing em quadro kanban: a fazer, fazendo e concluído" loading="lazy"></div>
           <span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span><h3><svg class="ico"><use href="#i-kanban"/></svg>CRM e gestão de tarefas</h3>
-          <p>Demandas, agenda, pedidos e chat em um só lugar, com visão de carga por pessoa.</p>
+          <p>Quadro de tarefas (a fazer, fazendo, concluído), agenda, pedidos, chat e carga por pessoa.</p>
         </div>
         <div class="ferramenta r" style="--i:6">
           <div class="janela"><img src="assets/img/catalogo-materiais.webp" alt="Catálogo de materiais de marketing com 81 itens e especificações para fornecedores" loading="lazy"></div>
           <span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span><h3><svg class="ico"><use href="#i-book"/></svg>Catálogo de materiais</h3>
-          <p><b>81 itens</b> com especificação para fornecedores, em 7 categorias, integrado ao MIV.</p>
+          <p><b>81 itens</b> com especificação para fornecedores, em 7 categorias: sinalização, impressos, papelaria, brindes, eventos, uniformes e peças digitais.</p>
         </div>
       </div>
     </div>
