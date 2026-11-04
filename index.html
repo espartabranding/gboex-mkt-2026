@@ -744,6 +744,13 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .is-flow .proj-grade{grid-template-columns:1fr;height:auto}
 .is-flow .proj-foto{min-height:24rem}
 .is-flow .proj-lista li{padding:1.2rem 2rem}
+
+/* Marcação de vídeo */
+.marca-video{display:inline-flex;align-items:center;gap:.8rem;padding:.7rem 1.6rem;border-radius:99rem;background:var(--amarelo);color:var(--azul-esc);font-size:1.4rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.marca-video .ico{width:1.6rem;height:1.6rem}
+.marca-video--canto{position:absolute;top:2rem;right:2rem;letter-spacing:.06em;box-shadow:0 .8rem 2rem rgba(0,0,0,.25)}
+.video--marca .sem{display:flex}
+.pend--video{border-style:solid;border-color:var(--amarelo)}
 </style>
 </head>
 <body>
@@ -1080,10 +1087,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <h2 class="titulo-logo r" style="--i:1"><img src="assets/img/logo-rede-vantagens.webp" alt="Rede de Vantagens GBOEX"></h2>
     <div class="corpo">
       <div class="rede"><div class="pend-col"><div class="tabela-card r" style="--i:4"><p class="tabela-tit">Total geral de convênios</p><table class="tabela"><thead><tr><th></th><th>Estabelecimentos</th><th>Serviços ofertados</th></tr></thead><tbody><tr><th>Ingressos</th><td>37</td><td>43</td></tr><tr><th>Reingressos</th><td>10</td><td>19</td></tr><tr class="total"><th>Total geral</th><td>47</td><td>62</td></tr></tbody></table><p class="nota" style="margin-top:1.6rem">Período: 01/01/2026 a 04/11/2026</p></div></div>
-        <div class="video r r-z" style="--i:5" id="video-rede">
-          <video controls preload="metadata" playsinline><source src="assets/video/rede-de-vantagens.mp4" type="video/mp4"></video>
-          <div class="sem"><span class="play"><svg class="ico"><use href="#i-play"/></svg></span><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Vídeo da Rede de Vantagens</b><small>Inserir o arquivo em assets/video/rede-de-vantagens.mp4</small></div>
-        </div>
+        <div class="video video--marca r r-z" style="--i:5"><div class="sem"><span class="marca-video"><svg class="ico"><use href="#i-play"/></svg>Chamar vídeo</span><b>Vídeo da Rede de Vantagens</b></div></div>
       </div>
     </div>
   </div>
@@ -1337,7 +1341,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">09 · Mídia Online &amp; Offline</p>
     <h2 class="titulo" data-split>Comunicação externa</h2>
     <div class="corpo">
-      <div class="pend-grid g3"><div class="pend r" style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Assessoria de imprensa: matérias publicadas</b><small>Clipping ou prints das principais matérias.</small></div><div class="pend r" style="--i:5"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Assessoria de imprensa: números</b><small>Inserções, veículos e período.</small></div><div class="pend r" style="--i:6"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Podcast: vídeo teaser</b><small>Arquivo do vídeo teaser do podcast a enviar.</small></div></div>
+      <div class="pend-grid g3"><div class="pend r" style="--i:4"><b>Assessoria de imprensa: matérias publicadas</b><small>Clipping ou prints das principais matérias.</small></div><div class="pend r" style="--i:5"><b>Assessoria de imprensa: números</b><small>Inserções, veículos e período.</small></div><div class="pend pend--video r" style="--i:6"><span class="marca-video"><svg class="ico"><use href="#i-play"/></svg>Chamar vídeo</span><b>Podcast: vídeo teaser</b></div></div>
     </div>
   </div>
 </section>
@@ -1393,7 +1397,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">10 · Endomarketing · Anotações do PPT</p>
     <h2 class="titulo" data-split>Ideias anotadas no PPT</h2>
     <div class="corpo">
-      <figure class="foto-ev foto-cheia r r-z" style="--i:4"><img src="assets/img/evento-sede.webp" alt="Todos os colaboradores em frente à sede do GBOEX" loading="lazy" style="object-position:center 60%"><figcaption>Todos os colaboradores em frente à sede do GBOEX</figcaption></figure>
+      <figure class="foto-ev foto-cheia r r-z" style="--i:4"><img src="assets/img/evento-sede.webp" alt="Todos os colaboradores em frente à sede do GBOEX" loading="lazy" style="object-position:center 60%"><figcaption>Todos os colaboradores em frente à sede do GBOEX</figcaption><span class="marca-video marca-video--canto"><svg class="ico"><use href="#i-play"/></svg>Chamar vídeo com todos os colaboradores</span></figure>
     </div>
   </div>
 </section>
