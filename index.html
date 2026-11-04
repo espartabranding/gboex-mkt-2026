@@ -574,6 +574,13 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .pessoa--g img{width:7.6rem;height:7.6rem;box-shadow:0 0 0 .3rem var(--amarelo)}
 .pessoa--ja{background:rgba(228,199,64,.28)}
 .is-flow .org-topo,.is-flow .org-base,.is-flow .org-linha.c4,.is-flow .org-linha.c2{grid-template-columns:1fr}
+.time-grade{display:flex;flex-wrap:wrap;justify-content:center;gap:4rem 3.2rem;align-items:flex-start}
+.time-grade .membro{width:23rem}
+.membro{display:flex;flex-direction:column;align-items:center;text-align:center;min-width:0}
+.membro img{width:100%;max-width:15.5rem;aspect-ratio:1;border-radius:50%;object-fit:cover;box-shadow:0 0 0 .3rem #fff,0 1.6rem 3.2rem -1.6rem rgba(0,61,92,.5)}
+.membro b{font-size:2.4rem;color:var(--azul-esc);margin-top:1.6rem;line-height:1.15}
+.membro small{font-size:1.7rem;line-height:1.35;color:var(--texto);margin-top:.6rem}
+.is-flow .time-grade .membro{width:calc(33% - 2.2rem)}
 </style>
 </head>
 <body>
@@ -679,9 +686,8 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   <div class="stage">
     <p class="kicker r">01 · Quem somos · Nosso time</p>
     <h2 class="titulo" data-split>Nosso time</h2>
-    <p class="lead r" style="--i:3">#Marketing · Marca, experiência e performance.</p>
     <div class="corpo corpo--time">
-      <div class="org"><div class="org-topo"><div class="org-grupo r" style="--i:4"><span class="org-nivel">Gerência</span><div class="pessoa pessoa--g"><img src="assets/img/time/leticia-gerencia.webp" alt="Letícia" loading="lazy"><div><b>Letícia</b><small>Gerência</small></div></div></div><div class="org-grupo r" style="--i:5"><span class="org-nivel">Coordenação</span><div class="pessoa pessoa--g"><img src="assets/img/time/thiely.webp" alt="Thiely" loading="lazy"><div><b>Thiely</b><small>Coordenação</small></div></div></div></div><div class="org-grupo r" style="--i:6"><span class="org-nivel">Analistas</span><div class="org-linha c4"><div class="pessoa "><img src="assets/img/time/luciano.webp" alt="Luciano" loading="lazy"><div><b>Luciano</b><small>Mídia Off e Pagamentos</small></div></div><div class="pessoa "><img src="assets/img/time/lucas.webp" alt="Lucas" loading="lazy"><div><b>Lucas</b><small>Designer</small></div></div><div class="pessoa "><img src="assets/img/time/eliane.webp" alt="Eliane" loading="lazy"><div><b>Eliane</b><small>Eventos e Assessoria de Imprensa</small></div></div><div class="pessoa "><img src="assets/img/time/cinara.webp" alt="Cinara" loading="lazy"><div><b>Cinara</b><small>Mídia On, Off e Performance</small></div></div></div></div><div class="org-base"><div class="org-grupo r" style="--i:7"><span class="org-nivel">Auxiliar/Assistente</span><div class="org-linha c2"><div class="pessoa "><img src="assets/img/time/barbara.webp" alt="Barbara" loading="lazy"><div><b>Barbara</b><small>Endomarketing</small></div></div><div class="pessoa "><img src="assets/img/time/ana-paula.webp" alt="Ana Paula" loading="lazy"><div><b>Ana Paula</b><small>Comunicação Interna</small></div></div></div></div><div class="org-grupo r" style="--i:8"><span class="org-nivel">Jovem Aprendiz</span><div class="org-linha c1"><div class="pessoa pessoa--ja"><img src="assets/img/time/leticia-aprendiz.webp" alt="Leticia" loading="lazy"><div><b>Leticia</b><small>Apoio Geral</small></div></div></div></div></div></div>
+      <div class="time-grade"><div class="membro r" style="--i:3"><img src="assets/img/time/leticia-gerencia.webp" alt="Letícia" loading="lazy"><b>Letícia</b><small>Gerência</small></div><div class="membro r" style="--i:4"><img src="assets/img/time/thiely.webp" alt="Thiely" loading="lazy"><b>Thiely</b><small>Coordenação</small></div><div class="membro r" style="--i:5"><img src="assets/img/time/luciano.webp" alt="Luciano" loading="lazy"><b>Luciano</b><small>Analista · Mídia Off e Pagamentos</small></div><div class="membro r" style="--i:6"><img src="assets/img/time/lucas.webp" alt="Lucas" loading="lazy"><b>Lucas</b><small>Analista · Designer</small></div><div class="membro r" style="--i:7"><img src="assets/img/time/eliane.webp" alt="Eliane" loading="lazy"><b>Eliane</b><small>Analista · Eventos e Assessoria de Imprensa</small></div><div class="membro r" style="--i:8"><img src="assets/img/time/cinara.webp" alt="Cinara" loading="lazy"><b>Cinara</b><small>Analista · Mídia On, Off e Performance</small></div><div class="membro r" style="--i:9"><img src="assets/img/time/barbara.webp" alt="Barbara" loading="lazy"><b>Barbara</b><small>Auxiliar/Assistente · Endomarketing</small></div><div class="membro r" style="--i:10"><img src="assets/img/time/ana-paula.webp" alt="Ana Paula" loading="lazy"><b>Ana Paula</b><small>Auxiliar/Assistente · Comunicação Interna</small></div><div class="membro r" style="--i:11"><img src="assets/img/time/leticia-aprendiz.webp" alt="Leticia" loading="lazy"><b>Leticia</b><small>Jovem Aprendiz · Apoio Geral</small></div></div>
     </div>
   </div>
 </section>
