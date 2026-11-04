@@ -615,6 +615,9 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 #pilares .pilar p{font-size:2rem}
 #pilares .pilar-ico{width:10rem;height:10rem}
 #pilares .pilar-ico svg{width:6.4rem;height:6.4rem}
+.print-lado{display:grid;grid-template-columns:auto 1fr;gap:5.6rem;align-items:center;min-height:0}
+.print-lado .janela img{height:52rem;width:auto;max-width:100%}
+.is-flow .print-lado{grid-template-columns:1fr}.is-flow .print-lado .janela img{height:auto;width:100%}
 </style>
 </head>
 <body>
@@ -1000,6 +1003,23 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
         <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> 14 praças: 2 candidatas e 12 sedes</figcaption>
         <p class="descricao">A tela mostra o dossiê de cada praça: índice de oportunidade, notas nos critérios (corretores, viabilidade, demanda, tração, white space, presencial, militar e consignável), perfil em radar e ajuste fino dos scores. Fontes: SUSEP, Receita Federal (CNAE 6622), IBGE, Forças Armadas e CEMPRE.</p>
       </figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="expansao-sedes" data-title="Radar de Expansão: cidade a cidade" data-sec="06 · Inteligência de mercado">
+  <div class="stage">
+    <p class="kicker r">06 · Inteligência de mercado · Ferramenta de expansão</p>
+    <h2 class="titulo" data-split>Radar de Expansão GBOEX: cidade a cidade</h2>
+    <div class="corpo">
+      <div class="print-lado">
+        <div class="janela r r-z" style="--i:3"><img src="assets/img/radar-expansao-sedes.webp" alt="Tela Cidade a cidade — sedes do Radar de Expansão GBOEX" loading="lazy"></div>
+        <div class="r" style="--i:5">
+          <span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span>
+          <p class="texto-g" style="margin-top:2.4rem">Visão <b>cidade a cidade</b> das 12 sedes onde o GBOEX já opera.</p>
+          <p class="descricao" style="text-align:left;margin-top:2.4rem">Cada card mostra a nota da praça, o status (ativa, reaberta, evadida ou inédita) e o ano de início da operação, além de canal (corretoras), base militar, concorrência instalada e base consignável. Na tela: São Paulo, Rio de Janeiro, Brasília, Porto Alegre, Recife, Campo Grande, Belo Horizonte, Curitiba e Manaus.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
