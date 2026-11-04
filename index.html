@@ -621,6 +621,12 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .selo--homolog{background:var(--azul);color:#fff}
 #projecao .entrega>.janela img{max-height:none;width:100%}
 #projecao .entrega>.janela{width:100%}
+.plat{display:grid;grid-template-columns:1.1fr 1fr;gap:8rem;align-items:center}
+.plat-ic{width:9.6rem;height:9.6rem;border-radius:50%;border:.2rem solid var(--azul-cl);color:var(--azul);display:grid;place-items:center;font-size:4rem}
+.passos{display:flex;flex-direction:column;gap:1.6rem}
+.passos li{display:flex;align-items:center;gap:2rem;font-size:2.6rem;color:var(--azul-esc);font-weight:700}
+.passos .n{width:4.8rem;height:4.8rem;font-size:1.8rem}
+.is-flow .plat{grid-template-columns:1fr;gap:4rem}
 </style>
 </head>
 <body>
@@ -1060,12 +1066,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <h2 class="titulo" data-split>Campanhas comerciais conectadas a objetivos claros</h2>
     <p class="lead r" style="--i:3">Do briefing à mensuração: integrar necessidade comercial, proposta de comunicação e avaliação de resultado.</p>
     <div class="corpo">
-      <div class="trilha t4">
-        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-file"/></svg></span><span class="rot">01</span><h3>Briefing</h3><p>Objetivo, público, oferta e período.</p></div>
-        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-calendar"/></svg></span><span class="rot">02</span><h3>Planejamento</h3><p>Mensagem, canais, peças e calendário.</p></div>
-        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-zap"/></svg></span><span class="rot">03</span><h3>Ativação</h3><p>Alinhamento com Comercial e unidades.</p></div>
-        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-chart"/></svg></span><span class="rot">04</span><h3>Mensuração</h3><p>Acompanhamento e aprendizados.</p></div>
-      </div>
+      <div class="pend r" style="--i:4;min-height:26rem"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Imagem da campanha</b><small>Imagem a enviar pela equipe.</small></div>
       <p class="chave b"><small><svg class="ico"><use href="#i-usercheck"/></svg>Governança sugerida</small><span>Objetivo e público definidos pelo demandante; estratégia e comunicação coordenadas pelo <b>MKT</b>; resultados avaliados com a área responsável pelos dados.</span></p>
       <p class="nota b">Indicadores a definir por campanha: adesão • alcance • engajamento • leads/oportunidades • resultado comercial atribuído quando houver metodologia disponível.</p>
     </div>
@@ -1122,6 +1123,21 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <h2 class="div-titulo xb" data-split>Núcleo 2</h2>
     <p class="div-sub r" style="--i:7">Mídia Online &amp; Offline · Endomarketing · Comunicação interna · Eventos &amp; Assessoria de Imprensa</p>
     <svg class="arco div-arco" data-par style="--par:1.6;height:6rem" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true"><use href="#arc"/></svg>
+  </div>
+</section>
+
+<section class="slide" id="midias-plataforma" data-title="Mídias como plataforma de conexão" data-sec="09 · Mídia Online &amp; Offline">
+  <div class="stage">
+    <p class="kicker r">09 · Mídia Online &amp; Offline</p>
+    <h2 class="titulo" data-split>Mídias como plataforma de conexão</h2>
+    <p class="lead r" style="--i:3">Cada iniciativa deve nascer de um objetivo claro e ter um público, uma mensagem e uma forma de avaliação.</p>
+    <div class="corpo">
+      <div class="plat">
+        <div class="r r-l" style="--i:4"><span class="plat-ic"><svg class="ico"><use href="#i-mega"/></svg></span><p class="texto-g" style="margin-top:2.8rem">Planejamento de canais e formatos para ampliar presença e eficiência da comunicação.</p></div>
+        <div><p class="tabela-tit r" style="--i:5">Planejamento</p><ol class="passos"><li class="r" style="--i:6"><span class="n">1</span>Objetivo</li><li class="r" style="--i:7"><span class="n">2</span>Segmentação</li><li class="r" style="--i:8"><span class="n">3</span>Investimento</li><li class="r" style="--i:9"><span class="n">4</span>Veiculação</li><li class="r" style="--i:10"><span class="n">5</span>Análise</li></ol></div>
+      </div>
+      <p class="nota r" style="--i:12">A avaliação deve considerar o objetivo de cada ação, evitando comparar iniciativas com finalidades diferentes.</p>
+    </div>
   </div>
 </section>
 
@@ -1227,18 +1243,17 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="eventos-midias" data-title="Eventos e mídias" data-sec="12 · Eventos &amp; Assessoria de Imprensa">
+<section class="slide" id="eventos-plataforma" data-title="Eventos como plataforma de conexão" data-sec="12 · Eventos &amp; Assessoria de Imprensa">
   <div class="stage">
     <p class="kicker r">12 · Eventos &amp; Assessoria de Imprensa</p>
-    <h2 class="titulo" data-split>Eventos e mídias como plataformas de conexão</h2>
+    <h2 class="titulo" data-split>Eventos como plataforma de conexão</h2>
     <p class="lead r" style="--i:3">Cada iniciativa deve nascer de um objetivo claro e ter um público, uma mensagem e uma forma de avaliação.</p>
     <div class="corpo">
-      <div class="abertos c2">
-        <div class="item r r-l" style="--i:4"><span class="ic"><svg class="ico"><use href="#i-calendar"/></svg></span><h3>Eventos</h3><p>Encontros com corretores, ações institucionais e oportunidades de relacionamento.</p><p style="color:var(--azul);font-weight:700;font-size:1.9rem">Planejamento: propósito • público • experiência • logística • pós-evento</p></div>
-        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-mega"/></svg></span><h3>Mídias</h3><p>Planejamento de canais e formatos para ampliar presença e eficiência da comunicação.</p><p style="color:var(--azul);font-weight:700;font-size:1.9rem">Planejamento: objetivo • segmentação • investimento • veiculação • análise</p></div>
+      <div class="plat">
+        <div class="r r-l" style="--i:4"><span class="plat-ic"><svg class="ico"><use href="#i-calendar"/></svg></span><p class="texto-g" style="margin-top:2.8rem">Encontros com corretores, ações institucionais e oportunidades de relacionamento.</p></div>
+        <div><p class="tabela-tit r" style="--i:5">Planejamento</p><ol class="passos"><li class="r" style="--i:6"><span class="n">1</span>Propósito</li><li class="r" style="--i:7"><span class="n">2</span>Público</li><li class="r" style="--i:8"><span class="n">3</span>Experiência</li><li class="r" style="--i:9"><span class="n">4</span>Logística</li><li class="r" style="--i:10"><span class="n">5</span>Pós-evento</li></ol></div>
       </div>
-      <p class="nota r" style="--i:7"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span> Indicadores a preencher: eventos realizados • participação/adesão • alcance por canal • investimento e eficiência.</p>
-      <p class="nota r" style="--i:8">A avaliação deve considerar o objetivo de cada ação, evitando comparar iniciativas com finalidades diferentes.</p>
+      <p class="nota r" style="--i:12">A avaliação deve considerar o objetivo de cada ação, evitando comparar iniciativas com finalidades diferentes.</p>
     </div>
   </div>
 </section>
