@@ -638,6 +638,14 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 #pilares .pilar::after{content:"";position:absolute;left:-10%;right:-10%;bottom:-2.2rem;height:4.4rem;border-radius:50% 50% 0 0 / 100% 100% 0 0;border-top:.5rem solid var(--amarelo)}
 #pilares .pilar-ico{margin:0 0 1.2rem;width:9rem;height:9rem}
 #pilares .pilar-ico svg{width:5.6rem;height:5.6rem}
+
+/* Galeria de eventos */
+.galeria-ev{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:1.6rem;height:54rem}
+.foto-ev{position:relative;margin:0;border-radius:var(--raio);overflow:hidden;box-shadow:0 1.2rem 3rem rgba(0,30,80,.18)}
+.foto-ev img{width:100%;height:100%;object-fit:cover;display:block}
+.foto-ev figcaption{position:absolute;left:0;right:0;bottom:0;padding:3.2rem 1.8rem 1.4rem;background:linear-gradient(transparent,rgba(0,22,60,.88));color:#fff;font-size:1.6rem;line-height:1.3;font-weight:600}
+.is-flow .galeria-ev{grid-template-columns:1fr 1fr;grid-template-rows:none;height:auto}
+.is-flow .foto-ev{aspect-ratio:4/3}
 </style>
 </head>
 <body>
@@ -1291,12 +1299,12 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="eventos" data-title="Eventos" data-sec="12 · Eventos &amp; Assessoria de Imprensa">
+<section class="slide" id="eventos" data-title="Eventos e premiações" data-sec="12 · Eventos &amp; Assessoria de Imprensa">
   <div class="stage">
     <p class="kicker r">12 · Eventos &amp; Assessoria de Imprensa</p>
-    <h2 class="titulo" data-split>Eventos</h2>
+    <h2 class="titulo" data-split>Eventos e premiações</h2>
     <div class="corpo">
-      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Eventos realizados</b><small>Lista com datas e público.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Fotos</b><small>Registros dos eventos.</small></div></div>
+      <div class="galeria-ev"><figure class="foto-ev r r-z" style="--i:3"><img src="assets/img/evento-top-consumidor.webp" alt="Top Consumidor · Marcas de Respeito: certificado de Excelência nas Relações de Consumo e Respeito ao Consumidor" loading="lazy" style="object-position:center 30%"><figcaption>Top Consumidor · Marcas de Respeito: Excelência nas Relações de Consumo</figcaption></figure><figure class="foto-ev r r-z" style="--i:4"><img src="assets/img/evento-trofeu.webp" alt="Entrega de troféu ao GBOEX" loading="lazy" style="object-position:center 25%"><figcaption>Entrega de troféu ao GBOEX</figcaption></figure><figure class="foto-ev r r-z" style="--i:5"><img src="assets/img/evento-destaques-2025.webp" alt="Destaques 2025 · Desafio GBOEX" loading="lazy" style="object-position:center 55%"><figcaption>Destaques 2025 · Desafio GBOEX</figcaption></figure><figure class="foto-ev r r-z" style="--i:6"><img src="assets/img/evento-desafio-chapada.webp" alt="Desafio 2025: Parque Nacional da Chapada dos Guimarães" loading="lazy" style="object-position:center 60%"><figcaption>Desafio 2025: Parque Nacional da Chapada dos Guimarães</figcaption></figure><figure class="foto-ev r r-z" style="--i:7"><img src="assets/img/evento-somos-todos.webp" alt="Somos Todos GBOEX" loading="lazy" style="object-position:center 45%"><figcaption>Somos Todos GBOEX</figcaption></figure><figure class="foto-ev r r-z" style="--i:8"><img src="assets/img/evento-sede.webp" alt="Colaboradores em frente à sede do GBOEX" loading="lazy" style="object-position:center 60%"><figcaption>Colaboradores em frente à sede do GBOEX</figcaption></figure></div>
     </div>
   </div>
 </section>
