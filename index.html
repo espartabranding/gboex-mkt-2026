@@ -581,6 +581,15 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .membro b{font-size:2.4rem;color:var(--azul-esc);margin-top:1.6rem;line-height:1.15}
 .membro small{font-size:1.7rem;line-height:1.35;color:var(--texto);margin-top:.6rem}
 .is-flow .time-grade .membro{width:calc(33% - 2.2rem)}
+.titulo-logo{margin-top:1.6rem;line-height:0}
+.titulo-logo img{height:11rem;width:auto}
+#rede-vantagens .corpo{margin-top:3.6rem}
+.pecas{display:grid;grid-template-columns:auto 1fr;gap:5.6rem;align-items:center;height:100%;min-height:0}
+.peca{display:block;border-radius:var(--raio-s);box-shadow:0 2.4rem 5rem -2.4rem rgba(0,61,92,.55)}
+.peca--post{height:52rem;width:auto}
+.pecas-col{display:flex;flex-direction:column;gap:2.8rem;min-width:0}
+.pecas-col .peca{width:100%;height:auto}
+.is-flow .pecas{grid-template-columns:1fr}.is-flow .peca--post{height:auto;width:100%}
 </style>
 </head>
 <body>
@@ -944,7 +953,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 <section class="slide" id="rede-vantagens" data-title="Rede de Vantagens" data-sec="05 · Rede de Vantagens">
   <div class="stage">
     <p class="kicker r">05 · Rede de Vantagens</p>
-    <h2 class="titulo" data-split>Rede de Vantagens</h2>
+    <h2 class="titulo-logo r" style="--i:1"><img src="assets/img/logo-rede-vantagens.webp" alt="Rede de Vantagens GBOEX"></h2>
     <div class="corpo">
       <div class="rede"><div class="pend-col"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Novos parceiros</b><small>Quantidade de parceiros novos no período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Onde é mais utilizada</b><small>Categorias, cidades ou parceiros com mais uso.</small></div></div>
         <div class="video r r-z" style="--i:5" id="video-rede">
@@ -966,6 +975,22 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
         <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-target"/></svg></span><span class="rot">Objetivo</span><p style="font-size:2.3rem;margin-top:0">Ampliar o acesso dos corretores a conteúdos de desenvolvimento e apoiar sua jornada profissional.</p></div>
         <div class="item r" style="--i:8"><span class="ic"><svg class="ico"><use href="#i-list"/></svg></span><span class="rot">Entregas a mapear</span><p style="font-size:2.3rem;margin-top:0">Lançamento/comunicação, trilhas de conteúdo, calendário editorial e ações de adesão.</p></div>
         <div class="item r" style="--i:9"><span class="ic"><svg class="ico"><use href="#i-sparkles"/></svg></span><span class="rot">Valor esperado</span><p style="font-size:2.3rem;margin-top:0">Mais oportunidades de capacitação, relacionamento contínuo e conexão com o GBOEX.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="evolua-pecas" data-title="Evolua: peças de divulgação" data-sec="06 · Treinamentos">
+  <div class="stage">
+    <p class="kicker r">06 · Treinamentos · Evolua GBOEX</p>
+    <h2 class="titulo" data-split>Evolua: peças de divulgação</h2>
+    <div class="corpo">
+      <div class="pecas">
+        <img class="peca peca--post r r-z" style="--i:3" src="assets/img/evolua-post.webp" alt="Post Evolua GBOEX: plataforma exclusiva de aprendizado, mais de 700 cursos para você, corretor" loading="lazy">
+        <div class="pecas-col">
+          <img class="peca r r-z" style="--i:5" src="assets/img/evolua-banner.webp" alt="Banner Evolua GBOEX: nova plataforma de aprendizado, mais de 700 cursos para você, corretor" loading="lazy">
+          <p class="descricao r" style="--i:7;text-align:left;margin-top:0">Post e banner da nova plataforma de aprendizado Evolua GBOEX: mais de 700 cursos para o corretor.</p>
+        </div>
       </div>
     </div>
   </div>
