@@ -513,6 +513,14 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .agenda--compacta b{font-size:2.1rem}
 .agenda--compacta small{font-size:1.45rem}
 .is-flow .pend-grid.g2,.is-flow .pend-grid.g3,.is-flow .equipe{grid-template-columns:1fr}
+.descricao{font-size:1.7rem;line-height:1.45;color:var(--mudo);text-align:center;max-width:120rem;margin-top:-1.2rem}
+.pend-grid.g1{grid-template-columns:1fr}
+.swot-full .lista-g li{font-size:1.85rem;padding:.45rem 0}
+.swot-full .swot-h{margin-bottom:1rem}
+.entrega:has(.descricao)>.janela img{max-height:44rem}
+.entrega:has(.descricao) .entrega-duo .janela img{max-height:34rem;width:100%;object-fit:cover;object-position:top}
+#mensuracao .corpo{gap:3.2rem;margin-top:3.6rem}
+#mensuracao .perguntas{gap:3.6rem 9.6rem}
 </style>
 </head>
 <body>
@@ -590,7 +598,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r" style="--i:1">Marketing · GERPIMM</p>
     <h1 class="capa-titulo xb" data-split>Tradição que inspira.<br>Inovação que gera valor.</h1>
     <p class="capa-sub r" style="--i:6">Projetos e prioridades 2026–2027</p>
-    <p class="r" style="--i:7"><span class="pill">Apresentação ao Conselho Deliberativo</span></p>
+    <p class="r" style="--i:7"><span class="pill">Apresentação | Conselho Deliberativo</span></p>
     <svg class="arco capa-arco" data-par style="--par:1.2;height:9rem" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true"><use href="#arc"/></svg>
   </div>
 </section>
@@ -600,7 +608,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">Roteiro</p>
     <h2 class="titulo" data-split>O que vamos apresentar</h2>
     <div class="corpo">
-      <div class="agenda agenda--compacta"><button class="r" style="--i:2" data-goto="quem-somos"><span class="num">01</span><span><b>Quem somos</b><small>Equipe e núcleos</small></span></button><button class="r" style="--i:3" data-goto="proposito"><span class="num">02</span><span><b>Propósito</b><small>Propósito, visão e jeito de ser</small></span></button><button class="r" style="--i:4" data-goto="linha-do-tempo"><span class="num">03</span><span><b>Produtos</b><small>Linha do tempo</small></span></button><button class="r" style="--i:5" data-goto="mag"><span class="num">04</span><span><b>Relacionamento MAG</b></span></button><button class="r" style="--i:6" data-goto="rede-vantagens"><span class="num">05</span><span><b>Rede de Vantagens</b><small>Vídeo, parceiros e uso</small></span></button><button class="r" style="--i:7" data-goto="evolua"><span class="num">06</span><span><b>Treinamentos</b><small>Evolua Corretor e outros</small></span></button><button class="r" style="--i:8" data-goto="portal"><span class="num">07</span><span><b>Inteligência de mercado</b><small>Dashboard, expansão e projeções</small></span></button><button class="r" style="--i:9" data-goto="endomarketing"><span class="num">08</span><span><b>Endomarketing</b><small>Entregas e projetos</small></span></button><button class="r" style="--i:10" data-goto="midias"><span class="num">09</span><span><b>Mídias</b></span></button><button class="r" style="--i:11" data-goto="performance"><span class="num">10</span><span><b>Performance</b><small>Leads e ferramenta de IA</small></span></button><button class="r" style="--i:12" data-goto="assessoria"><span class="num">11</span><span><b>Reputação</b><small>Imprensa e Radar GBOEX</small></span></button><button class="r" style="--i:12" data-goto="pix-midia"><span class="num">12</span><span><b>Comunicação interna</b><small>Pix Mídia</small></span></button><button class="r" style="--i:12" data-goto="com-externa"><span class="num">13</span><span><b>Comunicação externa</b><small>Imprensa, redes e podcast</small></span></button><button class="r" style="--i:12" data-goto="eventos"><span class="num">14</span><span><b>Eventos</b></span></button></div>
+      <div class="agenda agenda--compacta"><button class="r" style="--i:2" data-goto="quem-somos"><span class="num">01</span><span><b>Quem somos</b><small>Time, estrutura, públicos e pilares</small></span></button><button class="r" style="--i:3" data-goto="proposito"><span class="num">02</span><span><b>Propósito e direcionamento</b><small>Visão, SWOT, mapa e portfólio</small></span></button><button class="r" style="--i:4" data-goto="linha-do-tempo"><span class="num">03</span><span><b>Produtos</b><small>Linha do tempo e ciclo de vida</small></span></button><button class="r" style="--i:5" data-goto="mag"><span class="num">04</span><span><b>Relacionamento MAG</b></span></button><button class="r" style="--i:6" data-goto="rede-vantagens"><span class="num">05</span><span><b>Rede de Vantagens</b><small>Vídeo, parceiros e uso</small></span></button><button class="r" style="--i:7" data-goto="evolua"><span class="num">06</span><span><b>Treinamentos</b><small>Evolua Corretor e outros</small></span></button><button class="r" style="--i:8" data-goto="inteligencia"><span class="num">07</span><span><b>Inteligência de mercado</b><small>Dashboard, expansão e projeções</small></span></button><button class="r" style="--i:9" data-goto="pessoas"><span class="num">08</span><span><b>Endomarketing</b><small>Comunicação interna e endomarketing</small></span></button><button class="r" style="--i:10" data-goto="eventos-midias"><span class="num">09</span><span><b>Mídias</b><small>Eventos e mídias</small></span></button><button class="r" style="--i:11" data-goto="campanhas"><span class="num">10</span><span><b>Performance</b><small>Campanhas, leads e IA</small></span></button><button class="r" style="--i:12" data-goto="marca"><span class="num">11</span><span><b>Reputação</b><small>Marca, imprensa, Radar e unidades</small></span></button><button class="r" style="--i:12" data-goto="pix-midia"><span class="num">12</span><span><b>Comunicação interna</b><small>Pix Mídia</small></span></button><button class="r" style="--i:12" data-goto="com-externa"><span class="num">13</span><span><b>Comunicação externa</b><small>Imprensa, redes e podcast</small></span></button><button class="r" style="--i:12" data-goto="eventos"><span class="num">14</span><span><b>Eventos</b></span></button><button class="r" style="--i:12" data-goto="ferramentas"><span class="num">15</span><span><b>Gestão e planejamento</b><small>Ferramentas, roadmap e governança</small></span></button></div>
     </div>
   </div>
 </section>
@@ -610,18 +618,20 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">01 · Quem somos · GERPIMM</p>
     <h2 class="mega xb" data-split style="margin-top:2.4rem">Conectamos pessoas, <em>histórias</em> e futuro.</h2>
     <p class="texto-g r" style="--i:7;margin-top:4.8rem">Somos a <b>GERPIMM</b>: Gerência de Produtos, Inteligência de Mercado e Marketing do GBOEX.</p>
+    <p class="nota r" style="--i:8;margin-top:3.2rem">GERPIMM | Estratégia, relacionamento e comunicação</p>
   </div>
 </section>
 
-<section class="slide" id="time" data-title="Nossa equipe" data-sec="01 · Quem somos">
+<section class="slide" id="time" data-title="Nosso time" data-sec="01 · Quem somos">
   <div class="stage">
-    <p class="kicker r">01 · Quem somos · Equipe</p>
-    <h2 class="titulo" data-split>Nossa equipe</h2>
+    <p class="kicker r">01 · Quem somos · Nosso time</p>
+    <h2 class="titulo" data-split>Nosso time</h2>
+    <p class="lead r" style="--i:3">6 profissionais | competências complementares</p>
     <div class="corpo">
       <div class="equipe"><div class="pend r pend--alta" style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Foto da equipe</b><small>Foto do time do Marketing, horizontal e em alta resolução.</small></div><ol class="time time--lista">
-        <li class="r" style="--i:4"><div><span class="ic-s"><svg class="ico"><use href="#i-mic"/></svg></span><span class="num">01</span></div><b>Eventos e assessoria de imprensa</b></li>
+        <li class="r" style="--i:4"><div><span class="ic-s"><svg class="ico"><use href="#i-mic"/></svg></span><span class="num">01</span></div><b>Eventos &amp; Assessoria de Imprensa</b></li>
         <li class="r" style="--i:5"><div><span class="ic-s"><svg class="ico"><use href="#i-news"/></svg></span><span class="num">02</span></div><b>Mídia offline</b></li>
-        <li class="r" style="--i:6"><div><span class="ic-s"><svg class="ico"><use href="#i-phone"/></svg></span><span class="num">03</span></div><b>Mídia online e redes sociais</b></li>
+        <li class="r" style="--i:6"><div><span class="ic-s"><svg class="ico"><use href="#i-phone"/></svg></span><span class="num">03</span></div><b>Mídia Online &amp; Redes Sociais</b></li>
         <li class="r" style="--i:7"><div><span class="ic-s"><svg class="ico"><use href="#i-heart"/></svg></span><span class="num">04</span></div><b>Endomarketing</b></li>
         <li class="r" style="--i:8"><div><span class="ic-s"><svg class="ico"><use href="#i-msg"/></svg></span><span class="num">05</span></div><b>Comunicação interna</b></li>
         <li class="r" style="--i:9"><div><span class="ic-s"><svg class="ico"><use href="#i-sprout"/></svg></span><span class="num">06</span></div><b>Jovem aprendiz</b></li>
@@ -632,7 +642,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 
 <section class="slide" id="estrutura" data-title="Dois núcleos integrados" data-sec="01 · Quem somos">
   <div class="stage">
-    <p class="kicker r">01 · Quem somos · Núcleos</p>
+    <p class="kicker r">01 · Quem somos · Nossa estrutura</p>
     <h2 class="titulo" data-split>Dois núcleos integrados à estratégia do negócio</h2>
     <div class="corpo">
       <div class="nucleos">
@@ -649,387 +659,10 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide slide--dark" id="proposito" data-title="Propósito" data-sec="02 · Propósito">
-  <div class="stage" style="justify-content:center">
-    <p class="kicker r">02 · Propósito</p>
-    <h2 class="mega xb" data-split style="margin-top:2.4rem;font-size:6.4rem">Fortalecer a presença e a reputação do GBOEX, unindo tradição e inovação para impulsionar o <em>crescimento sustentável.</em></h2>
-  </div>
-</section>
-
-<section class="slide slide--dark" id="visao" data-title="Visão e jeito de ser" data-sec="02 · Propósito">
-  <div class="stage" style="justify-content:center;gap:5.6rem">
-    <div>
-      <p class="kicker r">02 · Propósito · Nossa visão</p>
-      <h2 class="texto-g" data-split style="font-size:4.4rem;line-height:1.25;font-weight:400;color:#fff;max-width:124rem;margin-top:2rem">Ser referência em marketing no setor de seguros de pessoas, conectando gerações e fortalecendo o futuro.</h2>
-    </div>
-    <div class="r" style="--i:8">
-      <p class="kicker" style="margin-bottom:1.8rem">Nosso jeito de ser</p>
-      <div class="chips"><span class="chip"><svg class="ico"><use href="#i-scale"/></svg>Ética e respeito</span><span class="chip"><svg class="ico"><use href="#i-sparkles"/></svg>Criatividade e inovação</span><span class="chip"><svg class="ico"><use href="#i-users"/></svg>Colaboração</span><span class="chip"><svg class="ico"><use href="#i-target"/></svg>Foco no cliente</span><span class="chip"><svg class="ico"><use href="#i-trend"/></svg>Orientação a resultados</span></div>
-    </div>
-    <p class="mais-g r" style="--i:10"><span>Mais</span><span class="gira" aria-label="proteção, famílias, histórias, futuro"><span class="on">proteção.</span><span>famílias.</span><span>histórias.</span><span>futuro.</span></span></p>
-  </div>
-</section>
-
-<section class="slide" id="linha-do-tempo" data-title="Linha do tempo de produtos" data-sec="03 · Produtos">
+<section class="slide" id="publicos" data-title="Nossos públicos" data-sec="01 · Quem somos">
   <div class="stage">
-    <p class="kicker r">03 · Produtos</p>
-    <h2 class="titulo" data-split>Histórico de produtos: linha do tempo</h2>
-    <p class="lead r" style="--i:3">De 2008 a 2022, três lançamentos em 14 anos. Desde nov/2022, cinco produtos novos.</p>
-    <div class="corpo">
-      <div class="timeline">
-        <div class="tl-item baixo r" style="--i:3"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Vida Longa</b></div><p class="tl-data">ago/2008</p></div>
-        <div class="tl-item r" style="--i:4"><div class="tl-prod tl-militar"><small><svg class="ico"><use href="#i-shield"/></svg>GBOEX</small><b>Força Ativa</b></div><p class="tl-data">ago/2016</p></div>
-        <div class="tl-item baixo r" style="--i:5"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Vida Resgatável</b></div><p class="tl-data">nov/2017</p></div>
-        <div class="tl-item r" style="--i:6"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Vida 360</b></div><p class="tl-data">nov/2022</p></div>
-        <div class="tl-item baixo r" style="--i:7"><div class="tl-prod tl-militar"><small><svg class="ico"><use href="#i-shield"/></svg>GBOEX</small><b>Vida Militar</b></div><p class="tl-data">jun/2024</p></div>
-        <div class="tl-item r" style="--i:8"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Vida Casal</b></div><p class="tl-data">ago/2025</p></div>
-        <div class="tl-item baixo r" style="--i:9"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Premium</b></div><p class="tl-data">dez/2025</p></div>
-        <div class="tl-item r" style="--i:10"><div class="tl-prod tl-militar"><small><svg class="ico"><use href="#i-shield"/></svg>GBOEX</small><b>Plano Alfa</b></div><p class="tl-data">jun/2026</p></div>
-        <div class="tl-eixo" aria-hidden="true"></div><div class="tl-gap r" style="--i:12;grid-column:1/3"><span><b>8 anos</b>sem lançamento</span></div><div class="tl-gap r" style="--i:13;grid-column:3/5"><span><b>5 anos</b>sem lançamento</span></div>
-      </div>
-      <div class="tl-legenda r" style="--i:11"><span><i style="background:var(--azul)"></i>Linha civil</span><span><i style="background:var(--amarelo)"></i>Linha militar</span><span><i class="tl-gap-leg"></i>Período sem lançamento</span></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="mag" data-title="Relacionamento MAG" data-sec="04 · Relacionamento MAG">
-  <div class="stage">
-    <p class="kicker r">04 · Relacionamento MAG</p>
-    <h2 class="titulo" data-split>Relacionamento MAG</h2>
-    <div class="corpo">
-      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>O que foi feito</b><small>Ações e entregas do relacionamento com a MAG.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Resultados</b><small>Números do período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Prints ou fotos</b><small>Registros das ações realizadas.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="rede-vantagens" data-title="Rede de Vantagens" data-sec="05 · Rede de Vantagens">
-  <div class="stage">
-    <p class="kicker r">05 · Rede de Vantagens</p>
-    <h2 class="titulo" data-split>Rede de Vantagens</h2>
-    <div class="corpo">
-      <div class="rede"><div class="pend-col"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Novos parceiros</b><small>Quantidade de parceiros novos no período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Onde é mais utilizada</b><small>Categorias, cidades ou parceiros com mais uso.</small></div></div>
-        <div class="video r r-z" style="--i:5" id="video-rede">
-          <video controls preload="metadata" playsinline><source src="assets/video/rede-de-vantagens.mp4" type="video/mp4"></video>
-          <div class="sem"><span class="play"><svg class="ico"><use href="#i-play"/></svg></span><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Vídeo da Rede de Vantagens</b><small>Inserir o arquivo em assets/video/rede-de-vantagens.mp4</small></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="slide slide--dark" id="evolua" data-title="Evolua Corretor" data-sec="06 · Treinamentos">
-  <div class="stage">
-    <p class="kicker r">06 · Projeto prioritário</p>
-    <h2 class="mega xb" data-split style="margin-top:1.6rem">Evolua Corretor: <em>desenvolver para aproximar.</em></h2>
-    <p class="lead r" style="--i:6">Plataforma de capacitação como frente de relacionamento e desenvolvimento do canal corretor.</p>
-    <div class="corpo">
-      <div class="abertos c3">
-        <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-target"/></svg></span><span class="rot">Objetivo</span><p style="font-size:2.3rem;margin-top:0">Ampliar o acesso dos corretores a conteúdos de desenvolvimento e apoiar sua jornada profissional.</p></div>
-        <div class="item r" style="--i:8"><span class="ic"><svg class="ico"><use href="#i-list"/></svg></span><span class="rot">Entregas a mapear</span><p style="font-size:2.3rem;margin-top:0">Lançamento e comunicação, trilhas de conteúdo, calendário editorial e ações de adesão.</p></div>
-        <div class="item r" style="--i:9"><span class="ic"><svg class="ico"><use href="#i-sparkles"/></svg></span><span class="rot">Valor esperado</span><p style="font-size:2.3rem;margin-top:0">Mais capacitação, relacionamento contínuo e conexão com o GBOEX.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="evolua-indicadores" data-title="Como acompanhar o Evolua" data-sec="06 · Treinamentos">
-  <div class="stage">
-    <p class="kicker r">06 · Evolua Corretor</p>
-    <h2 class="titulo" data-split>Como vamos acompanhar</h2>
-    <p class="lead r" style="--i:3"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span> Números de cada indicador.</p>
-    <div class="corpo">
-      <div class="abertos c4">
-        <div class="item r" style="--i:4"><span class="ic"><svg class="ico"><use href="#i-users"/></svg></span><h3>Corretores cadastrados</h3><p class="pend-val">a inserir</p></div>
-        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-trend"/></svg></span><h3>Taxa de ativação</h3><p class="pend-val">a inserir</p></div>
-        <div class="item r" style="--i:6"><span class="ic"><svg class="ico"><use href="#i-grad"/></svg></span><h3>Cursos concluídos</h3><p class="pend-val">a inserir</p></div>
-        <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-star"/></svg></span><h3>Satisfação e avaliação</h3><p class="pend-val">a inserir</p></div>
-      </div>
-      <p class="chave r" style="--i:9"><small><svg class="ico"><use href="#i-briefcase"/></svg>Apoio necessário</small><span>Validar <b>público prioritário</b>, plano de divulgação, metas de adesão e modelo de acompanhamento.</span></p>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="outros-treinamentos" data-title="Outros treinamentos" data-sec="06 · Treinamentos">
-  <div class="stage">
-    <p class="kicker r">06 · Treinamentos</p>
-    <h2 class="titulo" data-split>Outros treinamentos</h2>
-    <div class="corpo">
-      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Treinamentos realizados</b><small>Nome, público, data e número de participantes.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Fotos ou prints</b><small>Registros dos treinamentos.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="portal" data-title="Portal de Inteligência de Mercado" data-sec="07 · Inteligência de mercado">
-  <div class="stage">
-    <p class="kicker r">07 · Inteligência de mercado · Dashboard</p>
-    <h2 class="titulo" data-split>Portal de Inteligência de Mercado</h2>
-    <div class="corpo">
-      <figure class="entrega r r-z" style="--i:3">
-        <div class="janela"><img src="assets/img/portal-inteligencia.webp" alt="Tela do Portal de Inteligência de Mercado" loading="lazy"></div>
-        <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Portal com dados internos do Oracle · versão 6.31 · referência outubro/2026</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="ferramenta-expansao" data-title="Ferramenta de expansão" data-sec="07 · Inteligência de mercado">
-  <div class="stage">
-    <p class="kicker r">07 · Inteligência de mercado · Entrega</p>
-    <h2 class="titulo" data-split>Ferramenta de expansão</h2>
-    <div class="corpo">
-      <div class="pend-grid g1"><div class="pend r pend--alta" style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Print da ferramenta de expansão</b><small>Tela principal da ferramenta, em alta resolução.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="radar-mercado" data-title="Radar de crescimento de mercado" data-sec="07 · Inteligência de mercado">
-  <div class="stage">
-    <p class="kicker r">07 · Inteligência de mercado · Dados externos</p>
-    <h2 class="titulo" data-split>Radar de crescimento de mercado</h2>
-    <div class="corpo">
-      <figure class="entrega r r-z" style="--i:3">
-        <div class="janela"><img src="assets/img/radar-mercado.webp" alt="Tela do Radar de crescimento de mercado da Connect Smart Data" loading="lazy"></div>
-        <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Painel de dados externos com a Connect Smart Data</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<section class="slide slide--dark" id="projecao" data-title="Projeção de fechamento de outubro" data-sec="07 · Inteligência de mercado">
-  <div class="stage" style="justify-content:center">
-    <p class="kicker r">07 · Projeções · Outubro/2026</p>
-    <p class="hero-num xb"><span data-to="231723.68" data-dec="2" data-pre="R$ ">R$ 231.723,68</span></p>
-    <p class="hero-sub r" style="--i:2">é a projeção de fechamento do mês: <b>103,4% da meta</b> de R$ 224.021,50.</p>
-    <div class="r" style="--i:4;margin-top:7.2rem;max-width:116rem">
-      <div class="meta-barra" style="--w:70.5%"><b class="projfaixa"></b><i></i><span class="metamark"><em>meta</em></span><span class="projmark"></span></div>
-      <div class="meta-leg"><span>Atingido até 23/10: <b>77,58%</b></span><span>Projeção: <b>103,4%</b> · R$ 7.702,18 acima da meta</span></div>
-    </div>
-    <p class="nota r" style="--i:6;margin-top:4rem">Portal de Inteligência de Mercado (dados do Oracle) · valores de produção abrangem pecúlio, serviços e seguro.</p>
-  </div>
-</section>
-
-<section class="slide" id="numeros" data-title="Outubro em seis números" data-sec="07 · Inteligência de mercado">
-  <div class="stage">
-    <p class="kicker r">07 · Projeções · Posição de 23/10/2026</p>
-    <h2 class="titulo" data-split>Outubro em seis números</h2>
-    <div class="corpo">
-      <div class="stats">
-        <div class="stat r" style="--i:3"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-coins"/></svg></span>Acumulado no mês</span><span class="v xb"><span data-to="173.8" data-dec="1" data-pre="R$ " data-suf=" mil">R$ 173,8 mil</span></span><br><span class="var">▲ 18,3%</span></div>
-        <div class="stat r" style="--i:4"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-flag"/></svg></span>Meta militar</span><span class="v xb"><span data-to="123.16" data-dec="2" data-suf="%">123,16%</span></span><span class="ctx">R$ 101,6 mil realizados de R$ 82,5 mil</span></div>
-        <div class="stat r" style="--i:5"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-clock"/></svg></span>Média diária</span><span class="v xb"><span data-to="11586" data-pre="R$ ">R$ 11.586</span></span><span class="ctx">necessária: R$ 10.046</span></div>
-        <div class="stat r" style="--i:6"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-users"/></svg></span>Sócios</span><span class="v xb"><span data-to="1387">1.387</span></span><br><span class="var">▲ 21,1%</span></div>
-        <div class="stat r" style="--i:7"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-monitor"/></svg></span>Participação digital</span><span class="v xb"><span data-to="74.2" data-dec="1" data-suf="%">74,2%</span></span><br><span class="var">▲ 5,0%</span></div>
-        <div class="stat r" style="--i:8"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-shield"/></svg></span>Participação militar</span><span class="v xb"><span data-to="58.5" data-dec="1" data-suf="%">58,5%</span></span><br><span class="var neg">▼ 4,0%</span></div>
-      </div>
-      <p class="nota r" style="--i:9">Variações: mês atual × mesmo período do mês anterior. Planos: 1.517 (▲ 21,0%).</p>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="endomarketing" data-title="Endomarketing" data-sec="08 · Endomarketing">
-  <div class="stage">
-    <p class="kicker r">08 · Endomarketing</p>
-    <h2 class="titulo" data-split>Endomarketing: entregas e projetos</h2>
-    <div class="corpo">
-      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Entregas realizadas</b><small>Campanhas internas, datas comemorativas e ações.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Projetos</b><small>Projetos em andamento e previstos para 2027.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Fotos ou peças</b><small>Registros das ações.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="midias" data-title="Mídias" data-sec="09 · Mídias">
-  <div class="stage">
-    <p class="kicker r">09 · Mídias</p>
-    <h2 class="titulo" data-split>Mídias</h2>
-    <div class="corpo">
-      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Mídias veiculadas</b><small>Offline e online, com período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Números</b><small>Investimento, alcance e resultados.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Peças</b><small>Prints ou fotos das peças veiculadas.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="performance" data-title="Performance" data-sec="10 · Performance">
-  <div class="stage">
-    <p class="kicker r">10 · Performance</p>
-    <h2 class="titulo" data-split>Performance: leads e ferramenta de IA</h2>
-    <div class="corpo">
-      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Leads</b><small>Volume, origem e conversão no período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Print da ferramenta de IA</b><small>Tela da ferramenta usada na geração ou gestão de leads.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="assessoria" data-title="Assessoria de imprensa" data-sec="11 · Reputação">
-  <div class="stage">
-    <p class="kicker r">11 · Reputação · Assessoria de imprensa</p>
-    <h2 class="titulo" data-split>Assessoria de imprensa</h2>
-    <div class="corpo">
-      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Matérias publicadas</b><small>Clipping ou prints das principais matérias.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Números</b><small>Inserções, veículos e período.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="radar-gboex" data-title="Radar GBOEX" data-sec="11 · Reputação">
-  <div class="stage">
-    <p class="kicker r">11 · Reputação · Ferramenta de IA</p>
-    <h2 class="titulo" data-split>Radar GBOEX: monitoramento da marca</h2>
-    <div class="corpo">
-      <figure class="entrega r r-z" style="--i:3">
-        <div class="entrega-duo">
-          <div class="janela"><img src="assets/img/radar-gboex.webp" alt="Tela do Radar GBOEX com o monitor de menções da marca" loading="lazy"></div>
-          <div class="janela"><img src="assets/img/radar-gboex-graficos.webp" alt="Tela do Radar GBOEX com gráficos de volume e sentimento" loading="lazy"></div>
-        </div>
-        <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Monitor de notícias, redes e menções · em operação desde 30/03/2026</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="pix-midia" data-title="Pix Mídia" data-sec="12 · Comunicação interna">
-  <div class="stage">
-    <p class="kicker r">12 · Comunicação interna</p>
-    <h2 class="titulo" data-split>Pix Mídia</h2>
-    <div class="corpo">
-      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>O que é e como funciona</b><small>Descrição curta do Pix Mídia.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Prints ou peças</b><small>Exemplos do que foi enviado.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Números</b><small>Envios, alcance ou adesão.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="com-externa" data-title="Comunicação externa" data-sec="13 · Comunicação externa">
-  <div class="stage">
-    <p class="kicker r">13 · Comunicação externa</p>
-    <h2 class="titulo" data-split>Comunicação externa</h2>
-    <div class="corpo">
-      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Assessoria de imprensa</b><small>Principais entregas (ver também a seção 11).</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Redes sociais</b><small>Números e prints dos perfis.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Podcast</b><small>Episódios, prints e números.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="eventos" data-title="Eventos" data-sec="14 · Eventos">
-  <div class="stage">
-    <p class="kicker r">14 · Eventos</p>
-    <h2 class="titulo" data-split>Eventos</h2>
-    <div class="corpo">
-      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Eventos realizados</b><small>Lista com datas e público.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Fotos</b><small>Registros dos eventos.</small></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide slide--dark slide--divisor fim" id="fim" data-title="Obrigado" data-sec="Encerramento">
-  <div class="stage">
-    <svg class="aneis" data-par style="--par:-2.4" viewBox="0 0 1000 1000" aria-hidden="true"><g class="giro"><circle cx="500" cy="500" r="200"/><circle cx="500" cy="500" r="300" stroke-dasharray="4 14"/><circle cx="500" cy="500" r="400"/><circle cx="500" cy="500" r="490" stroke-dasharray="2 10"/></g></svg>
-    <img class="capa-logo r" src="assets/img/logo-gboex-branco.png" alt="GBOEX">
-    <h2 class="fim-titulo xb" data-split>Tradição que inspira.<br>Inovação que conecta.<br><em>Marketing que gera valor.</em></h2>
-    <p class="fim-obrigado r" style="--i:10">Obrigado.</p>
-    <svg class="arco capa-arco" data-par style="--par:1.2;height:9rem" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true"><use href="#arc"/></svg>
-  </div>
-</section>
-
-<section class="slide slide--dark slide--divisor divisor" id="sec-anexo" data-title="Anexo" data-sec="Anexo">
-  <div class="stage">
-    <div class="div-base" aria-hidden="true"></div>
-    <p class="kicker r">Anexo</p>
-    <h2 class="div-titulo xb" data-split>Material de apoio</h2>
-    <p class="div-sub r" style="--i:7">Slides fora do roteiro principal: manter, mover ou cortar.</p>
-    <svg class="arco div-arco" data-par style="--par:1.6;height:6rem" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true"><use href="#arc"/></svg>
-  </div>
-</section>
-
-<section class="slide" id="miv" data-title="MIV 2026" data-sec="Anexo">
-  <div class="stage">
-    <p class="kicker r">Anexo · Consistência · MIV 2026</p>
-    <h2 class="titulo" data-split>Uma identidade para todos os pontos de contato</h2>
-    <div class="corpo">
-      <div class="miv">
-        <div style="display:flex;flex-direction:column;gap:4rem">
-          <div class="miv-bloco r" style="--i:4"><h3>Cores</h3>
-            <div class="paleta">
-              <div class="cor" style="background:#005782;color:#fff">Azul principal<br>#005782</div>
-              <div class="cor" style="background:linear-gradient(90deg,#003D5C,#006EA4);color:#fff">Gradiente azul</div>
-              <div class="cor" style="background:#E4C740;color:#003D5C">Amarelo principal<br>#E4C740</div>
-              <div class="cor" style="background:linear-gradient(90deg,#A48700,#EFE495,#A48700);color:#003D5C">Gradiente do arco</div>
-            </div></div>
-          <div class="miv-bloco r" style="--i:5"><h3>Tipografia</h3><p class="fonte-amostra">Sansation<span>Light · Regular · Bold</span></p></div>
-          <div class="miv-bloco r" style="--i:6"><h3>Elementos</h3>
-            <div class="elementos">
-              <svg class="el-arco" viewBox="0 0 1000 100" preserveAspectRatio="none" style="height:3rem" aria-hidden="true"><use href="#arc"/></svg>
-              <span class="el-arcotopo" title="Arcos voltados para cima"></span><span class="el-ret" title="Cantos arredondados"></span><span class="el-pill" title="CTA 100% arredondado"></span>
-            </div></div>
-        </div>
-        <div>
-          <div class="aplicacoes r r-z" style="--i:7">
-            <img src="assets/img/miv-aplicacao-1.webp" alt="Aplicação do MIV: card institucional azul com rodapé amarelo em arco" loading="lazy">
-            <img src="assets/img/miv-aplicacao-2.webp" alt="Aplicação do MIV: peça do produto Vida Longa" loading="lazy">
-          </div>
-          <p class="mote r" style="--i:9"><small>Mote de campanha</small>“Planos para a sua vida”</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="reforma" data-title="Reforma das unidades" data-sec="Anexo">
-  <div class="stage">
-    <p class="kicker r">Anexo · Experiência do cliente</p>
-    <h2 class="titulo" data-split>A unidade também é ponto de contato da marca</h2>
-    <div class="corpo">
-      <div class="reforma">
-        <div class="ba dica r r-z" style="--i:4">
-          <img src="assets/img/unidade-projeto.webp" alt="Projeto de reforma da unidade: painel ripado em madeira, logo GBOEX e escada preta" loading="lazy">
-          <img class="antes" src="assets/img/unidade-antiga-escada.webp" alt="Unidade atual: recepção com bandeira GBOEX e escada caracol" loading="lazy">
-          <span class="linha"></span><span class="puxador"><svg class="ico"><use href="#i-swap"/></svg></span>
-          <span class="tag a">Hoje</span><span class="tag d">Projeto de reforma</span>
-          <input id="ba-reforma" type="range" min="0" max="100" value="50" aria-label="Comparar unidade atual e projeto de reforma">
-        </div>
-        <div>
-          <p class="texto-g r" style="--i:6">Mesmo espaço, novo padrão. A reforma leva <b>a identidade da marca</b> para o atendimento presencial.</p>
-          <ul class="lista-g" style="margin-top:3.2rem">
-            <li class="r" style="--i:7"><svg class="ico"><use href="#i-check"/></svg>Identidade visual no ambiente.</li>
-            <li class="r" style="--i:8"><svg class="ico"><use href="#i-check"/></svg>Acolhimento na espera.</li>
-            <li class="r" style="--i:9"><svg class="ico"><use href="#i-check"/></svg>Percepção de solidez e cuidado.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="slide slide--dark" id="onde-compraria" data-title="Onde você compraria?" data-sec="Anexo">
-  <div class="stage">
-    <p class="kicker r">Anexo · Experiência do cliente</p>
-    <h2 class="mega xb" data-split style="margin-top:1.4rem;font-size:6.4rem">Onde você compraria?</h2>
-    <div class="corpo" style="margin-top:4rem">
-      <div class="compraria">
-        <div class="foto foto--a kb r r-l" style="--i:4"><img src="assets/img/unidade-antiga-2.webp" alt="Unidade com piso azul, divisórias antigas e cadeiras desgastadas" loading="lazy"><span class="letra">A</span><span class="tag">Padrão atual</span></div>
-        <div class="foto foto--b kb r" style="--i:6"><img src="assets/img/unidade-reformada.webp" alt="Unidade reformada com painel ripado, logo GBOEX iluminada e cadeiras azuis" loading="lazy"><span class="letra">B</span><span class="tag">Unidade reformada</span></div>
-        <div class="foto foto--b kb r" style="--i:7"><img src="assets/img/sala-reuniao.webp" alt="Sala de reunião reformada com mesa branca e iluminação linear" loading="lazy"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="ferramentas" data-title="Ferramentas que sustentam a execução" data-sec="Anexo">
-  <div class="stage">
-    <p class="kicker r">Anexo · Entregas · Capacidade de execução</p>
-    <h2 class="titulo" data-split>Ferramentas que já sustentam a execução</h2>
-    <div class="corpo">
-      <div class="ferramentas">
-        <div class="ferramenta r r-l" style="--i:4">
-          <div class="janela"><img src="assets/img/crm-tarefas.webp" alt="Sistema de tarefas do Marketing em quadro kanban: a fazer, fazendo e concluído" loading="lazy"></div>
-          <span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span><h3><svg class="ico"><use href="#i-kanban"/></svg>CRM e gestão de tarefas</h3>
-          <p>Demandas, agenda, pedidos e chat em um só lugar, com visão de carga por pessoa.</p>
-        </div>
-        <div class="ferramenta r" style="--i:6">
-          <div class="janela"><img src="assets/img/catalogo-materiais.webp" alt="Catálogo de materiais de marketing com 81 itens e especificações para fornecedores" loading="lazy"></div>
-          <span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span><h3><svg class="ico"><use href="#i-book"/></svg>Catálogo de materiais</h3>
-          <p><b>81 itens</b> com especificação para fornecedores, em 7 categorias, integrado ao MIV.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="publicos" data-title="Nossos públicos" data-sec="Anexo">
-  <div class="stage">
-    <p class="kicker r">Anexo · Quem somos</p>
-    <h2 class="titulo" data-split>Para quem trabalhamos</h2>
+    <p class="kicker r">01 · Quem somos</p>
+    <h2 class="titulo" data-split>Nossos públicos</h2>
     <div class="corpo">
       <div class="publicos">
         <div class="publico r" style="--i:3"><span class="ic"><svg class="ico"><use href="#i-heart"/></svg></span><b>Clientes e famílias</b></div>
@@ -1042,10 +675,10 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="pilares" data-title="Quatro pilares — MKT 360" data-sec="Anexo">
+<section class="slide" id="pilares" data-title="Quatro pilares — MKT 360" data-sec="01 · Quem somos">
   <div class="stage">
-    <p class="kicker r">Anexo · Quem somos · Pilares de atuação</p>
-    <h2 class="titulo" data-split>Quatro pilares, um marketing 360°</h2>
+    <p class="kicker r">01 · Quem somos · Pilares de atuação</p>
+    <h2 class="titulo" data-split>Nossos pilares de atuação: MKT 360</h2>
     <div class="corpo" style="justify-content:flex-end">
       <div class="pilares">
         <div class="pilar b">
@@ -1084,17 +717,46 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="conexao" data-title="Marketing conecta estratégia e públicos" data-sec="Anexo">
+<section class="slide slide--dark" id="proposito" data-title="Propósito" data-sec="02 · Propósito e direcionamento">
   <div class="stage" style="justify-content:center">
-    <p class="kicker r">Anexo · Direcionamento</p>
+    <p class="kicker r">02 · Propósito · Nosso propósito</p>
+    <h2 class="mega xb" data-split style="margin-top:2.4rem;font-size:6.4rem">Fortalecer a presença e a reputação do GBOEX, unindo tradição e inovação para impulsionar o <em>crescimento sustentável.</em></h2>
+  </div>
+</section>
+
+<section class="slide slide--dark" id="visao" data-title="Visão e jeito de ser" data-sec="02 · Propósito e direcionamento">
+  <div class="stage" style="justify-content:center;gap:5.6rem">
+    <div>
+      <p class="kicker r">02 · Propósito · Nossa visão</p>
+      <h2 class="texto-g" data-split style="font-size:4.4rem;line-height:1.25;font-weight:400;color:#fff;max-width:124rem;margin-top:2rem">Ser referência em marketing no setor de seguros de pessoas, conectando gerações e fortalecendo o futuro.</h2>
+    </div>
+    <div class="r" style="--i:8">
+      <p class="kicker" style="margin-bottom:1.8rem">Nosso jeito de ser</p>
+      <div class="chips"><span class="chip"><svg class="ico"><use href="#i-scale"/></svg>Ética e respeito</span><span class="chip"><svg class="ico"><use href="#i-sparkles"/></svg>Criatividade e inovação</span><span class="chip"><svg class="ico"><use href="#i-users"/></svg>Colaboração</span><span class="chip"><svg class="ico"><use href="#i-target"/></svg>Foco no cliente</span><span class="chip"><svg class="ico"><use href="#i-trend"/></svg>Orientação a resultados</span></div>
+    </div>
+    <p class="mais-g r" style="--i:10"><span>Mais</span><span class="gira" aria-label="proteção, famílias, histórias, futuro"><span class="on">proteção.</span><span>famílias.</span><span>histórias.</span><span>futuro.</span></span></p>
+  </div>
+</section>
+
+<section class="slide slide--dark" id="direcionamento" data-title="O que faz comprar e o que faz continuar?" data-sec="02 · Propósito e direcionamento">
+  <div class="stage" style="justify-content:center">
+    <p class="kicker r">02 · Direcionamento</p>
+    <h2 class="mega xb" data-split style="margin-top:2.4rem">O que faz comprar e o que faz <em>continuar?</em></h2>
+    <p class="texto-g r" style="--i:8;margin-top:4.8rem">A pergunta principal: <b>você nos indicaria?</b></p>
+  </div>
+</section>
+
+<section class="slide" id="conexao" data-title="Marketing conecta estratégia e públicos" data-sec="02 · Propósito e direcionamento">
+  <div class="stage" style="justify-content:center">
+    <p class="kicker r">02 · Direcionamento · Estrutura GERPIMM</p>
     <h2 class="mega" data-split style="margin-top:2.4rem;font-size:6.4rem">O Marketing conecta a estratégia do GBOEX aos públicos que <em>sustentam sua relevância.</em></h2>
     <p class="texto-g r" style="--i:9;margin-top:4.8rem">Clientes, corretores, colaboradores e parceiros. Uma visão integrada para fortalecer <b>marca, mercado, relacionamento e capacidade de execução.</b></p>
   </div>
 </section>
 
-<section class="slide" id="valor" data-title="Marketing como conexão entre estratégia e valor" data-sec="Anexo">
+<section class="slide" id="valor" data-title="Marketing como conexão entre estratégia e valor" data-sec="02 · Propósito e direcionamento">
   <div class="stage">
-    <p class="kicker r">Anexo · Direcionamento</p>
+    <p class="kicker r">02 · Direcionamento · Estrutura GERPIMM</p>
     <h2 class="titulo" data-split>Marketing como conexão entre estratégia e valor</h2>
     <div class="corpo">
       <div class="abertos c4">
@@ -1108,111 +770,50 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="swot-interno" data-title="SWOT: forças e fraquezas" data-sec="Anexo">
+<section class="slide" id="swot-interno" data-title="SWOT: forças e fraquezas" data-sec="02 · Propósito e direcionamento">
   <div class="stage">
-    <p class="kicker r">Anexo · Direcionamento · Matriz SWOT</p>
-    <h2 class="titulo" data-split>Ambiente interno</h2>
+    <p class="kicker r">02 · Direcionamento · Matriz SWOT</p>
+    <h2 class="titulo" data-split>Matriz SWOT: ambiente interno</h2>
+    <p class="lead r" style="--i:3">Diagnóstico estratégico: ambiente interno, ambiente externo e perspectivas para 2027.</p>
     <div class="corpo">
-      <div class="swot-open">
+      <div class="swot-open swot-full">
         <div class="r r-l" style="--i:3">
           <h3 class="swot-h">Forças <small>Strengths</small></h3>
-          <ul class="lista-g">
-            <li><svg class="ico"><use href="#i-check"/></svg>Tradição e história centenária.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Credibilidade, solidez e segurança.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Experiência no mercado segurador.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Relacionamento com corretores e parceiros.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Portfólio de produtos e serviços.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Equipe com diferentes especialidades de Marketing.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Potencial de conexão emocional com a marca.</li>
-            <li><svg class="ico"><use href="#i-check"/></svg>Iniciativas de capacitação e relacionamento comercial.</li>
-          </ul>
+          <ul class="lista-g"><li><svg class="ico"><use href="#i-check"/></svg>Tradição e história centenária.</li><li><svg class="ico"><use href="#i-check"/></svg>Credibilidade, solidez e segurança.</li><li><svg class="ico"><use href="#i-check"/></svg>Experiência no mercado segurador.</li><li><svg class="ico"><use href="#i-check"/></svg>Relacionamento com corretores e parceiros.</li><li><svg class="ico"><use href="#i-check"/></svg>Portfólio de produtos e serviços.</li><li><svg class="ico"><use href="#i-check"/></svg>Equipe com diferentes especialidades de Marketing.</li><li><svg class="ico"><use href="#i-check"/></svg>Potencial de conexão emocional com a marca.</li><li><svg class="ico"><use href="#i-check"/></svg>Iniciativas de capacitação e relacionamento comercial.</li></ul>
         </div>
         <div class="r" style="--i:5">
           <h3 class="swot-h ouro">Fraquezas <small>Weaknesses</small></h3>
-          <ul class="lista-g">
-            <li><svg class="ico"><use href="#i-alert"/></svg>Integração entre Marketing, Comercial e Produtos.</li>
-            <li><svg class="ico"><use href="#i-alert"/></svg>Inteligência de mercado a ampliar.</li>
-            <li><svg class="ico"><use href="#i-alert"/></svg>Dependência de agências e fornecedores em algumas entregas.</li>
-            <li><svg class="ico"><use href="#i-alert"/></svg>Desafio de mensurar o retorno de algumas ações.</li>
-            <li><svg class="ico"><use href="#i-alert"/></svg>Presença digital a modernizar e diferenciar.</li>
-            <li><svg class="ico"><use href="#i-alert"/></svg>Campanhas com pouca segmentação e personalização.</li>
-            <li><svg class="ico"><use href="#i-alert"/></svg>Processos e responsabilidades entre áreas a esclarecer.</li>
-            <li><svg class="ico"><use href="#i-alert"/></svg>Capacidade operacional limitada diante das demandas.</li>
-          </ul>
+          <ul class="lista-g"><li><svg class="ico"><use href="#i-alert"/></svg>Necessidade de maior integração entre Marketing, Comercial e Produtos.</li><li><svg class="ico"><use href="#i-alert"/></svg>Necessidade de ampliar a inteligência de mercado.</li><li><svg class="ico"><use href="#i-alert"/></svg>Dependência de agências e fornecedores em determinadas entregas.</li><li><svg class="ico"><use href="#i-alert"/></svg>Desafio de mensurar o retorno de algumas ações.</li><li><svg class="ico"><use href="#i-alert"/></svg>Necessidade de modernização e diferenciação da presença digital.</li><li><svg class="ico"><use href="#i-alert"/></svg>Necessidade de maior segmentação e personalização das campanhas.</li><li><svg class="ico"><use href="#i-alert"/></svg>Processos e responsabilidades entre áreas que precisam de maior clareza.</li><li><svg class="ico"><use href="#i-alert"/></svg>Capacidade operacional limitada diante do volume de demandas.</li></ul>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="slide" id="swot-externo" data-title="SWOT: oportunidades e ameaças" data-sec="Anexo">
+<section class="slide" id="swot-externo" data-title="SWOT: oportunidades e ameaças" data-sec="02 · Propósito e direcionamento">
   <div class="stage">
-    <p class="kicker r">Anexo · Direcionamento · Matriz SWOT</p>
-    <h2 class="titulo" data-split>Ambiente externo e perspectivas para 2027</h2>
+    <p class="kicker r">02 · Direcionamento · Matriz SWOT</p>
+    <h2 class="titulo" data-split>Matriz SWOT: ambiente externo</h2>
     <div class="corpo">
-      <div class="swot-open">
+      <div class="swot-open swot-full">
         <div class="r r-l" style="--i:3">
           <h3 class="swot-h">Oportunidades <small>Opportunities</small></h3>
-          <ul class="lista-g">
-            <li><svg class="ico"><use href="#i-plus"/></svg>Crescimento do mercado de seguros de pessoas.</li>
-            <li><svg class="ico"><use href="#i-plus"/></svg>Consciência sobre proteção financeira e familiar.</li>
-            <li><svg class="ico"><use href="#i-plus"/></svg>Envelhecimento e novas configurações familiares.</li>
-            <li><svg class="ico"><use href="#i-plus"/></svg>Inteligência artificial aplicada ao Marketing.</li>
-            <li><svg class="ico"><use href="#i-plus"/></svg>Marketing orientado por dados e personalização.</li>
-            <li><svg class="ico"><use href="#i-plus"/></svg>Fortalecimento do canal de corretores.</li>
-            <li><svg class="ico"><use href="#i-plus"/></svg>Conteúdo educativo e autoridade institucional.</li>
-            <li><svg class="ico"><use href="#i-plus"/></svg>Expansão de vídeos e conteúdos digitais.</li>
-            <li><svg class="ico"><use href="#i-plus"/></svg>Parcerias e expansão da Rede de Vantagens.</li>
-          </ul>
+          <ul class="lista-g"><li><svg class="ico"><use href="#i-plus"/></svg>Crescimento do mercado de seguros de pessoas.</li><li><svg class="ico"><use href="#i-plus"/></svg>Maior conscientização sobre proteção financeira e familiar.</li><li><svg class="ico"><use href="#i-plus"/></svg>Envelhecimento populacional e novas configurações familiares.</li><li><svg class="ico"><use href="#i-plus"/></svg>Inteligência artificial aplicada ao Marketing.</li><li><svg class="ico"><use href="#i-plus"/></svg>Marketing orientado por dados e personalização.</li><li><svg class="ico"><use href="#i-plus"/></svg>Fortalecimento do canal de corretores.</li><li><svg class="ico"><use href="#i-plus"/></svg>Conteúdo educativo e autoridade institucional.</li><li><svg class="ico"><use href="#i-plus"/></svg>Expansão de vídeos e conteúdos digitais.</li><li><svg class="ico"><use href="#i-plus"/></svg>Parcerias e expansão da Rede de Vantagens.</li></ul>
         </div>
         <div class="r" style="--i:5">
           <h3 class="swot-h ouro">Ameaças <small>Threats</small></h3>
-          <ul class="lista-g">
-            <li><svg class="ico"><use href="#i-minus"/></svg>Concorrentes com mais investimento em tecnologia e mídia.</li>
-            <li><svg class="ico"><use href="#i-minus"/></svg>Insurtechs e novos modelos de distribuição.</li>
-            <li><svg class="ico"><use href="#i-minus"/></svg>Mudanças no comportamento das novas gerações.</li>
-            <li><svg class="ico"><use href="#i-minus"/></svg>Custos de mídia e aquisição de clientes em alta.</li>
-            <li><svg class="ico"><use href="#i-minus"/></svg>Excesso de informação e disputa pela atenção.</li>
-            <li><svg class="ico"><use href="#i-minus"/></svg>Dependência dos algoritmos das plataformas.</li>
-            <li><svg class="ico"><use href="#i-minus"/></svg>Desinformação e baixa compreensão sobre seguros.</li>
-            <li><svg class="ico"><use href="#i-minus"/></svg>Riscos reputacionais, regulatórios e de dados.</li>
-            <li><svg class="ico"><use href="#i-minus"/></svg>Instabilidade econômica e orçamento familiar.</li>
-          </ul>
+          <ul class="lista-g"><li><svg class="ico"><use href="#i-minus"/></svg>Concorrentes com maior investimento em tecnologia e mídia.</li><li><svg class="ico"><use href="#i-minus"/></svg>Insurtechs e novos modelos de distribuição.</li><li><svg class="ico"><use href="#i-minus"/></svg>Mudanças no comportamento das novas gerações.</li><li><svg class="ico"><use href="#i-minus"/></svg>Aumento dos custos de mídia e aquisição de clientes.</li><li><svg class="ico"><use href="#i-minus"/></svg>Excesso de informações e disputa pela atenção do consumidor.</li><li><svg class="ico"><use href="#i-minus"/></svg>Dependência dos algoritmos das plataformas digitais.</li><li><svg class="ico"><use href="#i-minus"/></svg>Desinformação e baixa compreensão sobre seguros.</li><li><svg class="ico"><use href="#i-minus"/></svg>Riscos reputacionais, regulatórios e de proteção de dados.</li><li><svg class="ico"><use href="#i-minus"/></svg>Instabilidade econômica e pressão sobre o orçamento familiar.</li></ul>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="slide" id="ciclo-vida" data-title="Ciclo de vida dos produtos" data-sec="Anexo">
+<section class="slide" id="mapa" data-title="Quatro frentes integradas" data-sec="02 · Propósito e direcionamento">
   <div class="stage">
-    <p class="kicker r">Anexo · Produtos</p>
-    <h2 class="titulo" data-split>Ciclo de vida dos produtos</h2>
-    <p class="lead r" style="--i:3">Cada fase pede um papel diferente do Marketing, do “fazer comprar” ao “fazer continuar”.</p>
-    <div class="corpo">
-      <div class="ciclo">
-        <svg viewBox="0 0 1400 300" aria-hidden="true">
-          <path class="area" d="M20 290 C200 288 280 262 350 222 C450 150 560 72 700 56 C820 42 950 48 1050 80 C1150 112 1250 160 1380 195 L1380 300 L20 300Z"/>
-          <line class="sep" x1="350" y1="0" x2="350" y2="300"/><line class="sep" x1="700" y1="0" x2="700" y2="300"/><line class="sep" x1="1050" y1="0" x2="1050" y2="300"/>
-          <path class="curva" pathLength="1" d="M20 290 C200 288 280 262 350 222 C450 150 560 72 700 56 C820 42 950 48 1050 80 C1150 112 1250 160 1380 195"/>
-          <path class="renova" pathLength="1" d="M1050 80 C1150 70 1260 40 1380 18"/>
-        </svg>
-        <div class="fases">
-          <div class="fase r" style="--i:5"><h3><span class="ic-s"><svg class="ico"><use href="#i-rocket"/></svg></span>Lançamento</h3><span class="q">Fazer conhecer</span><p>Comunicação de lançamento, capacitação do canal e materiais de venda.</p></div>
-          <div class="fase r" style="--i:7"><h3><span class="ic-s"><svg class="ico"><use href="#i-trend"/></svg></span>Crescimento</h3><span class="q">Fazer comprar</span><p>Campanhas comerciais, ativação de corretores e mídia.</p></div>
-          <div class="fase r" style="--i:9"><h3><span class="ic-s"><svg class="ico"><use href="#i-heart"/></svg></span>Maturidade</h3><span class="q">Fazer continuar</span><p>Relacionamento, Rede de Vantagens, retenção e indicação.</p></div>
-          <div class="fase r" style="--i:11"><h3><span class="ic-s"><svg class="ico"><use href="#i-refresh"/></svg></span>Renovação</h3><span class="q">Revisar e reposicionar</span><p>Inteligência de mercado orienta ajustes de oferta.</p></div>
-        </div>
-      </div>
-      <p class="nota r" style="--i:12">Posicionamento de cada produto na curva: a validar com a área de Produtos.</p>
-    </div>
-  </div>
-</section>
-
-<section class="slide" id="mapa" data-title="Quatro frentes integradas" data-sec="Anexo">
-  <div class="stage">
-    <p class="kicker r">Anexo · Mapa estratégico</p>
-    <h2 class="titulo" data-split>Quatro frentes integradas</h2>
+    <p class="kicker r">02 · Mapa estratégico</p>
+    <h2 class="titulo" data-split>Um portfólio, quatro frentes integradas</h2>
+    <p class="lead r" style="--i:3">As iniciativas se complementam e devem operar com objetivos, responsáveis e indicadores claros.</p>
     <div class="corpo">
       <div class="frentes">
         <div class="frente r" style="--i:3"><span class="ic"><svg class="ico"><use href="#i-mega"/></svg></span><div><h3>Marca &amp; Comunicação</h3><p>Reputação · consistência · presença</p></div></div>
@@ -1225,29 +826,130 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="portfolio" data-title="Oito projetos do Marketing" data-sec="Anexo">
+<section class="slide" id="portfolio" data-title="Oito projetos do Marketing" data-sec="02 · Propósito e direcionamento">
   <div class="stage">
-    <p class="kicker r">Anexo · Portfólio</p>
-    <h2 class="titulo" data-split>Oito projetos para 2026–2027</h2>
+    <p class="kicker r">02 · Portfólio</p>
+    <h2 class="titulo" data-split>O conjunto de projetos do MKT</h2>
+    <p class="lead r" style="--i:3">Visão executiva das frentes apresentadas para 2026–2027. Status e marcos devem ser validados com os responsáveis.</p>
     <div class="corpo">
       <div class="portfolio">
         <div class="proj r" style="--i:3"><span class="pic"><svg class="ico"><use href="#i-grad"/></svg></span><div><span class="num">01</span><h3>Evolua Corretor</h3><p>Capacitação e engajamento do canal</p></div><span class="pill">Prioritário</span></div>
         <div class="proj r" style="--i:4"><span class="pic"><svg class="ico"><use href="#i-heart"/></svg></span><div><span class="num">05</span><h3>Endomarketing</h3><p>Cultura, pertencimento e experiência</p></div></div>
         <div class="proj r" style="--i:5"><span class="pic"><svg class="ico"><use href="#i-sparkles"/></svg></span><div><span class="num">02</span><h3>Fortalecimento da marca</h3><p>Reputação e consistência institucional</p></div></div>
         <div class="proj r" style="--i:6"><span class="pic"><svg class="ico"><use href="#i-msg"/></svg></span><div><span class="num">06</span><h3>Comunicação interna</h3><p>Alinhamento e clareza para os colaboradores</p></div></div>
-        <div class="proj r" style="--i:7"><span class="pic"><svg class="ico"><use href="#i-target"/></svg></span><div><span class="num">03</span><h3>Campanhas comerciais</h3><p>Ativação e oportunidades de negócio</p></div></div>
+        <div class="proj r" style="--i:7"><span class="pic"><svg class="ico"><use href="#i-target"/></svg></span><div><span class="num">03</span><h3>Campanhas comerciais</h3><p>Apoio à ativação e às oportunidades de negócio</p></div></div>
         <div class="proj r" style="--i:8"><span class="pic"><svg class="ico"><use href="#i-calendar"/></svg></span><div><span class="num">07</span><h3>Eventos</h3><p>Relacionamento e presença estratégica</p></div></div>
         <div class="proj r" style="--i:9"><span class="pic"><svg class="ico"><use href="#i-bulb"/></svg></span><div><span class="num">04</span><h3>Inteligência de mercado</h3><p>Informação para decisões e posicionamento</p></div></div>
         <div class="proj r" style="--i:10"><span class="pic"><svg class="ico"><use href="#i-mega"/></svg></span><div><span class="num">08</span><h3>Mídias</h3><p>Alcance, presença e eficiência dos canais</p></div></div>
       </div>
-      <p class="nota r" style="--i:11">Cada projeto terá ficha executiva com responsável, etapa atual, prazo, dependências e benefício esperado.</p>
+      <p class="nota r" style="--i:11">Para a versão final: incluir responsável, etapa atual, prazo, dependências e benefício esperado de cada projeto.</p>
     </div>
   </div>
 </section>
 
-<section class="slide" id="inteligencia" data-title="Escutar, interpretar, recomendar" data-sec="Anexo">
+<section class="slide" id="linha-do-tempo" data-title="Linha do tempo de produtos" data-sec="03 · Produtos">
   <div class="stage">
-    <p class="kicker r">Anexo · Inteligência de mercado</p>
+    <p class="kicker r">03 · Produtos</p>
+    <h2 class="titulo" data-split>Histórico de produtos: linha do tempo</h2>
+    <p class="lead r" style="--i:3">De 2008 a 2022, três lançamentos em 14 anos. Desde nov/2022, cinco produtos novos.</p>
+    <div class="corpo">
+      <div class="timeline">
+        <div class="tl-item baixo r" style="--i:3"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Vida Longa</b></div><p class="tl-data">ago/2008</p></div>
+        <div class="tl-item r" style="--i:4"><div class="tl-prod tl-militar"><small><svg class="ico"><use href="#i-shield"/></svg>GBOEX</small><b>Força Ativa</b></div><p class="tl-data">ago/2016</p></div>
+        <div class="tl-item baixo r" style="--i:5"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Vida Resgatável</b></div><p class="tl-data">nov/2017</p></div>
+        <div class="tl-item r" style="--i:6"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Vida 360</b></div><p class="tl-data">nov/2022</p></div>
+        <div class="tl-item baixo r" style="--i:7"><div class="tl-prod tl-militar"><small><svg class="ico"><use href="#i-shield"/></svg>GBOEX</small><b>Vida Militar</b></div><p class="tl-data">jun/2024</p></div>
+        <div class="tl-item r" style="--i:8"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Vida Casal</b></div><p class="tl-data">ago/2025</p></div>
+        <div class="tl-item baixo r" style="--i:9"><div class="tl-prod tl-civil"><small><svg class="ico"><use href="#i-heart"/></svg>GBOEX</small><b>Premium</b></div><p class="tl-data">dez/2025</p></div>
+        <div class="tl-item r" style="--i:10"><div class="tl-prod tl-militar"><small><svg class="ico"><use href="#i-shield"/></svg>GBOEX</small><b>Plano Alfa</b></div><p class="tl-data">jun/2026</p></div>
+        <div class="tl-eixo" aria-hidden="true"></div><div class="tl-gap r" style="--i:12;grid-column:1/3"><span><b>8 anos</b>sem lançamento</span></div><div class="tl-gap r" style="--i:13;grid-column:3/5"><span><b>5 anos</b>sem lançamento</span></div>
+      </div>
+      <div class="tl-legenda r" style="--i:11"><span><i style="background:var(--azul)"></i>Linha civil</span><span><i style="background:var(--amarelo)"></i>Linha militar</span><span><i class="tl-gap-leg"></i>Período sem lançamento</span></div>
+      <p class="nota r" style="--i:12">Mensagem-chave: o portfólio deve ser priorizado pelo valor que entrega, e não apenas pelo volume de ações.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="ciclo-vida" data-title="Ciclo de vida dos produtos" data-sec="03 · Produtos">
+  <div class="stage">
+    <p class="kicker r">03 · Produtos</p>
+    <h2 class="titulo" data-split>Ciclo de vida dos produtos</h2>
+    <div class="corpo">
+      <div class="pend-grid g1"><div class="pend r pend--alta" style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Conteúdo do ciclo de vida</b><small>No PPT o slide tem só o título. Falta a posição de cada produto e o texto da equipe.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="mag" data-title="Relacionamento MAG" data-sec="04 · Relacionamento MAG">
+  <div class="stage">
+    <p class="kicker r">04 · Relacionamento MAG</p>
+    <h2 class="titulo" data-split>Relacionamento MAG</h2>
+    <div class="corpo">
+      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>O que foi feito</b><small>Ações e entregas do relacionamento com a MAG.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Resultados</b><small>Números do período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Prints ou fotos</b><small>Registros das ações realizadas.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="rede-vantagens" data-title="Rede de Vantagens" data-sec="05 · Rede de Vantagens">
+  <div class="stage">
+    <p class="kicker r">05 · Rede de Vantagens</p>
+    <h2 class="titulo" data-split>Rede de Vantagens</h2>
+    <div class="corpo">
+      <div class="rede"><div class="pend-col"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Novos parceiros</b><small>Quantidade de parceiros novos no período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Onde é mais utilizada</b><small>Categorias, cidades ou parceiros com mais uso.</small></div></div>
+        <div class="video r r-z" style="--i:5" id="video-rede">
+          <video controls preload="metadata" playsinline><source src="assets/video/rede-de-vantagens.mp4" type="video/mp4"></video>
+          <div class="sem"><span class="play"><svg class="ico"><use href="#i-play"/></svg></span><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Vídeo da Rede de Vantagens</b><small>Inserir o arquivo em assets/video/rede-de-vantagens.mp4</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide slide--dark" id="evolua" data-title="Evolua Corretor" data-sec="06 · Treinamentos">
+  <div class="stage">
+    <p class="kicker r">06 · Projeto prioritário</p>
+    <h2 class="mega xb" data-split style="margin-top:1.6rem">Evolua Corretor: <em>desenvolver para aproximar.</em></h2>
+    <p class="lead r" style="--i:6">Plataforma de capacitação como frente de relacionamento e desenvolvimento do canal corretor.</p>
+    <div class="corpo">
+      <div class="abertos c3">
+        <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-target"/></svg></span><span class="rot">Objetivo</span><p style="font-size:2.3rem;margin-top:0">Ampliar o acesso dos corretores a conteúdos de desenvolvimento e apoiar sua jornada profissional.</p></div>
+        <div class="item r" style="--i:8"><span class="ic"><svg class="ico"><use href="#i-list"/></svg></span><span class="rot">Entregas a mapear</span><p style="font-size:2.3rem;margin-top:0">Lançamento/comunicação, trilhas de conteúdo, calendário editorial e ações de adesão.</p></div>
+        <div class="item r" style="--i:9"><span class="ic"><svg class="ico"><use href="#i-sparkles"/></svg></span><span class="rot">Valor esperado</span><p style="font-size:2.3rem;margin-top:0">Mais oportunidades de capacitação, relacionamento contínuo e conexão com o GBOEX.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="evolua-indicadores" data-title="Como acompanhar o Evolua" data-sec="06 · Treinamentos">
+  <div class="stage">
+    <p class="kicker r">06 · Evolua Corretor</p>
+    <h2 class="titulo" data-split>Indicadores a preencher</h2>
+    <p class="lead r" style="--i:3"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span> Números de cada indicador.</p>
+    <div class="corpo">
+      <div class="abertos c4">
+        <div class="item r" style="--i:4"><span class="ic"><svg class="ico"><use href="#i-users"/></svg></span><h3>Corretores cadastrados</h3><p class="pend-val">a inserir</p></div>
+        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-trend"/></svg></span><h3>Taxa de ativação</h3><p class="pend-val">a inserir</p></div>
+        <div class="item r" style="--i:6"><span class="ic"><svg class="ico"><use href="#i-grad"/></svg></span><h3>Cursos concluídos</h3><p class="pend-val">a inserir</p></div>
+        <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-star"/></svg></span><h3>Satisfação/avaliação</h3><p class="pend-val">a inserir</p></div>
+      </div>
+      <p class="chave r" style="--i:9"><small><svg class="ico"><use href="#i-briefcase"/></svg>Decisão/apoio necessário</small><span>Validar <b>público prioritário</b>, plano de divulgação, metas de adesão e modelo de acompanhamento.</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="outros-treinamentos" data-title="Outros treinamentos" data-sec="06 · Treinamentos">
+  <div class="stage">
+    <p class="kicker r">06 · Treinamentos</p>
+    <h2 class="titulo" data-split>Outros treinamentos</h2>
+    <div class="corpo">
+      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Treinamentos realizados</b><small>Nome, público, data e número de participantes.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Fotos ou prints</b><small>Registros dos treinamentos.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="inteligencia" data-title="Escutar, interpretar, recomendar" data-sec="07 · Inteligência de mercado">
+  <div class="stage">
+    <p class="kicker r">07 · Inteligência de mercado</p>
     <h2 class="titulo" data-split>Transformar informação em decisão</h2>
     <p class="lead r" style="--i:3">Uma frente transversal para qualificar posicionamento, campanhas, produtos e prioridades.</p>
     <div class="corpo">
@@ -1260,122 +962,387 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="entregaveis" data-title="O que a frente de inteligência entrega" data-sec="Anexo">
+<section class="slide" id="entregaveis" data-title="O que a frente de inteligência entrega" data-sec="07 · Inteligência de mercado">
   <div class="stage">
-    <p class="kicker r">Anexo · Inteligência de mercado</p>
-    <h2 class="titulo" data-split>O que essa frente entrega</h2>
+    <p class="kicker r">07 · Inteligência de mercado</p>
+    <h2 class="titulo" data-split>Entregáveis possíveis</h2>
     <div class="corpo">
       <div class="abertos c3">
-        <div class="item r" style="--i:3"><span class="ic"><svg class="ico"><use href="#i-chart"/></svg></span><h3>Painéis</h3><p>Mercado e concorrência, com periodicidade definida.</p></div>
-        <div class="item r" style="--i:4"><span class="ic"><svg class="ico"><use href="#i-ear"/></svg></span><h3>Escuta estruturada</h3><p>Pesquisas com corretores, clientes ou colaboradores.</p></div>
-        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-list"/></svg></span><h3>Sínteses executivas</h3><p>Apoio a decisões de produtos, campanhas e canais.</p></div>
+        <div class="item r" style="--i:3"><span class="ic"><svg class="ico"><use href="#i-chart"/></svg></span><h3>Painéis</h3><p>Painéis de mercado e concorrência com periodicidade definida.</p></div>
+        <div class="item r" style="--i:4"><span class="ic"><svg class="ico"><use href="#i-ear"/></svg></span><h3>Escuta estruturada</h3><p>Pesquisas e escuta estruturada de corretores, clientes ou colaboradores.</p></div>
+        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-list"/></svg></span><h3>Sínteses executivas</h3><p>Sínteses executivas para apoiar decisões de produtos, campanhas e canais.</p></div>
       </div>
       <div class="r" style="--i:7"><p class="kicker" style="margin-bottom:1.8rem">A definir</p><div class="chips"><span class="chip">Fontes de dados</span><span class="chip">Periodicidade</span><span class="chip">Áreas demandantes</span><span class="chip">Responsáveis</span><span class="chip">Critérios de priorização</span></div></div>
     </div>
   </div>
 </section>
 
-<section class="slide" id="campanhas" data-title="Campanhas conectadas a objetivos" data-sec="Anexo">
+<section class="slide" id="portal" data-title="Portal de Inteligência de Mercado" data-sec="07 · Inteligência de mercado">
   <div class="stage">
-    <p class="kicker r">Anexo · Performance comercial</p>
+    <p class="kicker r">07 · Inteligência de mercado · Dashboard</p>
+    <h2 class="titulo" data-split>Portal de Inteligência de Mercado</h2>
+    <div class="corpo">
+      <figure class="entrega r r-z" style="--i:3">
+        <div class="janela"><img src="assets/img/portal-inteligencia.webp" alt="Tela do Portal de Inteligência de Mercado" loading="lazy"></div>
+        <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Portal com dados internos do Oracle · versão 6.31 · referência outubro/2026</figcaption>
+        <p class="descricao">A tela mostra realizado no dia, acumulado no mês, meta atingida, média diária atual e necessária, e projeção de fechamento. Menu com os painéis Resultado geral, Comparativo, Série histórica e Corretores e fidelização.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="ferramenta-expansao" data-title="Ferramenta de expansão" data-sec="07 · Inteligência de mercado">
+  <div class="stage">
+    <p class="kicker r">07 · Inteligência de mercado · Entrega</p>
+    <h2 class="titulo" data-split>Ferramenta de expansão</h2>
+    <div class="corpo">
+      <div class="pend-grid g1"><div class="pend r pend--alta" style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Print da ferramenta de expansão</b><small>Tela principal da ferramenta, em alta resolução.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="radar-mercado" data-title="Radar de crescimento de mercado" data-sec="07 · Inteligência de mercado">
+  <div class="stage">
+    <p class="kicker r">07 · Inteligência de mercado · Dados externos</p>
+    <h2 class="titulo" data-split>Radar de crescimento de mercado</h2>
+    <div class="corpo">
+      <figure class="entrega r r-z" style="--i:3">
+        <div class="janela"><img src="assets/img/radar-mercado.webp" alt="Tela do Radar de crescimento de mercado da Connect Smart Data" loading="lazy"></div>
+        <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Painel de dados externos com a Connect Smart Data</figcaption>
+        <p class="descricao">A tela mostra o crescimento de empresas abertas nos últimos 3 meses (sem MEI): mapa do Brasil por estado e indicadores por segmento.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide slide--dark" id="projecao" data-title="Projeção de fechamento de outubro" data-sec="07 · Inteligência de mercado">
+  <div class="stage" style="justify-content:center">
+    <p class="kicker r">07 · Projeções · Outubro/2026</p>
+    <p class="hero-num xb"><span data-to="231723.68" data-dec="2" data-pre="R$ ">R$ 231.723,68</span></p>
+    <p class="hero-sub r" style="--i:2">é a projeção de fechamento do mês: <b>103,4% da meta</b> de R$ 224.021,50.</p>
+    <div class="r" style="--i:4;margin-top:7.2rem;max-width:116rem">
+      <div class="meta-barra" style="--w:70.5%"><b class="projfaixa"></b><i></i><span class="metamark"><em>meta</em></span><span class="projmark"></span></div>
+      <div class="meta-leg"><span>Atingido até 23/10: <b>77,58%</b></span><span>Projeção: <b>103,4%</b> · R$ 7.702,18 acima da meta</span></div>
+    </div>
+    <p class="nota r" style="--i:6;margin-top:4rem">Portal de Inteligência de Mercado (dados do Oracle) · valores de produção abrangem pecúlio, serviços e seguro.</p>
+  </div>
+</section>
+
+<section class="slide" id="numeros" data-title="Outubro em seis números" data-sec="07 · Inteligência de mercado">
+  <div class="stage">
+    <p class="kicker r">07 · Projeções · Posição de 23/10/2026</p>
+    <h2 class="titulo" data-split>Outubro em seis números</h2>
+    <div class="corpo">
+      <div class="stats">
+        <div class="stat r" style="--i:3"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-coins"/></svg></span>Acumulado no mês</span><span class="v xb"><span data-to="173.8" data-dec="1" data-pre="R$ " data-suf=" mil">R$ 173,8 mil</span></span><br><span class="var">▲ 18,3%</span></div>
+        <div class="stat r" style="--i:4"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-flag"/></svg></span>Meta militar</span><span class="v xb"><span data-to="123.16" data-dec="2" data-suf="%">123,16%</span></span><span class="ctx">R$ 101,6 mil realizados de R$ 82,5 mil</span></div>
+        <div class="stat r" style="--i:5"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-clock"/></svg></span>Média diária</span><span class="v xb"><span data-to="11586" data-pre="R$ ">R$ 11.586</span></span><span class="ctx">necessária: R$ 10.046</span></div>
+        <div class="stat r" style="--i:6"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-users"/></svg></span>Sócios</span><span class="v xb"><span data-to="1387">1.387</span></span><br><span class="var">▲ 21,1%</span></div>
+        <div class="stat r" style="--i:7"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-monitor"/></svg></span>Participação digital</span><span class="v xb"><span data-to="74.2" data-dec="1" data-suf="%">74,2%</span></span><br><span class="var">▲ 5,0%</span></div>
+        <div class="stat r" style="--i:8"><span class="l"><span class="ic-s"><svg class="ico"><use href="#i-shield"/></svg></span>Participação militar</span><span class="v xb"><span data-to="58.5" data-dec="1" data-suf="%">58,5%</span></span><br><span class="var neg">▼ 4,0%</span></div>
+      </div>
+      <p class="nota r" style="--i:9">Variações: mês atual × mesmo período do mês anterior. Planos: 1.517 (▲ 21,0%).</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="pessoas" data-title="Comunicação interna e endomarketing" data-sec="08 · Endomarketing">
+  <div class="stage">
+    <p class="kicker r">08 · Pessoas e cultura</p>
+    <h2 class="titulo" data-split>Comunicação interna e endomarketing: informar, conectar, engajar</h2>
+    <p class="lead r" style="--i:3">Duas frentes complementares, com objetivos próprios e planejamento integrado.</p>
+    <div class="corpo">
+      <div class="abertos c2">
+        <div class="item r r-l" style="--i:4"><span class="rot"><svg class="ico"><use href="#i-msg"/></svg>Comunicação interna</span><h3 style="font-size:2.8rem">Garantir clareza, oportunidade e alinhamento das mensagens corporativas.</h3><p>Foco: canais, calendário, governança editorial e compreensão das mensagens.</p></div>
+        <div class="item r" style="--i:5"><span class="rot"><svg class="ico"><use href="#i-heart"/></svg>Endomarketing</span><h3 style="font-size:2.8rem">Fortalecer pertencimento, cultura e experiência do colaborador.</h3><p>Foco: campanhas internas, datas relevantes, reconhecimento e participação.</p></div>
+      </div>
+      <p class="chave r" style="--i:7"><small><svg class="ico"><use href="#i-chart"/></svg>Como avaliar</small><span>Alcance e leitura dos comunicados, quando mensuráveis • participação nas iniciativas e feedback dos colaboradores • aderência ao calendário, orçamento e objetivos de cada ação.</span></p>
+      <p class="nota r" style="--i:8"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span> Dados a preencher: calendário • orçamento aprovado • ações prioritárias • métricas existentes.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="endomarketing" data-title="Endomarketing" data-sec="08 · Endomarketing">
+  <div class="stage">
+    <p class="kicker r">08 · Endomarketing</p>
+    <h2 class="titulo" data-split>Endomarketing: entregas e projetos</h2>
+    <div class="corpo">
+      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Entregas realizadas</b><small>Campanhas internas, datas comemorativas e ações.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Projetos</b><small>Projetos em andamento e previstos para 2027.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Fotos ou peças</b><small>Registros das ações.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="notas-colaboradores" data-title="Ideias anotadas no PPT" data-sec="08 · Endomarketing">
+  <div class="stage">
+    <p class="kicker r">08 · Endomarketing · Anotações do PPT</p>
+    <h2 class="titulo" data-split>Ideias anotadas no PPT</h2>
+    <div class="corpo">
+      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Vídeo com todos os colaboradores</b><small>Uma frase de impacto e a música do GBOEX ao fundo, só instrumental.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Foto rosa e foto azul</b><small>Anotação do PPT, sem mais detalhes. Confirmar com a equipe.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="eventos-midias" data-title="Eventos e mídias" data-sec="09 · Mídias">
+  <div class="stage">
+    <p class="kicker r">09 · Presença e relacionamento</p>
+    <h2 class="titulo" data-split>Eventos e mídias como plataformas de conexão</h2>
+    <p class="lead r" style="--i:3">Cada iniciativa deve nascer de um objetivo claro e ter um público, uma mensagem e uma forma de avaliação.</p>
+    <div class="corpo">
+      <div class="abertos c2">
+        <div class="item r r-l" style="--i:4"><span class="ic"><svg class="ico"><use href="#i-calendar"/></svg></span><h3>Eventos</h3><p>Encontros com corretores, ações institucionais e oportunidades de relacionamento.</p><p style="color:var(--azul);font-weight:700;font-size:1.9rem">Planejamento: propósito • público • experiência • logística • pós-evento</p></div>
+        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-mega"/></svg></span><h3>Mídias</h3><p>Planejamento de canais e formatos para ampliar presença e eficiência da comunicação.</p><p style="color:var(--azul);font-weight:700;font-size:1.9rem">Planejamento: objetivo • segmentação • investimento • veiculação • análise</p></div>
+      </div>
+      <p class="nota r" style="--i:7"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span> Indicadores a preencher: eventos realizados • participação/adesão • alcance por canal • investimento e eficiência.</p>
+      <p class="nota r" style="--i:8">A avaliação deve considerar o objetivo de cada ação, evitando comparar iniciativas com finalidades diferentes.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="midias" data-title="Mídias" data-sec="09 · Mídias">
+  <div class="stage">
+    <p class="kicker r">09 · Mídias</p>
+    <h2 class="titulo" data-split>Mídias</h2>
+    <div class="corpo">
+      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Mídias veiculadas</b><small>Offline e online, com período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Números</b><small>Investimento, alcance e resultados.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Peças</b><small>Prints ou fotos das peças veiculadas.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="campanhas" data-title="Campanhas conectadas a objetivos" data-sec="10 · Performance">
+  <div class="stage">
+    <p class="kicker r">10 · Performance comercial</p>
     <h2 class="titulo" data-split>Campanhas comerciais conectadas a objetivos claros</h2>
+    <p class="lead r" style="--i:3">Do briefing à mensuração: integrar necessidade comercial, proposta de comunicação e avaliação de resultado.</p>
     <div class="corpo">
       <div class="trilha t4">
         <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-file"/></svg></span><span class="rot">01</span><h3>Briefing</h3><p>Objetivo, público, oferta e período.</p></div>
         <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-calendar"/></svg></span><span class="rot">02</span><h3>Planejamento</h3><p>Mensagem, canais, peças e calendário.</p></div>
-        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-zap"/></svg></span><span class="rot">03</span><h3>Ativação</h3><p>Alinhamento com o Comercial e as unidades.</p></div>
+        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-zap"/></svg></span><span class="rot">03</span><h3>Ativação</h3><p>Alinhamento com Comercial e unidades.</p></div>
         <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-chart"/></svg></span><span class="rot">04</span><h3>Mensuração</h3><p>Acompanhamento e aprendizados.</p></div>
       </div>
-      <p class="chave b"><small><svg class="ico"><use href="#i-usercheck"/></svg>Governança</small><span>Objetivo e público definidos pelo demandante, estratégia coordenada pelo <b>Marketing</b>, resultados avaliados com a área dona dos dados.</span></p>
-      <p class="nota b">Indicadores por campanha: adesão, alcance, engajamento, leads e oportunidades, e resultado comercial atribuído quando houver metodologia.</p>
+      <p class="chave b"><small><svg class="ico"><use href="#i-usercheck"/></svg>Governança sugerida</small><span>Objetivo e público definidos pelo demandante; estratégia e comunicação coordenadas pelo <b>MKT</b>; resultados avaliados com a área responsável pelos dados.</span></p>
+      <p class="nota b">Indicadores a definir por campanha: adesão • alcance • engajamento • leads/oportunidades • resultado comercial atribuído quando houver metodologia disponível.</p>
     </div>
   </div>
 </section>
 
-<section class="slide" id="marca" data-title="Uma marca de confiança" data-sec="Anexo">
+<section class="slide" id="performance" data-title="Performance" data-sec="10 · Performance">
   <div class="stage">
-    <p class="kicker r">Anexo · Marca e reputação</p>
+    <p class="kicker r">10 · Performance</p>
+    <h2 class="titulo" data-split>Performance: leads e ferramenta de IA</h2>
+    <div class="corpo">
+      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Leads</b><small>Volume, origem e conversão no período.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Print da ferramenta de IA</b><small>Tela da ferramenta usada na geração ou gestão de leads.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="marca" data-title="Uma marca de confiança" data-sec="11 · Reputação">
+  <div class="stage">
+    <p class="kicker r">11 · Marca e reputação</p>
     <h2 class="titulo" data-split>Fortalecer uma marca de confiança em todos os pontos de contato</h2>
+    <p class="lead r" style="--i:3">A marca ganha força quando posicionamento, experiência e comunicação caminham na mesma direção.</p>
     <div class="corpo">
       <div class="abertos c3">
-        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-compass"/></svg></span><h3>Posicionamento</h3><p>Reforçar os atributos institucionais e a conexão entre tradição, solidez e inovação.</p><p style="color:var(--mudo);font-size:1.8rem">Revisão de mensagens institucionais e materiais prioritários.</p></div>
-        <div class="item r" style="--i:6"><span class="ic"><svg class="ico"><use href="#i-check"/></svg></span><h3>Consistência</h3><p>Padronizar mensagens, identidade e aplicações em canais, materiais e experiências.</p><p style="color:var(--mudo);font-size:1.8rem">Gestão integrada de canais, campanhas e presença.</p></div>
-        <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-mega"/></svg></span><h3>Presença</h3><p>Planejar comunicação institucional e exposição com coerência estratégica.</p><p style="color:var(--mudo);font-size:1.8rem">Acompanhamento de percepção, alcance e consistência.</p></div>
+        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-compass"/></svg></span><h3>Posicionamento</h3><p>Reforçar os atributos institucionais do GBOEX e a conexão entre tradição, solidez e inovação.</p><p style="color:var(--mudo);font-size:1.8rem">Iniciativa a detalhar: revisão/fortalecimento de mensagens institucionais e materiais prioritários.</p></div>
+        <div class="item r" style="--i:6"><span class="ic"><svg class="ico"><use href="#i-check"/></svg></span><h3>Consistência</h3><p>Padronizar mensagens, identidade e aplicações nos canais, materiais e experiências.</p><p style="color:var(--mudo);font-size:1.8rem">Iniciativa a detalhar: gestão integrada de canais, campanhas e presença institucional.</p></div>
+        <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-mega"/></svg></span><h3>Presença</h3><p>Planejar comunicação institucional e oportunidades de exposição com coerência estratégica.</p><p style="color:var(--mudo);font-size:1.8rem">Iniciativa a detalhar: acompanhamento de percepção, alcance e consistência da marca.</p></div>
       </div>
+      <p class="nota r" style="--i:9"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span> Dados a incluir: projetos de marca • canais prioritários • indicadores disponíveis • marcos 2026–2027.</p>
     </div>
   </div>
 </section>
 
-<section class="slide" id="eventos-midias" data-title="Eventos e mídias" data-sec="Anexo">
+<section class="slide" id="miv" data-title="MIV 2026" data-sec="11 · Reputação">
   <div class="stage">
-    <p class="kicker r">Anexo · Presença e relacionamento</p>
-    <h2 class="titulo" data-split>Eventos e mídias como plataformas de conexão</h2>
-    <p class="lead r" style="--i:3">Cada iniciativa nasce de um objetivo e tem um público, uma mensagem e uma forma de avaliação.</p>
+    <p class="kicker r">11 · Consistência · MIV 2026</p>
+    <h2 class="titulo" data-split>Uma identidade para todos os pontos de contato</h2>
     <div class="corpo">
-      <div class="abertos c2">
-        <div class="item r r-l" style="--i:4"><span class="ic"><svg class="ico"><use href="#i-calendar"/></svg></span><h3>Eventos</h3><p>Encontros com corretores, ações institucionais e oportunidades de relacionamento.</p><p style="color:var(--azul);font-weight:700;font-size:1.9rem">Propósito → público → experiência → logística → pós-evento</p></div>
-        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-mega"/></svg></span><h3>Mídias</h3><p>Canais e formatos para ampliar presença e eficiência da comunicação.</p><p style="color:var(--azul);font-weight:700;font-size:1.9rem">Objetivo → segmentação → investimento → veiculação → análise</p></div>
+      <div class="miv">
+        <div style="display:flex;flex-direction:column;gap:4rem">
+          <div class="miv-bloco r" style="--i:4"><h3>Cores</h3>
+            <div class="paleta">
+              <div class="cor" style="background:#005782;color:#fff">Azul principal<br>#005782</div>
+              <div class="cor" style="background:linear-gradient(90deg,#003D5C,#006EA4);color:#fff">Gradiente azul</div>
+              <div class="cor" style="background:#E4C740;color:#003D5C">Amarelo principal<br>#E4C740</div>
+              <div class="cor" style="background:linear-gradient(90deg,#A48700,#EFE495,#A48700);color:#003D5C">Gradiente do arco</div>
+            </div></div>
+          <div class="miv-bloco r" style="--i:5"><h3>Tipografia</h3><p class="fonte-amostra">Sansation<span>Light · Regular · Bold</span></p></div>
+          <div class="miv-bloco r" style="--i:6"><h3>Elementos</h3>
+            <div class="elementos">
+              <svg class="el-arco" viewBox="0 0 1000 100" preserveAspectRatio="none" style="height:3rem" aria-hidden="true"><use href="#arc"/></svg>
+              <span class="el-arcotopo" title="Arcos voltados para cima"></span><span class="el-ret" title="Cantos arredondados"></span><span class="el-pill" title="CTA 100% arredondado"></span>
+            </div></div>
+        </div>
+        <div>
+          <div class="aplicacoes r r-z" style="--i:7">
+            <img src="assets/img/miv-aplicacao-1.webp" alt="Aplicação do MIV: card institucional azul com rodapé amarelo em arco" loading="lazy">
+            <img src="assets/img/miv-aplicacao-2.webp" alt="Aplicação do MIV: peça do produto Vida Longa" loading="lazy">
+          </div>
+          <p class="mote r" style="--i:9"><small>Mote de campanha</small>“Planos para a sua vida”</p>
+        </div>
       </div>
-      <p class="nota r" style="--i:7">Acompanhamento: eventos realizados, participação e adesão, alcance por canal, investimento e eficiência, sempre comparando ações de mesma finalidade.</p>
     </div>
   </div>
 </section>
 
-<section class="slide" id="pessoas" data-title="Comunicação interna e endomarketing" data-sec="Anexo">
+<section class="slide" id="assessoria" data-title="Assessoria de imprensa" data-sec="11 · Reputação">
   <div class="stage">
-    <p class="kicker r">Anexo · Pessoas e cultura</p>
-    <h2 class="titulo" data-split>Duas frentes, um planejamento integrado</h2>
+    <p class="kicker r">11 · Reputação · Assessoria de imprensa</p>
+    <h2 class="titulo" data-split>Assessoria de imprensa</h2>
     <div class="corpo">
-      <div class="abertos c2">
-        <div class="item r r-l" style="--i:4"><span class="rot"><svg class="ico"><use href="#i-msg"/></svg>Comunicação interna</span><h3 style="font-size:3.6rem">Clareza, oportunidade e alinhamento das mensagens corporativas.</h3><p>Canais, calendário, governança editorial e compreensão das mensagens.</p></div>
-        <div class="item r" style="--i:5"><span class="rot"><svg class="ico"><use href="#i-heart"/></svg>Endomarketing</span><h3 style="font-size:3.6rem">Pertencimento, cultura e experiência do colaborador.</h3><p>Campanhas internas, datas relevantes, reconhecimento e participação.</p></div>
-      </div>
-      <p class="chave r" style="--i:7"><small><svg class="ico"><use href="#i-chart"/></svg>Como avaliar</small><span>Alcance e leitura dos comunicados, <b>participação e feedback</b> dos colaboradores, aderência a calendário, orçamento e objetivos.</span></p>
+      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Matérias publicadas</b><small>Clipping ou prints das principais matérias.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Números</b><small>Inserções, veículos e período.</small></div></div>
     </div>
   </div>
 </section>
 
-<section class="slide" id="roadmap" data-title="Roadmap 2026–2027" data-sec="Anexo">
+<section class="slide" id="radar-gboex" data-title="Radar GBOEX" data-sec="11 · Reputação">
   <div class="stage">
-    <p class="kicker r">Anexo · Roadmap</p>
+    <p class="kicker r">11 · Reputação · Ferramenta de IA</p>
+    <h2 class="titulo" data-split>Radar GBOEX: monitoramento da marca</h2>
+    <div class="corpo">
+      <figure class="entrega r r-z" style="--i:3">
+        <div class="entrega-duo">
+          <div class="janela"><img src="assets/img/radar-gboex.webp" alt="Tela do Radar GBOEX com o monitor de menções da marca" loading="lazy"></div>
+          <div class="janela"><img src="assets/img/radar-gboex-graficos.webp" alt="Tela do Radar GBOEX com gráficos de volume e sentimento" loading="lazy"></div>
+        </div>
+        <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Monitor de notícias, redes e menções · em operação desde 30/03/2026</figcaption>
+        <p class="descricao">A tela mostra o total de menções (positivas, neutras e negativas), as menções por fonte (Instagram, Reclame Aqui, LinkedIn, Google News, Facebook e YouTube), volume e sentimento ao longo do tempo e os principais veículos.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="reforma" data-title="Reforma das unidades" data-sec="11 · Reputação">
+  <div class="stage">
+    <p class="kicker r">11 · Experiência do cliente</p>
+    <h2 class="titulo" data-split>Experiência do cliente: reformas das unidades</h2>
+    <div class="corpo">
+      <div class="reforma">
+        <div class="ba dica r r-z" style="--i:4">
+          <img src="assets/img/unidade-projeto.webp" alt="Projeto de reforma da unidade: painel ripado em madeira, logo GBOEX e escada preta" loading="lazy">
+          <img class="antes" src="assets/img/unidade-antiga-escada.webp" alt="Unidade atual: recepção com bandeira GBOEX e escada caracol" loading="lazy">
+          <span class="linha"></span><span class="puxador"><svg class="ico"><use href="#i-swap"/></svg></span>
+          <span class="tag a">Hoje</span><span class="tag d">Projeto de reforma</span>
+          <input id="ba-reforma" type="range" min="0" max="100" value="50" aria-label="Comparar unidade atual e projeto de reforma">
+        </div>
+        <div>
+          <p class="texto-g r" style="--i:6">Arraste para comparar a unidade hoje e o projeto de reforma.</p>
+          <ul class="lista-g" style="margin-top:3.2rem"><li class="r" style="--i:7"><svg class="ico"><use href="#i-eye"/></svg>Hoje: recepção com bandeira GBOEX e escada caracol.</li><li class="r" style="--i:8"><svg class="ico"><use href="#i-eye"/></svg>Projeto: painel ripado em madeira, logo GBOEX e escada preta.</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide slide--dark" id="onde-compraria" data-title="Onde você compraria?" data-sec="11 · Reputação">
+  <div class="stage">
+    <p class="kicker r">11 · Experiência do cliente</p>
+    <h2 class="mega xb" data-split style="margin-top:1.4rem;font-size:6.4rem">Onde você compraria?</h2>
+    <div class="corpo" style="margin-top:4rem">
+      <div class="compraria">
+        <div class="foto foto--a kb r r-l" style="--i:4"><img src="assets/img/unidade-antiga-2.webp" alt="Unidade com piso azul, divisórias antigas e cadeiras desgastadas" loading="lazy"><span class="letra">A</span><span class="tag">Padrão atual</span></div>
+        <div class="foto foto--b kb r" style="--i:6"><img src="assets/img/unidade-reformada.webp" alt="Unidade reformada com painel ripado, logo GBOEX iluminada e cadeiras azuis" loading="lazy"><span class="letra">B</span><span class="tag">Unidade reformada</span></div>
+        <div class="foto foto--b kb r" style="--i:7"><img src="assets/img/sala-reuniao.webp" alt="Sala de reunião reformada com mesa branca e iluminação linear" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="pix-midia" data-title="Pix Mídia" data-sec="12 · Comunicação interna">
+  <div class="stage">
+    <p class="kicker r">12 · Comunicação interna</p>
+    <h2 class="titulo" data-split>Pix Mídia</h2>
+    <div class="corpo">
+      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>O que é e como funciona</b><small>Descrição curta do Pix Mídia.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Prints ou peças</b><small>Exemplos do que foi enviado.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Números</b><small>Envios, alcance ou adesão.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="com-externa" data-title="Comunicação externa" data-sec="13 · Comunicação externa">
+  <div class="stage">
+    <p class="kicker r">13 · Comunicação externa</p>
+    <h2 class="titulo" data-split>Comunicação externa</h2>
+    <div class="corpo">
+      <div class="pend-grid g3"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Assessoria de imprensa</b><small>Principais entregas (ver também a seção 11).</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Redes sociais</b><small>Números e prints dos perfis.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Podcast</b><small>Episódios, prints e números.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="eventos" data-title="Eventos" data-sec="14 · Eventos">
+  <div class="stage">
+    <p class="kicker r">14 · Eventos</p>
+    <h2 class="titulo" data-split>Eventos</h2>
+    <div class="corpo">
+      <div class="pend-grid g2"><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Eventos realizados</b><small>Lista com datas e público.</small></div><div class="pend r " style="--i:4"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span><b>Fotos</b><small>Registros dos eventos.</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="ferramentas" data-title="Ferramentas que sustentam a execução" data-sec="15 · Gestão e planejamento">
+  <div class="stage">
+    <p class="kicker r">15 · Entregas · Capacidade de execução</p>
+    <h2 class="titulo" data-split>Ferramentas que já sustentam a execução</h2>
+    <div class="corpo">
+      <div class="ferramentas">
+        <div class="ferramenta r r-l" style="--i:4">
+          <div class="janela"><img src="assets/img/crm-tarefas.webp" alt="Sistema de tarefas do Marketing em quadro kanban: a fazer, fazendo e concluído" loading="lazy"></div>
+          <span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span><h3><svg class="ico"><use href="#i-kanban"/></svg>CRM e gestão de tarefas</h3>
+          <p>Demandas, agenda, pedidos e chat em um só lugar, com visão de carga por pessoa.</p>
+        </div>
+        <div class="ferramenta r" style="--i:6">
+          <div class="janela"><img src="assets/img/catalogo-materiais.webp" alt="Catálogo de materiais de marketing com 81 itens e especificações para fornecedores" loading="lazy"></div>
+          <span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span><h3><svg class="ico"><use href="#i-book"/></svg>Catálogo de materiais</h3>
+          <p><b>81 itens</b> com especificação para fornecedores, em 7 categorias, integrado ao MIV.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="roadmap" data-title="Roadmap 2026–2027" data-sec="15 · Gestão e planejamento">
+  <div class="stage">
+    <p class="kicker r">15 · Roadmap</p>
     <h2 class="titulo" data-split>2026–2027: organizar, executar, aprender e escalar</h2>
-    <p class="lead r" style="--i:4">Proposta de macrofases. Marcos e prazos serão confirmados com as áreas responsáveis.</p>
+    <p class="lead r" style="--i:4">Proposta de macrofases — os marcos e prazos definitivos devem ser confirmados com as áreas responsáveis.</p>
     <div class="corpo">
       <div class="trilha t4">
         <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-target"/></svg></span><span class="rot">Fase 1</span><h3>Alinhar</h3><p>Validar objetivos, prioridades, responsáveis e dados de base.</p></div>
         <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-layers"/></svg></span><span class="rot">Fase 2</span><h3>Estruturar</h3><p>Fechar planos de trabalho, calendários, recursos e indicadores.</p></div>
-        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-playc"/></svg></span><span class="rot">Fase 3</span><h3>Executar</h3><p>Implementar as iniciativas priorizadas e acompanhar marcos.</p></div>
+        <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-playc"/></svg></span><span class="rot">Fase 3</span><h3>Executar</h3><p>Implementar iniciativas priorizadas e acompanhar marcos.</p></div>
         <div class="etapa b"><span class="dot"><svg class="ico"><use href="#i-gauge"/></svg></span><span class="rot">Fase 4</span><h3>Otimizar</h3><p>Avaliar resultados, registrar aprendizados e ajustar o portfólio.</p></div>
       </div>
-      <p class="chave b"><small><svg class="ico"><use href="#i-calendar"/></svg>Ritmo de gestão</small><span>Revisão <b>mensal</b> de execução, revisão <b>trimestral</b> de prioridades e resultados, replanejamento quando necessário.</span></p>
+      <p class="chave b"><small><svg class="ico"><use href="#i-calendar"/></svg>Ritmo de gestão sugerido</small><span>Revisão mensal de execução • revisão trimestral de prioridades e resultados • replanejamento quando necessário.</span></p>
+      <p class="nota r" style="--i:9"><span class="tag-pend"><svg class="ico"><use href="#i-alert"/></svg>Pendente</span> Datas, responsáveis, marcos e dependências: preencher após validação do portfólio.</p>
     </div>
   </div>
 </section>
 
-<section class="slide" id="mensuracao" data-title="Painel de gestão" data-sec="Anexo">
+<section class="slide" id="mensuracao" data-title="Painel de gestão" data-sec="15 · Gestão e planejamento">
   <div class="stage">
-    <p class="kicker r">Anexo · Mensuração</p>
-    <h2 class="titulo" data-split>Um painel com quatro perguntas</h2>
+    <p class="kicker r">15 · Mensuração</p>
+    <h2 class="titulo" data-split>Um painel de gestão: entregas, impacto e eficiência</h2>
+    <p class="lead r" style="--i:2">A seleção de indicadores deve refletir o objetivo de cada projeto e a disponibilidade de dados confiáveis.</p>
     <div class="corpo">
       <div class="perguntas">
-        <div class="perg r" style="--i:3"><span class="rot"><svg class="ico"><use href="#i-check"/></svg>Entregas</span><b>O que foi realizado?</b><p>Marcos concluídos, prazos e volume de entregas.</p></div>
-        <div class="perg r" style="--i:4"><span class="rot"><svg class="ico"><use href="#i-eye"/></svg>Público</span><b>Quem foi alcançado?</b><p>Alcance, adesão, participação e ativação.</p></div>
-        <div class="perg r" style="--i:5"><span class="rot"><svg class="ico"><use href="#i-trend"/></svg>Resultados</span><b>O que mudou?</b><p>Engajamento, percepção, oportunidades e conversão, quando atribuível.</p></div>
-        <div class="perg r" style="--i:6"><span class="rot"><svg class="ico"><use href="#i-wallet"/></svg>Eficiência</span><b>Como usamos recursos?</b><p>Orçamento, custo por ação, eficiência de canais e retrabalho.</p></div>
+        <div class="perg r" style="--i:3"><span class="rot"><svg class="ico"><use href="#i-check"/></svg>Entregas</span><b>O que foi realizado?</b><p>Marcos concluídos • prazos • volume de entregas</p></div>
+        <div class="perg r" style="--i:4"><span class="rot"><svg class="ico"><use href="#i-eye"/></svg>Público</span><b>Quem foi alcançado?</b><p>Alcance • adesão • participação • ativação</p></div>
+        <div class="perg r" style="--i:5"><span class="rot"><svg class="ico"><use href="#i-trend"/></svg>Resultados</span><b>O que mudou?</b><p>Engajamento • percepção • oportunidades • conversão quando atribuível</p></div>
+        <div class="perg r" style="--i:6"><span class="rot"><svg class="ico"><use href="#i-wallet"/></svg>Eficiência</span><b>Como usamos recursos?</b><p>Orçamento • custo por ação • eficiência de canais • retrabalho</p></div>
       </div>
-      <p class="chave r" style="--i:8"><small><svg class="ico"><use href="#i-shield"/></svg>Compromisso</small><span>Nenhum resultado ou meta é presumido: o painel será preenchido <b>apenas com dados validados.</b></span></p>
+      <p class="nota r" style="--i:7">Campos a completar no painel: indicador • linha de base • meta • realizado • fonte • periodicidade • responsável • observações.</p>
+      <p class="chave r" style="--i:8"><small><svg class="ico"><use href="#i-shield"/></svg>Importante</small><span>Nenhum resultado ou meta é presumido nesta versão. <b>Preencher apenas com dados validados.</b></span></p>
     </div>
   </div>
 </section>
 
-<section class="slide" id="governanca" data-title="Condições para gerar resultados" data-sec="Anexo">
+<section class="slide" id="governanca" data-title="Condições para gerar resultados" data-sec="15 · Gestão e planejamento">
   <div class="stage">
-    <p class="kicker r">Anexo · Governança</p>
+    <p class="kicker r">15 · Governança</p>
     <h2 class="titulo" data-split>Condições para transformar projetos em resultados</h2>
     <p class="lead r" style="--i:4">O portfólio ganha força com patrocínio, prioridades explícitas e colaboração entre áreas.</p>
     <div class="corpo">
       <div class="abertos c3">
-        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-list"/></svg></span><h3>Priorização</h3><p>Definir o que é crítico, o que pode aguardar e o que depende de decisão executiva.</p></div>
+        <div class="item r" style="--i:5"><span class="ic"><svg class="ico"><use href="#i-list"/></svg></span><h3>Priorização</h3><p>Definir o que é crítico, o que pode aguardar e quais iniciativas dependem de decisão executiva.</p></div>
         <div class="item r" style="--i:6"><span class="ic"><svg class="ico"><use href="#i-usercheck"/></svg></span><h3>Responsabilidades</h3><p>Nomear patrocinador, responsável pela entrega, áreas parceiras e donos dos dados.</p></div>
         <div class="item r" style="--i:7"><span class="ic"><svg class="ico"><use href="#i-wallet"/></svg></span><h3>Recursos</h3><p>Validar orçamento, capacidade da equipe, fornecedores, tecnologia e dependências.</p></div>
       </div>
@@ -1383,10 +1350,10 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide slide--dark" id="decisoes" data-title="O que pedimos ao Conselho" data-sec="Anexo">
+<section class="slide slide--dark" id="decisoes" data-title="Decisões e alinhamentos solicitados" data-sec="15 · Gestão e planejamento">
   <div class="stage">
-    <p class="kicker r">Anexo · Decisões e alinhamentos solicitados</p>
-    <h2 class="mega xb" data-split style="margin-top:1.6rem">O que pedimos ao <em>Conselho</em></h2>
+    <p class="kicker r">15 · Governança</p>
+    <h2 class="mega xb" data-split style="margin-top:1.6rem">Decisões e alinhamentos <em>solicitados</em></h2>
     <div class="corpo">
       <ol class="decisoes">
         <li class="b"><span class="n">1</span>Validar as prioridades estratégicas do portfólio 2026–2027.</li>
@@ -1398,10 +1365,11 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
-<section class="slide" id="sintese" data-title="Síntese executiva" data-sec="Anexo">
+<section class="slide" id="sintese" data-title="Síntese executiva" data-sec="15 · Gestão e planejamento">
   <div class="stage">
-    <p class="kicker r">Síntese executiva</p>
+    <p class="kicker r">15 · Síntese executiva · O que queremos construir com este portfólio</p>
     <h2 class="sintese xb" data-split style="margin-top:2rem"><span>Mais consistência de marca.</span><span>Mais conexão com o mercado.</span><span>Mais inteligência para decidir.</span></h2>
+    <p class="lead r" style="--i:8">Uma agenda integrada de Marketing, orientada por prioridades e evidências.</p>
     <div class="corpo">
       <div class="abertos c3">
         <div class="item r" style="--i:10"><span class="rot"><svg class="ico"><use href="#i-target"/></svg>Foco</span><p style="margin-top:0;font-size:2.3rem">Priorizar projetos ligados aos objetivos corporativos.</p></div>
@@ -1410,6 +1378,17 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
       </div>
       <p class="chave r" style="--i:14"><small><svg class="ico"><use href="#i-arrow"/></svg>Próximo passo</small><span>Consolidar a <b>ficha executiva de cada projeto</b> e fechar o roadmap validado para 2026–2027.</span></p>
     </div>
+  </div>
+</section>
+
+<section class="slide slide--dark slide--divisor fim" id="fim" data-title="Obrigado" data-sec="Encerramento">
+  <div class="stage">
+    <svg class="aneis" data-par style="--par:-2.4" viewBox="0 0 1000 1000" aria-hidden="true"><g class="giro"><circle cx="500" cy="500" r="200"/><circle cx="500" cy="500" r="300" stroke-dasharray="4 14"/><circle cx="500" cy="500" r="400"/><circle cx="500" cy="500" r="490" stroke-dasharray="2 10"/></g></svg>
+    <img class="capa-logo r" src="assets/img/logo-gboex-branco.png" alt="GBOEX">
+    <h2 class="fim-titulo xb" data-split>Tradição que inspira.<br>Inovação que conecta.<br><em>Marketing que gera valor.</em></h2>
+    <p class="capa-sub r" style="--i:9">Projetos 2026–2027</p>
+    <p class="fim-obrigado r" style="--i:10">Obrigado.</p>
+    <svg class="arco capa-arco" data-par style="--par:1.2;height:9rem" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true"><use href="#arc"/></svg>
   </div>
 </section>
 
