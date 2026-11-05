@@ -669,9 +669,9 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .tri-pin-in{transform-origin:50% 100%}
 .tri-logo{opacity:0}
 .tri-desafio{opacity:0}
-.tri-d1{font:400 52px "Great Vibes",cursive;fill:#B8962A}
-.tri-d2{font:800 66px Sansation,sans-serif;fill:#005782;letter-spacing:-1px}
-.tri-d3{font:800 30px Sansation,sans-serif;fill:#fff}
+.tri-d1{font:400 70px "Great Vibes",cursive;fill:#C9A42C}
+.tri-d2{font:900 92px Montserrat,Sansation,sans-serif;fill:#1F5E8C}
+.tri-d3{font:900 34px Montserrat,Sansation,sans-serif;fill:#fff}
 .tri-aviao-g{opacity:0}
 .slide.is-active .tri-pin-in,.is-flow .slide.in-view .tri-pin-in{animation:triPin .5s cubic-bezier(.3,1.6,.5,1) var(--d) forwards}
 .slide.is-active .tri-logo,.is-flow .slide.in-view .tri-logo{animation:triIn .6s ease var(--d) forwards}
@@ -1216,11 +1216,13 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
         <path d="M300,432 C320,500 380,560 430,545 C485,528 410,360 480,334 C545,312 640,420 705,482 C745,520 800,515 772,462 C745,410 640,300 690,256 C735,218 800,300 880,292 C960,284 1010,236 1075,186" fill="none" stroke="#005782" stroke-width="7" stroke-linecap="round" stroke-dasharray="20 15" mask="url(#tri-mask)"/>
         <image class="tri-logo" style="--d:0.5s" href="assets/img/camp-impulso.webp" x="20" y="395" width="245" height="160" preserveAspectRatio="xMidYMid meet"><title>Impulso GBOEX</title></image><image class="tri-logo" style="--d:1.6s" href="assets/img/camp-acelera.webp" x="255" y="100" width="270" height="140" preserveAspectRatio="xMidYMid meet"><title>Acelera GBOEX</title></image><image class="tri-logo" style="--d:2.6s" href="assets/img/camp-rumo-podio.webp" x="815" y="360" width="175" height="195" preserveAspectRatio="xMidYMid meet"><title>Rumo ao Pódio GBOEX</title></image><image class="tri-logo" style="--d:3.4s" href="assets/img/camp-sprint-final.webp" x="745" y="55" width="150" height="200" preserveAspectRatio="xMidYMid meet"><title>Sprint Final GBOEX</title></image>
         <g class="tri-pin" style="--d:0.2s" transform="translate(300,432)"><g class="tri-pin-in"><path d="M0,0 C-7,-16 -27,-32 -27,-50 A27,27 0 1 1 27,-50 C27,-32 7,-16 0,0Z" fill="#F2B532"/><circle cx="0" cy="-50" r="17" fill="#fff"/><text x="0" y="-43" text-anchor="middle">1º</text></g></g><g class="tri-pin" style="--d:1.3s" transform="translate(480,334)"><g class="tri-pin-in"><path d="M0,0 C-7,-16 -27,-32 -27,-50 A27,27 0 1 1 27,-50 C27,-32 7,-16 0,0Z" fill="#F2B532"/><circle cx="0" cy="-50" r="17" fill="#fff"/><text x="0" y="-43" text-anchor="middle">2º</text></g></g><g class="tri-pin" style="--d:2.3s" transform="translate(772,462)"><g class="tri-pin-in"><path d="M0,0 C-7,-16 -27,-32 -27,-50 A27,27 0 1 1 27,-50 C27,-32 7,-16 0,0Z" fill="#F2B532"/><circle cx="0" cy="-50" r="17" fill="#fff"/><text x="0" y="-43" text-anchor="middle">3º</text></g></g><g class="tri-pin" style="--d:3.1s" transform="translate(690,256)"><g class="tri-pin-in"><path d="M0,0 C-7,-16 -27,-32 -27,-50 A27,27 0 1 1 27,-50 C27,-32 7,-16 0,0Z" fill="#F2B532"/><circle cx="0" cy="-50" r="17" fill="#fff"/><text x="0" y="-43" text-anchor="middle">4º</text></g></g>
-        <g class="tri-desafio" transform="translate(1110,20)">
-          <text class="tri-d1" x="125" y="58" text-anchor="middle">Desafio</text>
-          <text class="tri-d2" x="125" y="128" text-anchor="middle">GBOEX</text>
-          <rect x="62" y="146" width="126" height="48" rx="24" fill="#A8891C"/>
-          <text class="tri-d3" x="125" y="181" text-anchor="middle">2026</text>
+        <g class="tri-desafio" transform="translate(1084,0)">
+          <defs><linearGradient id="tri-ouro" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E2C65A"/><stop offset="1" stop-color="#B8962A"/></linearGradient></defs>
+          <g class="tri-sky" fill="url(#tri-ouro)" opacity=".45" transform="translate(-4,-30)"><rect x="96" y="96" width="14" height="44"/><rect x="112" y="84" width="18" height="56"/><path d="M134,140 V92 h10 v-12 l6,-22 l6,22 v12 h10 V140Z"/><rect x="170" y="100" width="16" height="40"/><path d="M190,140 V96 a30,30 0 0 1 60,0 V140Z"/><rect x="216" y="50" width="8" height="18"/><circle cx="220" cy="48" r="4"/><path d="M200,70 a20,20 0 0 1 40,0Z"/><rect x="252" y="76" width="12" height="64"/><path d="M252,76 l6,-30 l6,30Z"/><rect x="268" y="104" width="14" height="36"/><rect x="286" y="90" width="12" height="50"/></g>
+          <text class="tri-d1" x="30" y="70" transform="rotate(-5 30 70)">Desafio</text>
+          <text class="tri-d2" x="150" y="152" text-anchor="middle" textLength="272" lengthAdjust="spacingAndGlyphs">GBOEX</text>
+          <rect x="84" y="170" width="132" height="52" rx="26" fill="url(#tri-ouro)" stroke="#9C7D1C" stroke-width="2"/>
+          <text class="tri-d3" x="150" y="208" text-anchor="middle">2026</text>
         </g>
         <g class="tri-aviao-g"><image href="assets/img/camp-aviao.webp" x="-55" y="-51" width="110" height="102"/><animateMotion class="tri-anim" dur="4s" begin="indefinite" fill="freeze" rotate="auto" path="M300,432 C320,500 380,560 430,545 C485,528 410,360 480,334 C545,312 640,420 705,482 C745,520 800,515 772,462 C745,410 640,300 690,256 C735,218 800,300 880,292 C960,284 1010,236 1075,186"/></g>
       </svg>
@@ -1900,7 +1902,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 })();
 </script>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@900&display=swap">
 <script>
 (function(){
   var s=document.getElementById('trimestrais'); if(!s) return;
