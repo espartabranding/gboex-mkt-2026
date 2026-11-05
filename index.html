@@ -754,6 +754,17 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 
 .perf-grade{display:grid;grid-template-columns:1fr;max-width:100rem;margin:0 auto;width:100%}
 .is-flow .perf-grade{grid-template-columns:1fr}
+
+/* Nuvem de frases */
+.nuvem{position:relative;height:54rem}
+.nuvem::before{content:"";position:absolute;inset:4% 6%;border-radius:50%;background:radial-gradient(closest-side,rgba(0,151,214,.10),rgba(0,151,214,.04) 60%,transparent)}
+.is-flow .nuvem::before{display:none}
+.nuvem .nv{position:absolute;transform:translate(-50%,-50%);white-space:nowrap;line-height:1;letter-spacing:-.01em}
+.slide.is-active .nuvem .nv{animation:nvFlut 6s ease-in-out calc(var(--i) * -.7s) infinite}
+@keyframes nvFlut{0%,100%{translate:0 0}50%{translate:0 -.8rem}}
+.is-flow .nuvem{height:auto;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:1.6rem 3.2rem;padding:2rem 0}
+.is-flow .nuvem .nv{position:static;transform:none;font-size:clamp(2rem,6vw,3.6rem)!important}
+@media (prefers-reduced-motion:reduce){.nuvem .nv{animation:none!important}}
 </style>
 </head>
 <body>
@@ -1027,6 +1038,16 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
           <ul class="lista-g"><li><svg class="ico"><use href="#i-minus"/></svg>Concorrentes com maior investimento em tecnologia e mídia.</li><li><svg class="ico"><use href="#i-minus"/></svg>Insurtechs e novos modelos de distribuição.</li><li><svg class="ico"><use href="#i-minus"/></svg>Mudanças no comportamento das novas gerações.</li><li><svg class="ico"><use href="#i-minus"/></svg>Aumento dos custos de mídia e aquisição de clientes.</li><li><svg class="ico"><use href="#i-minus"/></svg>Excesso de informações e disputa pela atenção do consumidor.</li><li><svg class="ico"><use href="#i-minus"/></svg>Dependência dos algoritmos das plataformas digitais.</li><li><svg class="ico"><use href="#i-minus"/></svg>Desinformação e baixa compreensão sobre seguros.</li><li><svg class="ico"><use href="#i-minus"/></svg>Riscos reputacionais, regulatórios e de proteção de dados.</li><li><svg class="ico"><use href="#i-minus"/></svg>Instabilidade econômica e pressão sobre o orçamento familiar.</li></ul>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="nuvem-frases" data-title="Nuvem de frases" data-sec="02 · Propósito e direcionamento">
+  <div class="stage">
+    <p class="kicker r">02 · Direcionamento</p>
+    <h2 class="titulo" data-split>Perguntas do nosso dia a dia</h2>
+    <div class="corpo">
+      <div class="nuvem"><span class="nv" style="--i:3;left:50%;top:46%;font-size:9.6rem;color:var(--azul-esc);font-weight:800"><span class="r r-z" style="--i:3;display:inline-block">Planejamento</span></span><span class="nv" style="--i:4;left:33%;top:21%;font-size:5.2rem;color:var(--azul);font-weight:800"><span class="r r-z" style="--i:4;display:inline-block">Cronograma reverso</span></span><span class="nv" style="--i:5;left:70%;top:25%;font-size:4.8rem;color:#B8962A;font-weight:800"><span class="r r-z" style="--i:5;display:inline-block">Prazos de entrega</span></span><span class="nv" style="--i:6;left:83%;top:49%;font-size:6.6rem;color:var(--azul-cl);font-weight:800"><span class="r r-z" style="--i:6;display:inline-block">Custo</span></span><span class="nv" style="--i:7;left:14%;top:56%;font-size:3.4rem;color:#B8962A;font-weight:700"><span class="r r-z" style="--i:7;display:inline-block">O que vai ter na pauta</span></span><span class="nv" style="--i:8;left:32%;top:72%;font-size:4rem;color:var(--azul-cl);font-weight:700"><span class="r r-z" style="--i:8;display:inline-block">Quantos dias úteis temos?</span></span><span class="nv" style="--i:9;left:70%;top:73%;font-size:4.8rem;color:var(--azul);font-weight:800"><span class="r r-z" style="--i:9;display:inline-block">Está na PO?</span></span><span class="nv" style="--i:10;left:51%;top:91%;font-size:3.6rem;color:var(--azul-esc);font-weight:700"><span class="r r-z" style="--i:10;display:inline-block">Já foi aprovado?</span></span></div>
     </div>
   </div>
 </section>
