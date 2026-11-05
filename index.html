@@ -767,6 +767,24 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .marca-video .ico{width:1.6rem;height:1.6rem}
 .marca-video--canto{position:absolute;top:2rem;right:2rem;letter-spacing:.06em;box-shadow:0 .8rem 2rem rgba(0,0,0,.25)}
 .video--marca .sem{display:flex}
+.imp-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.4rem 4rem;width:100%}
+.imp-item{margin:0;min-width:0}
+.imp-item .janela img{height:16rem;width:100%;object-fit:cover;object-position:top}
+.imp-item figcaption{font-size:1.5rem;line-height:1.35;color:var(--mudo);margin-top:1.2rem}
+.imp-item figcaption b{color:var(--azul-esc)}
+.imp-selo{display:flex;align-items:center;justify-content:center;gap:1.8rem;font-size:1.7rem;color:var(--mudo);margin:2rem 0 0;flex-wrap:wrap}
+.imp-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:3.2rem;width:100%}
+.imp-col{padding:3.6rem;border-radius:var(--raio);background:var(--gelo-2);height:100%}
+.imp-tit{margin:0 0 2.4rem;font-size:2.4rem;line-height:1.25;font-weight:700;color:var(--azul-esc)}
+.imp-lista{list-style:none;margin:0;padding:0;display:grid;gap:2rem}
+.imp-lista li{display:flex;gap:1.2rem;font-size:2rem;line-height:1.4;color:var(--texto,#1d2b36)}
+.imp-lista .ico{width:2.2rem;height:2.2rem;flex:none;margin-top:.3rem;color:var(--azul)}
+.imp-lista small{display:block;font-size:1.6rem;color:var(--mudo);margin-top:.4rem}
+.ext-card{gap:1.2rem;padding:2.4rem 3.6rem}
+.ext-card .unid-num b{font-size:5.6rem}
+.ext-txt{margin:0;font-size:1.9rem;line-height:1.4;color:rgba(255,255,255,.88)}
+.is-flow .imp-grid,.is-flow .imp-cols{grid-template-columns:1fr}
+.is-flow .imp-item .janela img{height:auto}
 .video-113{height:62rem;max-width:100%;margin:2rem auto 0}
 .is-flow .video-113{height:auto;width:100%}
 .pend--video{border-style:solid;border-color:var(--amarelo)}
@@ -1481,7 +1499,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">09 · Mídia Online &amp; Offline</p>
     <h2 class="titulo" data-split>Comunicação externa</h2>
     <div class="corpo">
-      <div class="pend-grid g2 ext-grid"><figure class="foto-ev r r-z" style="--i:4;height:100%"><img src="assets/img/agenda-calendario-2027.webp" alt="Calendário de mesa e agenda GBOEX 2027 em azul com detalhes dourados" loading="lazy" style="object-position:center 50%"><figcaption>Agenda e calendário de mesa GBOEX 2027</figcaption></figure><div class="ext-pends"><div class="pend r" style="--i:4"><b>Assessoria de imprensa: matérias publicadas</b><small>Clipping ou prints das principais matérias.</small></div><div class="pend r" style="--i:5"><b>Assessoria de imprensa: números</b><small>Inserções, veículos e período.</small></div><div class="pend pend--video r" style="--i:6"><span class="marca-video"><svg class="ico"><use href="#i-play"/></svg>Chamar vídeo</span><b>Podcast: vídeo teaser</b></div></div></div>
+      <div class="pend-grid g2 ext-grid"><figure class="foto-ev r r-z" style="--i:4;height:100%"><img src="assets/img/agenda-calendario-2027.webp" alt="Calendário de mesa e agenda GBOEX 2027 em azul com detalhes dourados" loading="lazy" style="object-position:center 50%"><figcaption>Agenda e calendário de mesa GBOEX 2027</figcaption></figure><div class="ext-pends"><div class="unid-card ext-card r" style="--i:4"><p class="unid-num">Assessoria de imprensa · matérias publicadas</p><p class="ext-txt">Destaques: Insurance Corp (1º/09), Seguro Catarinense (17/09), Revista JRS (setembro) e Revista Cobertura (25/09).</p></div><div class="unid-card ext-card r" style="--i:5"><p class="unid-num"><b>35</b>inserções em portais de notícias e revista do segmento</p><p class="ext-txt">16 veículos · setembro/2026</p></div><div class="pend pend--video r" style="--i:6"><span class="marca-video"><svg class="ico"><use href="#i-play"/></svg>Chamar vídeo</span><b>Podcast: vídeo teaser</b></div></div></div>
     </div>
   </div>
 </section>
@@ -1630,6 +1648,31 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
         <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Relatório de assessoria de comunicação · Ampliare Comunicação · setembro/2026</figcaption>
         <p class="descricao">Foram 35 inserções em portais de notícias e revista do segmento, nas editorias de geral, notícias, negócios, serviços, planejamento, instituições, seguros e previdência. À esquerda, inserções por veículo: Segs (5); Revista Seguro Total, Seguro Catarinense, Seguro Gaúcho e SegurosBR (3 cada); Consumidor-RS, Difundir, Insurance Corp, JorNow, JRS, Seguro Nova Digital e SIS Saúde (2 cada); Revista JRS, Revista Cobertura, Sindseg-RS e SulSeguro (1 cada). À direita, tipo de inserção: 24 com imagem (68,6%) e 11 sem imagem (31,4%). As inserções destacaram a campanha de comunicação em mais de 40 rádios e a sessão plenária de aniversário do Conselho Deliberativo.</p>
       </figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="assessoria-destaques" data-title="Assessoria de imprensa · destaques" data-sec="12 · Eventos &amp; Assessoria de Imprensa">
+  <div class="stage">
+    <p class="kicker r">12 · Eventos &amp; Assessoria de Imprensa · Relatório de setembro/2026</p>
+    <h2 class="titulo" data-split>Assessoria de imprensa: destaques</h2>
+    <div class="corpo">
+      <div class="imp-grid"><figure class="imp-item r r-z" style="--i:3"><div class="janela"><img src="assets/img/imprensa-insurance-corp.webp" style="object-position:center 85%" alt="Página do portal Insurance Corp com a matéria GBOEX lança campanha de comunicação no Mês Farroupilha" loading="lazy"></div><figcaption><b>Insurance Corp</b>, 1º de setembro · GBOEX lança campanha de comunicação no Mês Farroupilha</figcaption></figure><figure class="imp-item r r-z" style="--i:4"><div class="janela"><img src="assets/img/imprensa-seguro-catarinense.webp" style="object-position:center 52%" alt="Página do portal Seguro Catarinense com a matéria GBOEX lança campanha de comunicação em mais de 40 rádios" loading="lazy"></div><figcaption><b>Seguro Catarinense</b>, 17 de setembro · GBOEX lança campanha de comunicação em mais de 40 rádios</figcaption></figure><figure class="imp-item r r-z" style="--i:5"><div class="janela"><img src="assets/img/imprensa-revista-jrs.webp" style="object-position:center 35%" alt="Páginas da Revista JRS com a matéria Produtos de seguros e previdência precisam se adaptar às diferentes fases e necessidades dos consumidores" loading="lazy"></div><figcaption><b>Revista JRS</b>, setembro de 2026 · Produtos de seguros e previdência precisam se adaptar às diferentes fases e necessidades dos consumidores</figcaption></figure><figure class="imp-item r r-z" style="--i:6"><div class="janela"><img src="assets/img/imprensa-revista-cobertura.webp" style="object-position:center 88%" alt="Página da Revista Cobertura com a matéria Conselho Deliberativo do GBOEX completa 84 anos com sessão plenária" loading="lazy"></div><figcaption><b>Revista Cobertura</b>, 25 de setembro · Conselho Deliberativo do GBOEX completa 84 anos com sessão plenária</figcaption></figure></div>
+      <p class="imp-selo r" style="--i:8"><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Destaques do relatório de assessoria de comunicação · Ampliare Comunicação</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="assessoria-textos" data-title="Assessoria de imprensa · textos e atividades" data-sec="12 · Eventos &amp; Assessoria de Imprensa">
+  <div class="stage">
+    <p class="kicker r">12 · Eventos &amp; Assessoria de Imprensa · Relatório de setembro/2026</p>
+    <h2 class="titulo" data-split>Assessoria de imprensa: textos e atividades</h2>
+    <div class="corpo">
+      <div class="imp-cols">
+        <div class="imp-col r" style="--i:4"><p class="imp-tit">Textos produzidos e distribuídos para a imprensa</p><ul class="imp-lista"><li><svg class="ico"><use href="#i-check"/></svg><span>GBOEX lança campanha de comunicação em mais de 40 rádios <small>16/09/2026</small></span></li><li><svg class="ico"><use href="#i-check"/></svg><span>Conselho Deliberativo do GBOEX completa 84 anos com sessão plenária <small>25/09/2026</small></span></li></ul></div>
+        <div class="imp-col r" style="--i:5"><p class="imp-tit">Textos produzidos (ainda não veiculados)</p><ul class="imp-lista"><li><svg class="ico"><use href="#i-check"/></svg><span>GBOEX destaca a relevância do corretor de seguros (Revista Sincor-SC) <small>02/09/2026</small></span></li><li><svg class="ico"><use href="#i-check"/></svg><span>GBOEX tem destaque com atendimento humanizado (Revista Consumidor) <small>24/09/2026</small></span></li></ul></div>
+        <div class="imp-col r" style="--i:6"><p class="imp-tit">Outras atividades</p><ul class="imp-lista"><li><svg class="ico"><use href="#i-check"/></svg><span>Redação de textos institucionais.</span></li><li><svg class="ico"><use href="#i-check"/></svg><span>Revisão de textos e peças de comunicação.</span></li><li><svg class="ico"><use href="#i-check"/></svg><span>Apresentação de evento institucional.</span></li></ul></div>
+      </div>
     </div>
   </div>
 </section>
