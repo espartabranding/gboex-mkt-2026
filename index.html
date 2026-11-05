@@ -765,6 +765,43 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .is-flow .nuvem{height:auto;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:1.6rem 3.2rem;padding:2rem 0}
 .is-flow .nuvem .nv{position:static;transform:none;font-size:clamp(2rem,6vw,3.6rem)!important}
 @media (prefers-reduced-motion:reduce){.nuvem .nv{animation:none!important}}
+
+/* Resultados 2026 */
+.res-grade{display:grid;grid-template-columns:1fr 1fr;gap:5.6rem;align-items:start}
+.res-grade--2{grid-template-columns:.9fr 1.1fr;gap:4.8rem}
+.res-col{display:flex;flex-direction:column;gap:2.4rem;min-width:0}
+.res-periodo{margin:0;font-size:1.5rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--ouro)}
+.res-hero{display:flex;align-items:baseline;gap:1.6rem;color:var(--azul-esc)}
+.res-hero b{font-size:10.4rem;line-height:.9;font-weight:800;letter-spacing:-.03em}
+.res-hero span{font-size:2.8rem;font-weight:700;color:var(--azul)}
+.res-kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem}
+.res-kpi{display:flex;flex-direction:column;justify-content:space-between;gap:1rem;padding:2rem 2.2rem;border-radius:var(--raio-s);background:var(--gelo-2)}
+.res-kpi small{font-size:1.3rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--mudo);line-height:1.25}
+.res-kpi b{font-size:4rem;line-height:1;font-weight:800;color:var(--azul-esc);white-space:nowrap}
+.res-kpi b i{font-style:normal;font-size:1.8rem;font-weight:700;color:var(--azul)}
+.res-kpi--on{background:linear-gradient(165deg,var(--azul-cl),var(--azul) 55%,var(--azul-esc))}
+.res-kpi--on small{color:rgba(255,255,255,.75)}
+.res-kpi--on b{color:var(--amarelo)}
+.res-lista{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:1.2rem}
+.res-lista li{position:relative;padding-left:2.6rem;font-size:2rem;line-height:1.35;color:var(--texto)}
+.res-lista li::before{content:"";position:absolute;left:0;top:.6em;width:1.1rem;height:1.1rem;border-radius:50%;background:var(--amarelo)}
+.res-nota{margin:0;font-size:1.4rem;font-style:italic;color:var(--mudo)}
+.res-col .tabela td b{color:var(--azul);font-weight:800}
+.res-bloco{display:flex;flex-direction:column;gap:1.2rem}
+.res-bloco p{margin:0;font-size:1.85rem;line-height:1.45;color:var(--texto)}
+.res-bloco .res-sub{font-size:2.3rem;line-height:1.25;font-weight:800;color:var(--azul-esc)}
+.tabela--res th,.tabela--res td{font-size:1.7rem}
+.res-col .tabela thead th:first-child{text-align:left}
+.tabela--res td{white-space:nowrap}
+.tabela--res th,.tabela--res td{padding:1.2rem .7rem}
+.tabela--res tbody th small{display:block;font-size:1.3rem;font-weight:600;color:var(--mudo);margin-top:.3rem}
+.res-destaque{padding:2.6rem 3rem;border-radius:var(--raio);background:linear-gradient(165deg,var(--azul-cl),var(--azul) 55%,var(--azul-esc));color:#fff}
+.res-destaque b{display:block;font-size:3rem;line-height:1.15;font-weight:800;color:var(--amarelo);margin-bottom:1rem}
+.res-destaque p{margin:0;font-size:1.85rem;line-height:1.4;color:rgba(255,255,255,.9)}
+.is-flow .res-grade,.is-flow .res-grade--2{grid-template-columns:1fr}
+.is-flow .res-kpis{grid-template-columns:1fr}
+.is-flow .res-hero b{font-size:6.4rem}
+.is-flow .tabela-card{overflow-x:auto}
 </style>
 </head>
 <body>
@@ -1360,6 +1397,55 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <h2 class="titulo" data-split>Comunicação externa</h2>
     <div class="corpo">
       <div class="pend-grid g3"><div class="pend r" style="--i:4"><b>Assessoria de imprensa: matérias publicadas</b><small>Clipping ou prints das principais matérias.</small></div><div class="pend r" style="--i:5"><b>Assessoria de imprensa: números</b><small>Inserções, veículos e período.</small></div><div class="pend pend--video r" style="--i:6"><span class="marca-video"><svg class="ico"><use href="#i-play"/></svg>Chamar vídeo</span><b>Podcast: vídeo teaser</b></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="leads-meta" data-title="Geração de leads acima da meta" data-sec="09 · Mídia Online &amp; Offline">
+  <div class="stage">
+    <p class="kicker r">09 · Mídia Online &amp; Offline · Performance</p>
+    <h2 class="titulo" data-split>Geração de leads acima da meta</h2>
+    <div class="corpo">
+      <div class="res-grade">
+        <div class="res-col">
+          <p class="res-periodo r" style="--i:3">Resultados de janeiro a outubro de 2026</p>
+          <div class="res-hero r r-z" style="--i:4"><b>5.838</b><span>leads gerados</span></div>
+          <div class="res-kpis">
+            <div class="res-kpi r" style="--i:5"><small>Meta mensal</small><b>448 <i>leads</i></b></div>
+            <div class="res-kpi r" style="--i:6"><small>Média mensal realizada</small><b>584 <i>leads</i></b></div>
+            <div class="res-kpi res-kpi--on r" style="--i:7"><small>Resultado acima da meta</small><b>+30,3%</b></div>
+          </div>
+          <ul class="res-lista r" style="--i:8">
+            <li>Meta mensal superada em 9 dos 10 meses.</li>
+            <li>1.358 leads adicionais em relação à meta acumulada até outubro.</li>
+            <li>Projeção de 7.006 leads até dezembro, mantendo a média atual.</li>
+          </ul>
+        </div>
+        <div class="res-col">
+          <div class="tabela-card r" style="--i:9"><p class="tabela-tit">Metas de seguidores também superadas</p><table class="tabela"><thead><tr><th>Rede social</th><th>Meta 2026</th><th>Realizado até outubro</th><th>Projeção até dezembro</th></tr></thead><tbody><tr><th>LinkedIn</th><td>6.890</td><td><b>7.913</b></td><td>8.211</td></tr><tr><th>Instagram</th><td>8.281</td><td><b>8.601</b></td><td>8.745</td></tr></tbody></table></div>
+          <p class="nota res-nota r" style="--i:10">*Projeções baseadas na média mensal de leads e no ritmo de crescimento dos seguidores observado no período.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="estrategia-digital" data-title="Estratégia digital com prioridade comercial" data-sec="09 · Mídia Online &amp; Offline">
+  <div class="stage">
+    <p class="kicker r">09 · Mídia Online &amp; Offline · Performance</p>
+    <h2 class="titulo" data-split>Estratégia digital com prioridade comercial</h2>
+    <div class="corpo">
+      <div class="res-grade res-grade--2">
+        <div class="res-col">
+          <div class="res-bloco r" style="--i:3"><p class="res-sub">Investimento direcionado à geração de oportunidades</p><p>Realocamos verba e esforços para campanhas de geração de leads, priorizando públicos específicos e mensagens alinhadas ao interesse nos produtos do GBOEX.</p><p>Essa mudança concentrou os recursos na captação de oportunidades comerciais, com menor ênfase na exposição ampla da marca.</p></div>
+          <div class="res-bloco r" style="--i:5"><p class="res-sub">Campanhas de fim de ano: equilíbrio entre comercial e marca</p><p>Com as novas campanhas, ampliaremos também o foco na presença de marca, buscando aumentar o alcance e as impressões, mantendo a geração de leads como prioridade comercial.</p><p>Além da projeção pela média atual, estimamos 7 milhões de impressões adicionais e 3,48 milhões de alcance adicional com essas ações.</p></div>
+        </div>
+        <div class="res-col">
+          <div class="tabela-card r" style="--i:4"><table class="tabela tabela--res"><thead><tr><th>Indicador</th><th>Meta anual</th><th>Realizado até outubro</th><th>Projeção até dezembro*</th><th>Atingimento projetado</th></tr></thead><tbody><tr><th>Impressões<small>total de exibições</small></th><td>30,70 milhões</td><td>9,70 milhões</td><td>18,64 milhões</td><td><b>60,7%</b></td></tr><tr><th>Alcance<small>soma dos resultados mensais</small></th><td>14,85 milhões</td><td>5,89 milhões</td><td>10,54 milhões</td><td><b>71,0%</b></td></tr></tbody></table></div>
+          <div class="res-destaque r r-z" style="--i:6"><b>Leads 30,3% acima da meta do período</b><p>A exposição ficou abaixo do planejamento inicial, enquanto a geração de leads superou o objetivo em 1.358 leads.</p></div>
+          <p class="nota res-nota r" style="--i:7">*Projeções até dezembro: manutenção da média de janeiro a outubro, acrescida dos resultados adicionais estimados para as campanhas de fim de ano.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
