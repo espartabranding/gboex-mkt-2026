@@ -154,6 +154,9 @@ button{font:inherit;color:inherit}
 .fim-titulo{font-size:8rem;line-height:1.08;font-weight:700;color:#fff;letter-spacing:-.015em}
 .fim-titulo em{font-style:normal;color:var(--amarelo)}
 .fim-obrigado{font-size:3.6rem;color:#fff;margin-top:5.6rem;font-weight:300}
+.fim-missao{font-size:3.2rem;line-height:1.4;font-weight:300;color:rgba(255,255,255,.9);margin-top:4rem;max-width:120rem}
+.fim .fim-obrigado{margin-top:4.4rem}
+.is-flow .fim-missao{font-size:2.2rem}
 
 /* ============ Roteiro ============ */
 .agenda{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem 4rem}
@@ -621,6 +624,8 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 .selo--homolog{background:var(--azul);color:#fff}
 #projecao .entrega>.janela img{max-height:none;width:100%}
 #projecao .entrega>.janela{width:100%}
+#assessoria .entrega-duo{align-items:center}
+#assessoria .entrega-duo .janela img{object-fit:contain;object-position:center;background:#fff}
 .plat{display:grid;grid-template-columns:1.1fr 1fr;gap:8rem;align-items:center}
 .plat-ic{width:9.6rem;height:9.6rem;border-radius:50%;border:.2rem solid var(--azul-cl);color:var(--azul);display:grid;place-items:center;font-size:4rem}
 .passos{display:flex;flex-direction:column;gap:1.6rem}
@@ -1599,6 +1604,23 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   </div>
 </section>
 
+<section class="slide" id="assessoria" data-title="Assessoria de imprensa · setembro/2026" data-sec="12 · Eventos &amp; Assessoria de Imprensa">
+  <div class="stage">
+    <p class="kicker r">12 · Eventos &amp; Assessoria de Imprensa · Relatório de setembro/2026</p>
+    <h2 class="titulo" data-split>Assessoria de imprensa: 35 inserções em setembro</h2>
+    <div class="corpo">
+      <figure class="entrega r r-z" style="--i:3">
+        <div class="entrega-duo">
+          <div class="janela"><img src="assets/img/assessoria-set2026-veiculos.webp" alt="Gráfico de barras com o número de inserções por veículo em setembro de 2026" loading="lazy"></div>
+          <div class="janela"><img src="assets/img/assessoria-set2026-tipo.webp" alt="Gráfico de rosca com o tipo de inserção: 24 com imagem e 11 sem imagem" loading="lazy"></div>
+        </div>
+        <figcaption><span class="selo"><svg class="ico"><use href="#i-check"/></svg>Entregue</span> Relatório de assessoria de comunicação · Ampliare Comunicação · setembro/2026</figcaption>
+        <p class="descricao">Foram 35 inserções em portais de notícias e revista do segmento, nas editorias de geral, notícias, negócios, serviços, planejamento, instituições, seguros e previdência. À esquerda, inserções por veículo: Segs (5); Revista Seguro Total, Seguro Catarinense, Seguro Gaúcho e SegurosBR (3 cada); Consumidor-RS, Difundir, Insurance Corp, JorNow, JRS, Seguro Nova Digital e SIS Saúde (2 cada); Revista JRS, Revista Cobertura, Sindseg-RS e SulSeguro (1 cada). À direita, tipo de inserção: 24 com imagem (68,6%) e 11 sem imagem (31,4%). As inserções destacaram a campanha de comunicação em mais de 40 rádios e a sessão plenária de aniversário do Conselho Deliberativo.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
 <section class="slide" id="eventos-plataforma" data-title="Eventos como plataforma de conexão" data-sec="12 · Eventos &amp; Assessoria de Imprensa">
   <div class="stage">
     <p class="kicker r">12 · Eventos &amp; Assessoria de Imprensa</p>
@@ -1791,8 +1813,8 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   <div class="stage">
     <svg class="aneis" data-par style="--par:-2.4" viewBox="0 0 1000 1000" aria-hidden="true"><g class="giro"><circle cx="500" cy="500" r="200"/><circle cx="500" cy="500" r="300" stroke-dasharray="4 14"/><circle cx="500" cy="500" r="400"/><circle cx="500" cy="500" r="490" stroke-dasharray="2 10"/></g></svg>
     <img class="capa-logo r" src="assets/img/logo-gboex-branco.png" alt="GBOEX">
-    <h2 class="fim-titulo xb" data-split>Tradição que inspira.<br>Inovação que conecta.<br><em>Marketing que gera valor.</em></h2>
-    <p class="capa-sub r" style="--i:9">Projetos 2026–2027</p>
+    <h2 class="fim-titulo xb" data-split>Todos nós somos comerciais.<br><em>Todos nós somos Marketing.</em></h2>
+    <p class="fim-missao r" style="--i:9">E todos nós temos uma mesma missão: levar o GBOEX a cada vez mais famílias brasileiras, fazendo nossa marca chegar mais longe e nosso propósito transformar cada vez mais vidas.</p>
     <p class="fim-obrigado r" style="--i:10">Obrigado.</p>
     <svg class="arco capa-arco" data-par style="--par:1.2;height:9rem" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true"><use href="#arc"/></svg>
   </div>
