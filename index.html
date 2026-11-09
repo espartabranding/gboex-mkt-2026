@@ -946,6 +946,38 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 #portal .entrega>.janela img{max-height:50rem}
 .duo-item .janela img{height:40rem}
 .res-grade--uni .tabela--res thead th{font-size:1.35rem}
+
+/* ajustes 09/11 */
+.lider{position:absolute;top:7.2rem;right:12rem;display:flex;align-items:center;gap:2rem;text-align:left}
+.lider img{width:11rem;height:11rem;border-radius:50%;object-fit:cover;box-shadow:0 0 0 .3rem #fff,0 0 0 .6rem var(--amarelo),0 1.6rem 3.2rem -1.6rem rgba(0,61,92,.5)}
+.lider b{display:block;font-size:2.6rem;color:var(--azul-esc);line-height:1.15}
+.lider small{display:block;font-size:1.7rem;color:var(--mudo);margin-top:.4rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700}
+.is-flow .lider{position:static;margin-top:2.4rem}
+.time-grade--n2{max-width:110rem;margin:0 auto}
+.mag-itens{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:3.2rem}
+.mag-itens li{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:4rem;min-height:30rem;padding:4rem;border-radius:var(--raio);background:linear-gradient(165deg,var(--azul-cl),var(--azul) 55%,var(--azul-esc));color:#fff;font-size:3.6rem;font-weight:800;line-height:1.15}
+.mag-itens .n{display:inline-grid;place-items:center;width:6.4rem;height:6.4rem;border-radius:50%;background:var(--amarelo);color:var(--azul-esc);font-size:2.2rem;font-weight:800}
+.is-flow .mag-itens{grid-template-columns:1fr}.is-flow .mag-itens li{min-height:0;gap:2rem}
+.pend--novo{background:var(--azul-esc);border-width:.4rem;animation:novoPulso 1.8s ease-out infinite}
+.pend--novo b{color:#fff;font-size:3.4rem}
+.selo-novo{position:absolute;top:-1.8rem;right:2.4rem;padding:.6rem 1.8rem;border-radius:99rem;background:#E5484D;color:#fff;font-size:1.6rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;box-shadow:0 .6rem 1.6rem rgba(229,72,77,.45);animation:novoBate 1.8s ease-in-out infinite}
+@keyframes novoPulso{0%{box-shadow:0 0 0 0 rgba(228,199,64,.6)}70%{box-shadow:0 0 0 2.4rem rgba(228,199,64,0)}100%{box-shadow:0 0 0 0 rgba(228,199,64,0)}}
+@keyframes novoBate{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@media (prefers-reduced-motion:reduce){.pend--novo,.selo-novo{animation:none}}
+.proj-lista--2c{height:54rem;grid-template-columns:1fr 1fr;grid-template-rows:repeat(4,1fr);grid-auto-flow:column;gap:2rem 3.2rem}
+.proj-lista--2c li{font-size:2.6rem}
+.proj-lista--2c .n{width:4.8rem;height:4.8rem;font-size:1.8rem}
+.proj-lista__1{background:var(--azul-esc)!important;color:#fff!important}
+.proj-zoom{position:absolute;inset:4rem 6rem;z-index:5;margin:0;border-radius:var(--raio);overflow:hidden;box-shadow:0 3rem 8rem rgba(0,20,50,.45)}
+.proj-zoom.b{transform:scale(.6);transform-origin:25% 30%}
+.proj-zoom.b.on{transform:none}
+.proj-zoom img{width:100%;height:100%;object-fit:cover;display:block}
+.proj-zoom figcaption{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:1.6rem;padding:6rem 4rem 3rem;background:linear-gradient(transparent,rgba(0,22,60,.88));color:#fff;font-size:3.2rem;font-weight:800}
+.proj-zoom .n{flex:none;display:inline-grid;place-items:center;width:5.2rem;height:5.2rem;border-radius:50%;background:var(--amarelo);color:var(--azul-esc);font-size:2rem}
+.is-flow .proj-lista--2c{height:auto;grid-template-columns:1fr;grid-template-rows:none;grid-auto-flow:row}
+.is-flow .proj-zoom{position:relative;inset:auto;margin-top:3.2rem;aspect-ratio:16/9}
+.is-flow .proj-zoom img{height:100%}
+.is-flow .proj-zoom figcaption{font-size:2.2rem;padding:3rem 2rem 1.6rem}
 </style>
 </head>
 <body>
@@ -1051,6 +1083,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   <div class="stage">
     <p class="kicker r">01 · Quem somos · Nosso time</p>
     <h2 class="titulo" data-split>Nosso time: Núcleo 1</h2>
+    <div class="lider r" style="--i:2"><img src="assets/img/time/leticia-gerencia.webp" alt="Letícia" loading="lazy"><div><b>Letícia</b><small>Gerência</small></div></div>
     <div class="corpo corpo--time" style="justify-content:center">
       <div class="time-grade time-grade--n1"><div class="membro r" style="--i:3"><img src="assets/img/time/abel.webp" alt="Abel" loading="lazy"><b>Abel</b><small>Dados externos, dados internos, Connect, relatórios, dashboards.</small></div><div class="membro r" style="--i:4"><img src="assets/img/time/thalles.webp" alt="Thalles" loading="lazy"><b>Thalles</b><small>Produtos, campanhas e MAG</small></div><div class="membro r" style="--i:5"><img src="assets/img/time/diego.webp" alt="Diego" loading="lazy"><b>Diego</b><small>Dados externos, dados internos, Connect, relatórios, dashboards.</small></div><div class="membro r" style="--i:6"><img src="assets/img/time/eliane-n1.webp" alt="Eliane" loading="lazy"><b>Eliane</b><small>Rede de Vantagens</small></div><div class="membro r" style="--i:7"><img src="assets/img/time/roselaine.webp" alt="Roselaine" loading="lazy"><b>Roselaine</b><small>Treinamentos e apoio projetos RH</small></div></div>
     </div>
@@ -1061,8 +1094,9 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   <div class="stage">
     <p class="kicker r">01 · Quem somos · Nosso time</p>
     <h2 class="titulo" data-split>Nosso time: Núcleo 2</h2>
+    <div class="lider r" style="--i:2"><img src="assets/img/time/leticia-gerencia.webp" alt="Letícia" loading="lazy"><div><b>Letícia</b><small>Gerência</small></div></div>
     <div class="corpo corpo--time">
-      <div class="time-grade"><div class="membro r" style="--i:3"><img src="assets/img/time/leticia-gerencia.webp" alt="Letícia" loading="lazy"><b>Letícia</b><small>Gerência</small></div><div class="membro r" style="--i:4"><img src="assets/img/time/thiely.webp" alt="Thiely" loading="lazy"><b>Thiely</b><small>Coordenação</small></div><div class="membro r" style="--i:5"><img src="assets/img/time/luciano.webp" alt="Luciano" loading="lazy"><b>Luciano</b><small>Analista · Mídia Off e Pagamentos</small></div><div class="membro r" style="--i:6"><img src="assets/img/time/lucas.webp" alt="Lucas" loading="lazy"><b>Lucas</b><small>Analista · Designer</small></div><div class="membro r" style="--i:7"><img src="assets/img/time/eliane.webp" alt="Eliane" loading="lazy"><b>Eliane</b><small>Analista · Eventos e Assessoria de Imprensa</small></div><div class="membro r" style="--i:8"><img src="assets/img/time/cinara.webp" alt="Cinara" loading="lazy"><b>Cinara</b><small>Analista · Mídia On, Off e Performance</small></div><div class="membro r" style="--i:9"><img src="assets/img/time/barbara.webp" alt="Barbara" loading="lazy"><b>Barbara</b><small>Auxiliar/Assistente · Endomarketing</small></div><div class="membro r" style="--i:10"><img src="assets/img/time/ana-paula.webp" alt="Ana Paula" loading="lazy"><b>Ana Paula</b><small>Auxiliar/Assistente · Comunicação Interna</small></div><div class="membro r" style="--i:11"><img src="assets/img/time/leticia-aprendiz.webp" alt="Leticia" loading="lazy"><b>Leticia</b><small>Jovem Aprendiz · Apoio Geral</small></div></div>
+      <div class="time-grade time-grade--n2"><div class="membro r" style="--i:4"><img src="assets/img/time/thiely.webp" alt="Thiely" loading="lazy"><b>Thiely</b><small>Coordenação</small></div><div class="membro r" style="--i:5"><img src="assets/img/time/luciano.webp" alt="Luciano" loading="lazy"><b>Luciano</b><small>Contratos, pagamentos, negociações, PO e projetos</small></div><div class="membro r" style="--i:6"><img src="assets/img/time/lucas.webp" alt="Lucas" loading="lazy"><b>Lucas</b><small>Design</small></div><div class="membro r" style="--i:7"><img src="assets/img/time/eliane.webp" alt="Eliane" loading="lazy"><b>Eliane</b><small>Eventos e Assessoria de Imprensa</small></div><div class="membro r" style="--i:8"><img src="assets/img/time/cinara.webp" alt="Cinara" loading="lazy"><b>Cinara</b><small>Mídia On, Off e Performance</small></div><div class="membro r" style="--i:9"><img src="assets/img/time/barbara.webp" alt="Barbara" loading="lazy"><b>Barbara</b><small>Endomarketing</small></div><div class="membro r" style="--i:10"><img src="assets/img/time/ana-paula.webp" alt="Ana Paula" loading="lazy"><b>Ana Paula</b><small>Comunicação Interna</small></div><div class="membro r" style="--i:11"><img src="assets/img/time/leticia-aprendiz.webp" alt="Leticia" loading="lazy"><b>Leticia</b><small>Apoio Geral</small></div></div>
     </div>
   </div>
 </section>
@@ -1268,7 +1302,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">04 · Relacionamento MAG</p>
     <h2 class="titulo" data-split>Relacionamento MAG</h2>
     <div class="corpo">
-      <div class="em-analise r r-z" style="--i:4"><span class="selo selo--homolog"><svg class="ico"><use href="#i-clock"/></svg>Em análise</span><b>Relacionamento MAG</b><small>Conteúdo em análise.</small></div>
+      <ol class="mag-itens"><li class="r" style="--i:4"><span class="n">01</span>Modelagem de produtos</li><li class="r" style="--i:5"><span class="n">02</span>Benchmarketing entre as áreas</li><li class="r" style="--i:6"><span class="n">03</span>Acompanhamento dos resultados</li></ol>
     </div>
   </div>
 </section>
@@ -1333,7 +1367,6 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="lead r" style="--i:3">Do briefing à mensuração: integrar necessidade comercial, proposta de comunicação e avaliação de resultado.</p>
     <div class="corpo">
       <div class="fotos-camp"><figure class="foto-camp r r-z" style="--i:4"><img src="assets/img/evento-desafio-chapada.webp" alt="Desafio 2025: grupo no Parque Nacional da Chapada dos Guimarães" loading="lazy"><figcaption>Desafio 2025: Parque Nacional da Chapada dos Guimarães</figcaption></figure><figure class="foto-camp foto-camp--alta r r-z" style="--i:5"><img src="assets/img/camp-balao.webp" alt="Balão com a marca Desafio GBOEX" loading="lazy"><figcaption>Balão Desafio GBOEX</figcaption></figure></div>
-      <p class="nota b">Indicadores a definir por campanha: adesão • alcance • engajamento • leads/oportunidades • resultado comercial atribuído quando houver metodologia disponível.</p>
     </div>
   </div>
 </section>
@@ -1420,7 +1453,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">09 · Mídia Online &amp; Offline</p>
     <h2 class="titulo" data-split>Comunicação externa</h2>
     <div class="corpo">
-      <div class="pend-grid g2 ext-grid"><figure class="foto-ev r r-z" style="--i:4;height:100%"><img src="assets/img/agenda-calendario-2027.webp" alt="Calendário de mesa e agenda GBOEX 2027 em azul com detalhes dourados" loading="lazy" style="object-position:center 50%"><figcaption>Agenda e calendário de mesa GBOEX 2027</figcaption></figure><div class="ext-pends"><div class="unid-card ext-card r" style="--i:4"><p class="ext-rot">Assessoria de imprensa · janeiro a outubro/2026</p><div class="ext-duo"><p class="unid-num"><b>24</b>pautas divulgadas</p><p class="unid-num"><b>347</b>veículos publicados</p></div></div><div class="pend pend--video r" style="--i:6"><span class="marca-video"><svg class="ico"><use href="#i-play"/></svg>Chamar vídeo</span><b>Podcast: vídeo teaser</b></div></div></div>
+      <div class="pend-grid g2 ext-grid"><figure class="foto-ev r r-z" style="--i:4;height:100%"><img src="assets/img/agenda-calendario-2027.webp" alt="Calendário de mesa e agenda GBOEX 2027 em azul com detalhes dourados" loading="lazy" style="object-position:center 50%"><figcaption>Agenda e calendário de mesa GBOEX 2027</figcaption></figure><div class="ext-pends"><div class="unid-card ext-card r" style="--i:4"><p class="ext-rot">Assessoria de imprensa · janeiro a outubro/2026</p><div class="ext-duo"><p class="unid-num"><b>24</b>pautas divulgadas</p><p class="unid-num"><b>347</b>veículos publicados</p></div></div><div class="pend pend--video pend--novo r" style="--i:6"><span class="selo-novo">Novo</span><span class="marca-video"><svg class="ico"><use href="#i-play"/></svg>Chamar vídeo</span><b>Podcast GBOEX: vídeo teaser</b></div></div></div>
     </div>
   </div>
 </section>
@@ -1606,14 +1639,9 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">14 · Gestão e planejamento</p>
     <h2 class="titulo" data-split>Projetos e iniciativas estratégicas – 2027</h2>
     <div class="corpo">
-      <div class="proj-grade">
-        <div class="proj-destaque r r-l" style="--i:3">
-          <p class="proj-tit"><span class="n">01</span>Projeto de Comunicação no Térreo</p>
-          <figure class="proj-img"><img src="assets/img/projeto-terreo.webp" alt="Projeto de Comunicação no Térreo: painel da linha do tempo do GBOEX com vitrines iluminadas no hall" loading="lazy"></figure>
-        </div>
-        <ol class="proj-lista"><li class="r" style="--i:5"><span class="n">02</span>Encontro Comercial</li><li class="r" style="--i:6"><span class="n">03</span>Influenciadores</li><li class="r" style="--i:7"><span class="n">04</span>Revitalização do 7º Andar</li><li class="r" style="--i:8"><span class="n">05</span>Continuidade do Podcast GBOEX</li><li class="r" style="--i:9"><span class="n">06</span>Instagram especifico para Corretores</li><li class="r" style="--i:10"><span class="n">07</span>Brasesul</li><li class="r" style="--i:11"><span class="n">08</span>Conec</li></ol>
-      </div>
+      <ol class="proj-lista proj-lista--2c"><li class="proj-lista__1 r" style="--i:3"><span class="n">01</span>Projeto de Comunicação no Térreo</li><li class="r" style="--i:4"><span class="n">02</span>Encontro Comercial</li><li class="r" style="--i:5"><span class="n">03</span>Influenciadores</li><li class="r" style="--i:6"><span class="n">04</span>Revitalização do 7º Andar</li><li class="r" style="--i:7"><span class="n">05</span>Continuidade do Podcast GBOEX</li><li class="r" style="--i:8"><span class="n">06</span>Instagram especifico para Corretores</li><li class="r" style="--i:9"><span class="n">07</span>Brasesul</li><li class="r" style="--i:10"><span class="n">08</span>Conec</li></ol>
     </div>
+    <figure class="proj-zoom b"><img src="assets/img/projeto-terreo.webp" alt="Projeto de Comunicação no Térreo: painel da linha do tempo do GBOEX com vitrines iluminadas no hall" loading="lazy"><figcaption><span class="n">01</span>Projeto de Comunicação no Térreo</figcaption></figure>
   </div>
 </section>
 
