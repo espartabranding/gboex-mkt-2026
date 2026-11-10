@@ -1067,6 +1067,17 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
 #campanhas .fotos-camp{flex:none;height:54rem}
 #campanhas .foto-camp{align-self:stretch;height:100%}
 .membro .sem-foto{width:100%;max-width:15.5rem;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:var(--gelo);color:var(--azul);font-size:6rem;font-weight:700;box-shadow:0 0 0 .3rem #fff,0 1.6rem 3.2rem -1.6rem rgba(0,61,92,.5)}
+/* Tela Ferramentas: sem textos de apoio, prints maiores */
+#ferramentas .corpo{margin-top:3.2rem;justify-content:flex-start}
+#ferramentas .ferramentas{gap:3.2rem}
+#ferramentas .ferramenta .selo,#ferramentas .ferramenta p{display:none}
+#ferramentas .ferramenta h3{margin-top:2rem}
+#ferramentas .janela img{height:56rem;width:100%;object-fit:cover;object-position:left top}
+/* Endomarketing em ação: 2 telas, fotos inteiras */
+.galeria-ev.endo-a{grid-template-columns:46.5rem 93rem;grid-template-rows:1fr;height:62rem;gap:3.2rem;justify-content:center}
+.galeria-ev.endo-b{grid-template-columns:1fr 1fr;grid-template-rows:1fr;height:40rem;gap:3.2rem}
+#endomarketing-acoes .corpo,#endomarketing-acoes-b .corpo{margin-top:3.2rem}
+#endomarketing-acoes .foto-ev figcaption,#endomarketing-acoes-b .foto-ev figcaption{font-size:2.8rem;padding:4rem 2.4rem 2rem}
 </style>
 </head>
 <body>
@@ -1185,7 +1196,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <h2 class="titulo" data-split>Nosso time: Núcleo 2</h2>
     <div class="lider r" style="--i:2"><img src="../assets/img/time/leticia-gerencia.webp" alt="Letícia" loading="lazy"><div><b>Letícia</b><small>Gerência</small></div></div>
     <div class="corpo corpo--time">
-      <div class="time-grade time-grade--n2"><div class="membro r" style="--i:4"><img src="../assets/img/time/thiely.webp" alt="Thiely" loading="lazy"><b>Thiely</b><small>Coordenação</small></div><div class="membro r" style="--i:5"><img src="../assets/img/time/luciano.webp" alt="Luciano" loading="lazy"><b>Luciano</b><small>Contratos, pagamentos, negociações, PO e projetos</small></div><div class="membro r" style="--i:6"><img src="../assets/img/time/lucas.webp" alt="Lucas" loading="lazy"><b>Lucas</b><small>Design</small></div><div class="membro r" style="--i:7"><img src="../assets/img/time/eliane.webp" alt="Eliane" loading="lazy"><b>Eliane</b><small>Eventos e Assessoria de Imprensa</small></div><div class="membro r" style="--i:8"><img src="../assets/img/time/cinara.webp" alt="Cinara" loading="lazy"><b>Cinara</b><small>Mídia On, Off e Performance</small></div><div class="membro r" style="--i:9"><img src="../assets/img/time/barbara.webp" alt="Barbara" loading="lazy"><b>Barbara</b><small>Endomarketing</small></div><div class="membro r" style="--i:10"><img src="../assets/img/time/ana-paula.webp" alt="Ana Paula" loading="lazy"><b>Ana Paula</b><small>Comunicação Interna</small></div><div class="membro r" style="--i:11"><span class="sem-foto" aria-hidden="true">L</span><b>Leticia</b><small>Apoio Geral</small></div></div>
+      <div class="time-grade time-grade--n2"><div class="membro r" style="--i:4"><img src="../assets/img/time/thiely.webp" alt="Thiely" loading="lazy"><b>Thiely</b><small>Coordenação</small></div><div class="membro r" style="--i:5"><img src="../assets/img/time/luciano.webp" alt="Luciano" loading="lazy"><b>Luciano</b><small>Contratos, pagamentos, negociações, PO e projetos</small></div><div class="membro r" style="--i:6"><img src="../assets/img/time/lucas.webp" alt="Lucas" loading="lazy"><b>Lucas</b><small>Design</small></div><div class="membro r" style="--i:7"><img src="../assets/img/time/eliane.webp" alt="Eliane" loading="lazy"><b>Eliane</b><small>Eventos e Assessoria de Imprensa</small></div><div class="membro r" style="--i:8"><img src="../assets/img/time/cinara.webp" alt="Cinara" loading="lazy"><b>Cinara</b><small>Mídia On, Off e Performance</small></div><div class="membro r" style="--i:9"><img src="../assets/img/time/barbara.webp" alt="Barbara" loading="lazy"><b>Barbara</b><small>Endomarketing</small></div><div class="membro r" style="--i:10"><img src="../assets/img/time/ana-paula.webp" alt="Ana Paula" loading="lazy"><b>Ana Paula</b><small>Comunicação Interna</small></div></div>
     </div>
   </div>
 </section>
@@ -1647,7 +1658,17 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
     <p class="kicker r">10 · Endomarketing</p>
     <h2 class="titulo" data-split>Endomarketing em ação</h2>
     <div class="corpo corpo--endo">
-      <div class="galeria-ev galeria-ev--4"><figure class="foto-ev r r-z" style="--i:3"><img src="../assets/img/endo-pascoa.webp" alt="Páscoa: entrega de kits" loading="lazy" style="object-position:center 70%"><figcaption>Páscoa: entrega de kits</figcaption></figure><figure class="foto-ev r r-z" style="--i:4"><img src="../assets/img/endo-113-anos.webp" alt="GBOEX 113 anos: “Carrego comigo uma grande história”" loading="lazy" style="object-position:center 50%"><figcaption>GBOEX 113 anos: “Carrego comigo uma grande história”</figcaption></figure><figure class="foto-ev r r-z" style="--i:5"><img src="../assets/img/endo-dia-das-maes.webp" alt="Mural de homenagem ao Dia das Mães: “Histórias de cuidado, presença e carinho”" loading="lazy" style="object-position:center 50%"><figcaption>Mural de homenagem ao Dia das Mães: “Histórias de cuidado, presença e carinho”</figcaption></figure><figure class="foto-ev r r-z" style="--i:6"><img src="../assets/img/evento-sede.webp" alt="Outubro Rosa: colaboradores de rosa em frente à sede do GBOEX" loading="lazy" style="object-position:center 60%"><figcaption>Outubro Rosa: colaboradores em frente à sede</figcaption></figure></div>
+      <div class="galeria-ev endo-a"><figure class="foto-ev r r-z" style="--i:3"><img src="../assets/img/endo-pascoa.webp" alt="Páscoa: entrega de kits" loading="lazy"><figcaption>Páscoa: entrega de kits</figcaption></figure><figure class="foto-ev r r-z" style="--i:4"><img src="../assets/img/endo-113-anos.webp" alt="GBOEX 113 anos: “Carrego comigo uma grande história”" loading="lazy"><figcaption>GBOEX 113 anos: “Carrego comigo uma grande história”</figcaption></figure></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="endomarketing-acoes-b" data-title="Endomarketing em ação (2)" data-sec="10 · Endomarketing">
+  <div class="stage">
+    <p class="kicker r">10 · Endomarketing</p>
+    <h2 class="titulo" data-split>Endomarketing em ação</h2>
+    <div class="corpo corpo--endo">
+      <div class="galeria-ev endo-b"><figure class="foto-ev r r-z" style="--i:5"><img src="../assets/img/endo-dia-das-maes.webp" alt="Mural de homenagem ao Dia das Mães: “Histórias de cuidado, presença e carinho”" loading="lazy"><figcaption>Mural de homenagem ao Dia das Mães: “Histórias de cuidado, presença e carinho”</figcaption></figure><figure class="foto-ev r r-z" style="--i:6"><img src="../assets/img/evento-sede.webp" alt="Outubro Rosa: colaboradores de rosa em frente à sede do GBOEX" loading="lazy"><figcaption>Outubro Rosa: colaboradores em frente à sede</figcaption></figure></div>
     </div>
   </div>
 </section>
@@ -1792,7 +1813,7 @@ html.is-flow{font-size:clamp(7.4px,2.1vw,9.5px)}
   <div class="stage">
     <svg class="aneis" data-par style="--par:-2.4" viewBox="0 0 1000 1000" aria-hidden="true"><g class="giro"><circle cx="500" cy="500" r="200"/><circle cx="500" cy="500" r="300" stroke-dasharray="4 14"/><circle cx="500" cy="500" r="400"/><circle cx="500" cy="500" r="490" stroke-dasharray="2 10"/></g></svg>
     <img class="capa-logo r" src="../assets/img/logo-gboex-branco.png" alt="GBOEX">
-    <h2 class="fim-titulo xb" data-split>Todos nós somos comerciais.<br><em>Todos nós somos Marketing.</em></h2>
+    <h2 class="fim-titulo xb" data-split>Todos nós somos <em>GBOEX.</em></h2>
     <p class="fim-missao r" style="--i:9">E todos nós temos uma mesma missão: levar o GBOEX a cada vez mais famílias brasileiras, fazendo nossa marca chegar mais longe e nosso propósito transformar cada vez mais vidas.</p>
     <p class="fim-obrigado r" style="--i:10">Obrigado.</p>
     <svg class="arco capa-arco" data-par style="--par:1.2;height:9rem" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true"><use href="#arc"/></svg>
